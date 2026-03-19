@@ -6,139 +6,131 @@ from datetime import datetime
 # 🔥 CONFIG
 url_playlist = "http://127.0.0.1:8182/playlist.m3u8"
 arquivo_bruto = "samsung.m3u"
-arquivo_final = "samsung_final.m3u"
+arquivo_final = "samsung_traduzida.m3u"
 
-print("🌐 Baixando playlist do servidor...")
+print("🌐 Baixando playlist...")
 
-try:
-    r = requests.get(url_playlist, timeout=10)
-    conteudo = r.text
+r = requests.get(url_playlist, timeout=10)
+conteudo = r.text
 
-    if "#EXTINF" not in conteudo:
-        print("❌ Playlist veio vazia ou inválida!")
-        exit()
-
-    with open(arquivo_bruto, "w", encoding="utf-8") as f:
-        f.write(conteudo)
-
-    print("✅ Playlist bruta salva!")
-
-except Exception as e:
-    print("❌ Erro ao baixar playlist:", e)
+if "#EXTINF" not in conteudo:
+    print("❌ Playlist inválida!")
     exit()
 
-# 🔥 ORGANIZAÇÃO
+with open(arquivo_bruto, "w", encoding="utf-8") as f:
+    f.write(conteudo)
 
+print("✅ Playlist salva!")
+
+# 🔥 MAPA GLOBAL (MULTI-IDIOMA)
 mapa_grupos = {
-    "MOVIES": "FILMES",
-    "FILMS": "FILMES",
-    "CINE": "FILMES",
 
-    "SERIES": "SÉRIES",
-    "TV SHOWS": "SÉRIES",
+    # 🎬 FILMES
+    "MOVIES": "FILMES", "MOVIE": "FILMES", "FILM": "FILMES",
+    "FILME": "FILMES", "CINE": "FILMES", "CINÉMA": "FILMES",
+    "영화": "FILMES",
 
-    "DOCUMENTARY": "DOCUMENTÁRIOS",
-    "HISTORY": "DOCUMENTÁRIOS",
+    # 📺 SÉRIES
+    "SERIES": "SÉRIES", "SERIE": "SÉRIES", "TV SERIES": "SÉRIES",
+    "SERIEN": "SÉRIES", "SERIE TV": "SÉRIES", "SÉRIES TV": "SÉRIES",
+    "드라마": "SÉRIES",
 
-    "KIDS": "INFANTIL",
-    "CHILDREN": "INFANTIL",
+    # 📰 NOTÍCIAS
+    "NEWS": "NOTÍCIAS", "NOTICIAS": "NOTÍCIAS",
+    "ACTUALITÉS": "NOTÍCIAS", "NEWS & OPINION": "NOTÍCIAS",
+    "REGIONAL NEWS": "NOTÍCIAS", "ENGLISH NEWS": "NOTÍCIAS",
+    "HINDI NEWS": "NOTÍCIAS",
+    "뉴스": "NOTÍCIAS",
 
+    # ⚽ ESPORTES
+    "SPORT": "ESPORTES", "SPORTS": "ESPORTES",
+    "SPORTS & OUTDOORS": "ESPORTES",
+    "MOTOR SPORTS": "ESPORTES",
+    "DEPORTE": "ESPORTES",
+    "스포츠": "ESPORTES",
+
+    # 🎵 MÚSICA
+    "MUSIC": "MÚSICA", "MUSIK": "MÚSICA", "MUSICA": "MÚSICA",
+    "MUSIQUE": "MÚSICA", "MÚSICA": "MÚSICA",
+    "음악": "MÚSICA",
+
+    # 👶 INFANTIL
+    "KIDS": "INFANTIL", "NIÑOS": "INFANTIL",
+    "BAMBINI": "INFANTIL", "JEUNESSE": "INFANTIL",
+    "어린이": "INFANTIL",
+
+    # 📚 DOCUMENTÁRIOS
+    "DOCUMENTARY": "DOCUMENTÁRIOS", "DOCUMENTARIES": "DOCUMENTÁRIOS",
+    "DOCUMENTAIRES": "DOCUMENTÁRIOS", "DOCUMENTALES": "DOCUMENTÁRIOS",
+    "DOCUMENTARI": "DOCUMENTÁRIOS",
+    "DOKUS & WISSEN": "DOCUMENTÁRIOS",
+
+    # 🎌 ANIME
+    "ANIME": "ANIME", "ANIME & GAMING": "ANIME",
+
+    # 🎭 VARIEDADES
     "ENTERTAINMENT": "VARIEDADES",
+    "DIVERTISSEMENT": "VARIEDADES",
+    "ENTRETENIMIENTO": "VARIEDADES",
+    "INTRATTENIMENTO": "VARIEDADES",
+    "예능": "VARIEDADES",
+
+    # 🍔 LIFESTYLE
     "LIFESTYLE": "VARIEDADES",
+    "HOME & FOOD": "VARIEDADES",
+    "FOOD & TRAVEL": "VARIEDADES",
+    "VOYAGES ET GASTRONOMIE": "VARIEDADES",
+    "CUCINA & VIAGGI": "VARIEDADES",
+    "라이프스타일": "VARIEDADES",
 
-    "NEWS": "NOTÍCIAS",
-    "MUSIC": "MÚSICA",
-    "SPORTS": "ESPORTES",
-    "ANIME": "ANIME & TOKUSATSU",
-
-    "INTERNATIONAL": "VARIEDADES",
 }
 
-ordem_grupos = [
-    "ESPORTES",
-    "FILMES",
-    "SÉRIES",
-    "DOCUMENTÁRIOS",
-    "ANIME & TOKUSATSU",
-    "INFANTIL",
-    "MÚSICA",
-    "NOTÍCIAS",
-    "VARIEDADES"
-]
+print("⚙️ Traduzindo grupos...")
 
 with open(arquivo_bruto, "r", encoding="utf-8", errors="ignore") as f:
     linhas = f.readlines()
 
-grupos = {g: [] for g in ordem_grupos}
-urls_vistas = set()
+saida = []
 
-i = 0
-while i < len(linhas):
-
-    linha = linhas[i]
+for linha in linhas:
 
     if linha.startswith("#EXTINF"):
 
         nome = linha.split(",")[-1].strip().upper()
 
-        grupo = "VARIEDADES"
+        # limpa caracteres estranhos do nome
+        nome = re.sub(r'[^\w\s\-\&]', '', nome)
+
+        grupo = None
 
         if 'group-title="' in linha:
-            grupo_original = linha.split('group-title="')[1].split('"')[0].upper()
-            grupo = mapa_grupos.get(grupo_original, grupo_original)
+            grupo_original = linha.split('group-title="')[1].split('"')[0].strip()
+            grupo_upper = grupo_original.upper()
 
-        nome = re.sub(r'[^\w\s\-\&\|]', '', nome)
+            grupo = mapa_grupos.get(grupo_upper, grupo_original)
 
         linha = re.sub(r'group-title="[^"]*"', '', linha)
 
         metadados = linha.split(",")[0]
-        metadados = re.sub(r"\s+", " ", metadados).strip()
 
-        nova_extinf = f'{metadados} group-title="{grupo}",{nome}\n'
+        if grupo:
+            nova = f'{metadados} group-title="{grupo}",{nome}\n'
+        else:
+            nova = f'{metadados},{nome}\n'
 
-        url = linhas[i+1].strip()
+        saida.append(nova)
 
-        # remove duplicado
-        if url in urls_vistas:
-            i += 2
-            continue
-
-        urls_vistas.add(url)
-
-        if not url.startswith("http"):
-            i += 2
-            continue
-
-        grupos.setdefault(grupo, [])
-        grupos[grupo].append(nova_extinf)
-        grupos[grupo].append(url + "\n")
-
-        i += 2
-        continue
-
-    i += 1
-
-print("⚙️ Gerando playlist final...")
+    else:
+        saida.append(linha)
 
 with open(arquivo_final, "w", encoding="utf-8") as f:
-
     f.write(f'#EXTM3U updated="{datetime.now()}"\n')
+    for linha in saida:
+        f.write(linha)
 
-    for grupo in ordem_grupos:
-        for linha in grupos.get(grupo, []):
-            f.write(linha)
-
-print("✅ Playlist final pronta!")
+print("✅ Playlist organizada e traduzida!")
 
 # 🔥 GIT
-print("📤 Enviando para GitHub...")
-
 os.system("git add .")
-commit_status = os.system('git diff --cached --quiet')
-
-if commit_status != 0:
-    os.system('git commit -m "Atualização automática Samsung"')
-    os.system("git push")
-    print("✅ Upload concluído!")
-else:
-    print("ℹ️ Nada para enviar.")
+os.system('git commit -m "Organização por grupos + tradução completa"')
+os.system("git push")
