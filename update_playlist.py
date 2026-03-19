@@ -22,40 +22,46 @@ with open(arquivo_bruto, "w", encoding="utf-8") as f:
 
 print("✅ Playlist salva!")
 
-# 🔥 DETECÇÃO DE TEXTO ASIÁTICO (coreano, japonês, chinês)
-def tem_oriental(texto):
-    return re.search(r'[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uac00-\ud7af]', texto)
-
-# 🔥 MAPA GLOBAL (sem depender de upper pra oriental)
+# 🔥 MAPA COMPLETO (inclui coreano)
 mapa_grupos = {
+
+    # COREANO (🔥 AGORA FUNCIONA)
+    "예능": "VARIEDADES",
+    "드라마": "SÉRIES",
+    "뉴스": "NOTÍCIAS",
+    "스포츠": "ESPORTES",
+    "어린이": "INFANTIL",
+    "시사/교양": "DOCUMENTÁRIOS",
+    "음악": "MÚSICA",
+    "영화": "FILMES",
+    "라이프스타일": "VARIEDADES",
+    "실시간": "AO VIVO",
+    "쇼핑": "SHOPPING",
+
+    # OUTROS (mantém os seus)
     "MOVIES": "FILMES",
-    "FILMS": "FILMES",
     "FILM": "FILMES",
     "CINE": "FILMES",
 
     "SERIES": "SÉRIES",
-    "SERIE": "SÉRIES",
     "TV SHOWS": "SÉRIES",
 
     "NEWS": "NOTÍCIAS",
     "NOTICIAS": "NOTÍCIAS",
 
-    "SPORT": "ESPORTES",
     "SPORTS": "ESPORTES",
+    "SPORT": "ESPORTES",
 
     "MUSIC": "MÚSICA",
-    "MUSIK": "MÚSICA",
 
     "KIDS": "INFANTIL",
 
     "DOCUMENTARY": "DOCUMENTÁRIOS",
 
-    "ANIME": "ANIME",
-
     "ENTERTAINMENT": "VARIEDADES",
 }
 
-print("⚙️ Traduzindo...")
+print("⚙️ Traduzindo grupos...")
 
 with open(arquivo_bruto, "r", encoding="utf-8", errors="ignore") as f:
     linhas = f.readlines()
@@ -68,49 +74,35 @@ for linha in linhas:
 
         nome = linha.split(",")[-1].strip()
 
-        # 🔥 LIMPA NOME ORIENTAL (mantém legível)
-        if tem_oriental(nome):
-            nome = re.sub(r'[^\x00-\x7F]+', '', nome)
-
-        nome = nome.upper()
-
         grupo = None
 
         if 'group-title="' in linha:
             grupo_original = linha.split('group-title="')[1].split('"')[0].strip()
 
-            # 🔥 SE FOR ORIENTAL → TRADUZ PRA "VARIEDADES" (ou outro que quiser)
-            if tem_oriental(grupo_original):
-                grupo = "VARIEDADES"
-            else:
-                grupo = mapa_grupos.get(grupo_original.upper(), grupo_original)
+            # 🔥 AQUI ESTÁ A CORREÇÃO
+            grupo = mapa_grupos.get(grupo_original, grupo_original)
 
-        # remove grupo antigo
         linha = re.sub(r'group-title="[^"]*"', '', linha)
 
         metadados = linha.split(",")[0]
 
-        if grupo:
-            nova = f'{metadados} group-title="{grupo}",{nome}\n'
-        else:
-            nova = f'{metadados},{nome}\n'
+        nova = f'{metadados} group-title="{grupo}",{nome}\n'
 
         saida.append(nova)
 
     else:
         saida.append(linha)
 
-# SALVA
 with open(arquivo_final, "w", encoding="utf-8") as f:
     f.write(f'#EXTM3U updated="{datetime.now()}"\n')
     for linha in saida:
         f.write(linha)
 
-print("✅ Tradução concluída!")
+print("✅ Grupos traduzidos corretamente!")
 
 # GIT
 os.system("git add .")
-os.system('git commit -m "Correção tradução oriental"')
+os.system('git commit -m "Tradução correta dos grupos (coreano incluído)"')
 os.system("git push")
 
 print("🚀 Concluído!")
