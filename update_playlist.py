@@ -4,15 +4,19 @@ import requests
 import unicodedata
 from datetime import datetime
 
-# CONFIG
+# 🔥 CONFIG
 url_playlist = "http://127.0.0.1:8182/playlist.m3u8"
 arquivo_bruto = "samsung.m3u"
 arquivo_final = "samsung_traduzida.m3u"
 
 print("🌐 Baixando playlist...")
 
-r = requests.get(url_playlist, timeout=10)
-conteudo = r.text
+try:
+    r = requests.get(url_playlist, timeout=15)
+    conteudo = r.text
+except:
+    print("❌ Erro ao baixar playlist")
+    exit()
 
 if "#EXTINF" not in conteudo:
     print("❌ Playlist inválida!")
@@ -23,20 +27,16 @@ with open(arquivo_bruto, "w", encoding="utf-8") as f:
 
 print("✅ Playlist salva!")
 
-# 🔥 REMOVE ACENTO + PADRONIZA
+# 🔥 NORMALIZA TEXTO (remove acento + padroniza)
 def normalizar(txt):
     txt = unicodedata.normalize("NFKD", txt)
     txt = txt.encode("ASCII", "ignore").decode("ASCII")
     return txt.upper().strip()
 
-# 🔥 DETECTA COREANO/JAPONES/CHINES
-def tem_oriental(texto):
-    return re.search(r'[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uac00-\ud7af]', texto)
-
-# 🔥 TRADUTOR INTELIGENTE
+# 🔥 TRADUTOR DE GRUPOS
 def traduzir_grupo(grupo_original):
 
-    # 🔥 COREANO DIRETO (já funcionava)
+    # 🔥 COREANO
     mapa_coreano = {
         "예능": "VARIEDADES",
         "드라마": "SÉRIES",
@@ -54,41 +54,55 @@ def traduzir_grupo(grupo_original):
     if grupo_original in mapa_coreano:
         return mapa_coreano[grupo_original]
 
-    # 🔥 NORMALIZA (resolve MUSIQUE, MUSIK, etc)
     g = normalizar(grupo_original)
 
-    # 🔥 REGRAS INTELIGENTES
-    if "SPORT" in g:
+    # 🔥 ESPORTES
+    if any(x in g for x in ["SPORT", "DEPORTE", "CALCIO", "FUSSBALL", "MOTOR"]):
         return "ESPORTES"
 
-    if "NEWS" in g or "NOTIC" in g or "ACTUAL" in g:
+    # 🔥 NOTÍCIAS
+    if any(x in g for x in ["NEWS", "NOTIC", "ACTUAL"]):
         return "NOTÍCIAS"
 
-    if "MOVIE" in g or "FILM" in g or "CINE" in g:
+    # 🔥 FILMES
+    if any(x in g for x in ["MOVIE", "FILM", "CINE"]):
         return "FILMES"
 
-    if "SERIE" in g:
+    # 🔥 SÉRIES
+    if any(x in g for x in ["SERIE", "DRAMA", "CRIMEN", "CLASSIC TV"]):
         return "SÉRIES"
 
-    if "DOCU" in g or "HISTORY" in g or "NATURE" in g:
+    # 🔥 DOCUMENTÁRIOS
+    if any(x in g for x in ["DOCU", "HISTORY", "NATURE", "WISSEN", "INFOTAIN"]):
         return "DOCUMENTÁRIOS"
 
-    if "KID" in g or "NIÑ" in grupo_original or "JEUN" in g or "BAMB" in g:
+    # 🔥 INFANTIL
+    if any(x in g for x in ["KID", "NIÑ", "JEUN", "BAMB"]):
         return "INFANTIL"
 
-    if "MUSIC" in g or "MUSIK" in g or "MUSIQUE" in g:
+    # 🔥 MÚSICA
+    if any(x in g for x in ["MUSIC", "MUSIK", "MUSIQUE"]):
         return "MÚSICA"
 
-    if "ANIME" in g:
-        return "ANIME"
+    # 🔥 RELIGIOSO
+    if "DEVOTIONAL" in g:
+        return "RELIGIOSO"
 
-    if "REALITY" in g or "ENTERTAIN" in g or "DIVERT" in g:
+    # 🔥 VARIEDADES
+    if any(x in g for x in [
+        "ENTERTAIN", "REALITY", "COMEDY", "COMEDIA",
+        "INTRATTEN", "DIVERT", "AMBIANCE"
+    ]):
         return "VARIEDADES"
 
-    if "LIFESTYLE" in g or "FOOD" in g or "TRAVEL" in g:
+    # 🔥 COMIDA / VIAGEM / LIFESTYLE
+    if any(x in g for x in [
+        "LIFESTYLE", "FOOD", "TRAVEL",
+        "CUCINA", "VIAGGI", "VOYAGES", "GASTRONOMIE", "VIAJES"
+    ]):
         return "VARIEDADES"
 
-    return grupo_original  # fallback (não perde nada)
+    return grupo_original  # fallback (não perde canal)
 
 print("⚙️ Traduzindo grupos...")
 
@@ -101,13 +115,7 @@ for linha in linhas:
 
     if linha.startswith("#EXTINF"):
 
-        nome = linha.split(",")[-1].strip()
-
-        # limpa nome oriental (opcional)
-        if tem_oriental(nome):
-            nome = re.sub(r'[^\x00-\x7F]+', '', nome)
-
-        nome = nome.upper()
+        nome = linha.split(",")[-1].strip().upper()
 
         grupo = None
 
@@ -115,27 +123,30 @@ for linha in linhas:
             grupo_original = linha.split('group-title="')[1].split('"')[0].strip()
             grupo = traduzir_grupo(grupo_original)
 
+        # remove grupo antigo
         linha = re.sub(r'group-title="[^"]*"', '', linha)
 
         metadados = linha.split(",")[0]
 
         nova = f'{metadados} group-title="{grupo}",{nome}\n'
-
         saida.append(nova)
 
     else:
         saida.append(linha)
 
+# 🔥 SALVA ARQUIVO FINAL
 with open(arquivo_final, "w", encoding="utf-8") as f:
     f.write(f'#EXTM3U updated="{datetime.now()}"\n')
     for linha in saida:
         f.write(linha)
 
-print("✅ Tradução COMPLETA funcionando!")
+print("✅ Playlist traduzida com sucesso!")
 
-# GIT
+# 🔥 GIT
+print("📤 Enviando para GitHub...")
+
 os.system("git add .")
-os.system('git commit -m "Tradução completa (coreano + multi-idioma)"')
+os.system('git commit -m "Tradução completa dos grupos IPTV"')
 os.system("git push")
 
 print("🚀 Concluído!")
