@@ -1,14 +1,11 @@
-FROM python:3.12-slim
+FROM python:3.11
 
-WORKDIR /usr/src/app
-
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+WORKDIR /app
 
 COPY . .
 
-EXPOSE 80/tcp
+RUN pip install -r requirements.txt
 
-ENV IS_DOCKER=1
+EXPOSE 10000
 
-CMD [ "python", "-u", "./app.py" ]
+CMD ["python", "app.py"]
