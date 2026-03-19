@@ -3,7 +3,7 @@ import os
 import requests
 from datetime import datetime
 
-# 🔥 CONFIG
+# CONFIG
 url_playlist = "http://127.0.0.1:8182/playlist.m3u8"
 arquivo_bruto = "samsung.m3u"
 arquivo_final = "samsung_traduzida.m3u"
@@ -22,70 +22,40 @@ with open(arquivo_bruto, "w", encoding="utf-8") as f:
 
 print("✅ Playlist salva!")
 
-# 🔥 MAPA GLOBAL (MULTI-IDIOMA)
+# 🔥 DETECÇÃO DE TEXTO ASIÁTICO (coreano, japonês, chinês)
+def tem_oriental(texto):
+    return re.search(r'[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uac00-\ud7af]', texto)
+
+# 🔥 MAPA GLOBAL (sem depender de upper pra oriental)
 mapa_grupos = {
+    "MOVIES": "FILMES",
+    "FILMS": "FILMES",
+    "FILM": "FILMES",
+    "CINE": "FILMES",
 
-    # 🎬 FILMES
-    "MOVIES": "FILMES", "MOVIE": "FILMES", "FILM": "FILMES",
-    "FILME": "FILMES", "CINE": "FILMES", "CINÉMA": "FILMES",
-    "영화": "FILMES",
+    "SERIES": "SÉRIES",
+    "SERIE": "SÉRIES",
+    "TV SHOWS": "SÉRIES",
 
-    # 📺 SÉRIES
-    "SERIES": "SÉRIES", "SERIE": "SÉRIES", "TV SERIES": "SÉRIES",
-    "SERIEN": "SÉRIES", "SERIE TV": "SÉRIES", "SÉRIES TV": "SÉRIES",
-    "드라마": "SÉRIES",
+    "NEWS": "NOTÍCIAS",
+    "NOTICIAS": "NOTÍCIAS",
 
-    # 📰 NOTÍCIAS
-    "NEWS": "NOTÍCIAS", "NOTICIAS": "NOTÍCIAS",
-    "ACTUALITÉS": "NOTÍCIAS", "NEWS & OPINION": "NOTÍCIAS",
-    "REGIONAL NEWS": "NOTÍCIAS", "ENGLISH NEWS": "NOTÍCIAS",
-    "HINDI NEWS": "NOTÍCIAS",
-    "뉴스": "NOTÍCIAS",
+    "SPORT": "ESPORTES",
+    "SPORTS": "ESPORTES",
 
-    # ⚽ ESPORTES
-    "SPORT": "ESPORTES", "SPORTS": "ESPORTES",
-    "SPORTS & OUTDOORS": "ESPORTES",
-    "MOTOR SPORTS": "ESPORTES",
-    "DEPORTE": "ESPORTES",
-    "스포츠": "ESPORTES",
+    "MUSIC": "MÚSICA",
+    "MUSIK": "MÚSICA",
 
-    # 🎵 MÚSICA
-    "MUSIC": "MÚSICA", "MUSIK": "MÚSICA", "MUSICA": "MÚSICA",
-    "MUSIQUE": "MÚSICA", "MÚSICA": "MÚSICA",
-    "음악": "MÚSICA",
+    "KIDS": "INFANTIL",
 
-    # 👶 INFANTIL
-    "KIDS": "INFANTIL", "NIÑOS": "INFANTIL",
-    "BAMBINI": "INFANTIL", "JEUNESSE": "INFANTIL",
-    "어린이": "INFANTIL",
+    "DOCUMENTARY": "DOCUMENTÁRIOS",
 
-    # 📚 DOCUMENTÁRIOS
-    "DOCUMENTARY": "DOCUMENTÁRIOS", "DOCUMENTARIES": "DOCUMENTÁRIOS",
-    "DOCUMENTAIRES": "DOCUMENTÁRIOS", "DOCUMENTALES": "DOCUMENTÁRIOS",
-    "DOCUMENTARI": "DOCUMENTÁRIOS",
-    "DOKUS & WISSEN": "DOCUMENTÁRIOS",
+    "ANIME": "ANIME",
 
-    # 🎌 ANIME
-    "ANIME": "ANIME", "ANIME & GAMING": "ANIME",
-
-    # 🎭 VARIEDADES
     "ENTERTAINMENT": "VARIEDADES",
-    "DIVERTISSEMENT": "VARIEDADES",
-    "ENTRETENIMIENTO": "VARIEDADES",
-    "INTRATTENIMENTO": "VARIEDADES",
-    "예능": "VARIEDADES",
-
-    # 🍔 LIFESTYLE
-    "LIFESTYLE": "VARIEDADES",
-    "HOME & FOOD": "VARIEDADES",
-    "FOOD & TRAVEL": "VARIEDADES",
-    "VOYAGES ET GASTRONOMIE": "VARIEDADES",
-    "CUCINA & VIAGGI": "VARIEDADES",
-    "라이프스타일": "VARIEDADES",
-
 }
 
-print("⚙️ Traduzindo grupos...")
+print("⚙️ Traduzindo...")
 
 with open(arquivo_bruto, "r", encoding="utf-8", errors="ignore") as f:
     linhas = f.readlines()
@@ -96,19 +66,26 @@ for linha in linhas:
 
     if linha.startswith("#EXTINF"):
 
-        nome = linha.split(",")[-1].strip().upper()
+        nome = linha.split(",")[-1].strip()
 
-        # limpa caracteres estranhos do nome
-        nome = re.sub(r'[^\w\s\-\&]', '', nome)
+        # 🔥 LIMPA NOME ORIENTAL (mantém legível)
+        if tem_oriental(nome):
+            nome = re.sub(r'[^\x00-\x7F]+', '', nome)
+
+        nome = nome.upper()
 
         grupo = None
 
         if 'group-title="' in linha:
             grupo_original = linha.split('group-title="')[1].split('"')[0].strip()
-            grupo_upper = grupo_original.upper()
 
-            grupo = mapa_grupos.get(grupo_upper, grupo_original)
+            # 🔥 SE FOR ORIENTAL → TRADUZ PRA "VARIEDADES" (ou outro que quiser)
+            if tem_oriental(grupo_original):
+                grupo = "VARIEDADES"
+            else:
+                grupo = mapa_grupos.get(grupo_original.upper(), grupo_original)
 
+        # remove grupo antigo
         linha = re.sub(r'group-title="[^"]*"', '', linha)
 
         metadados = linha.split(",")[0]
@@ -123,14 +100,17 @@ for linha in linhas:
     else:
         saida.append(linha)
 
+# SALVA
 with open(arquivo_final, "w", encoding="utf-8") as f:
     f.write(f'#EXTM3U updated="{datetime.now()}"\n')
     for linha in saida:
         f.write(linha)
 
-print("✅ Playlist organizada e traduzida!")
+print("✅ Tradução concluída!")
 
-# 🔥 GIT
+# GIT
 os.system("git add .")
-os.system('git commit -m "Organização por grupos + tradução completa"')
+os.system('git commit -m "Correção tradução oriental"')
 os.system("git push")
+
+print("🚀 Concluído!")
