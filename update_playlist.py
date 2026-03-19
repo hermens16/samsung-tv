@@ -1,6 +1,7 @@
 import re
 import os
 import requests
+import unicodedata
 from datetime import datetime
 
 # CONFIG
@@ -22,44 +23,65 @@ with open(arquivo_bruto, "w", encoding="utf-8") as f:
 
 print("✅ Playlist salva!")
 
-# 🔥 MAPA COMPLETO (inclui coreano)
-mapa_grupos = {
+# 🔥 NORMALIZA TEXTO (REMOVE ACENTO)
+def normalizar(texto):
+    texto = unicodedata.normalize("NFKD", texto)
+    texto = texto.encode("ASCII", "ignore").decode("ASCII")
+    return texto.upper().strip()
 
-    # COREANO (🔥 AGORA FUNCIONA)
-    "예능": "VARIEDADES",
-    "드라마": "SÉRIES",
-    "뉴스": "NOTÍCIAS",
-    "스포츠": "ESPORTES",
-    "어린이": "INFANTIL",
-    "시사/교양": "DOCUMENTÁRIOS",
-    "음악": "MÚSICA",
-    "영화": "FILMES",
-    "라이프스타일": "VARIEDADES",
-    "실시간": "AO VIVO",
-    "쇼핑": "SHOPPING",
+# 🔥 CLASSIFICADOR INTELIGENTE
+def traduzir_grupo(grupo):
 
-    # OUTROS (mantém os seus)
-    "MOVIES": "FILMES",
-    "FILM": "FILMES",
-    "CINE": "FILMES",
+    g = normalizar(grupo)
 
-    "SERIES": "SÉRIES",
-    "TV SHOWS": "SÉRIES",
+    # COREANO (direto)
+    if grupo in ["예능", "드라마", "뉴스", "스포츠", "어린이", "시사/교양", "음악", "영화"]:
+        return {
+            "예능": "VARIEDADES",
+            "드라마": "SÉRIES",
+            "뉴스": "NOTÍCIAS",
+            "스포츠": "ESPORTES",
+            "어린이": "INFANTIL",
+            "시사/교양": "DOCUMENTÁRIOS",
+            "음악": "MÚSICA",
+            "영화": "FILMES"
+        }.get(grupo, "VARIEDADES")
 
-    "NEWS": "NOTÍCIAS",
-    "NOTICIAS": "NOTÍCIAS",
+    # 🔥 PALAVRA-CHAVE
+    if "SPORT" in g:
+        return "ESPORTES"
 
-    "SPORTS": "ESPORTES",
-    "SPORT": "ESPORTES",
+    if "NEWS" in g or "NOTIC" in g or "ACTUAL" in g:
+        return "NOTÍCIAS"
 
-    "MUSIC": "MÚSICA",
+    if "MOVIE" in g or "FILM" in g or "CINE" in g:
+        return "FILMES"
 
-    "KIDS": "INFANTIL",
+    if "SERIE" in g:
+        return "SÉRIES"
 
-    "DOCUMENTARY": "DOCUMENTÁRIOS",
+    if "DOCU" in g or "HISTORY" in g or "NATURE" in g:
+        return "DOCUMENTÁRIOS"
 
-    "ENTERTAINMENT": "VARIEDADES",
-}
+    if "KID" in g or "NIÑ" in g or "JEUN" in g or "BAMB" in g:
+        return "INFANTIL"
+
+    if "MUSIC" in g or "MUSIK" in g or "MUSIQUE" in g:
+        return "MÚSICA"
+
+    if "ANIME" in g:
+        return "ANIME"
+
+    if "REALITY" in g:
+        return "VARIEDADES"
+
+    if "LIFESTYLE" in g or "FOOD" in g or "TRAVEL" in g:
+        return "VARIEDADES"
+
+    if "ENTERTAIN" in g or "DIVERT" in g:
+        return "VARIEDADES"
+
+    return grupo  # fallback
 
 print("⚙️ Traduzindo grupos...")
 
@@ -78,9 +100,7 @@ for linha in linhas:
 
         if 'group-title="' in linha:
             grupo_original = linha.split('group-title="')[1].split('"')[0].strip()
-
-            # 🔥 AQUI ESTÁ A CORREÇÃO
-            grupo = mapa_grupos.get(grupo_original, grupo_original)
+            grupo = traduzir_grupo(grupo_original)
 
         linha = re.sub(r'group-title="[^"]*"', '', linha)
 
@@ -98,11 +118,11 @@ with open(arquivo_final, "w", encoding="utf-8") as f:
     for linha in saida:
         f.write(linha)
 
-print("✅ Grupos traduzidos corretamente!")
+print("✅ Tradução FINAL concluída!")
 
 # GIT
 os.system("git add .")
-os.system('git commit -m "Tradução correta dos grupos (coreano incluído)"')
+os.system('git commit -m "Tradução inteligente completa dos grupos"')
 os.system("git push")
 
 print("🚀 Concluído!")
