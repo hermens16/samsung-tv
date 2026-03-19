@@ -1,9 +1,33 @@
 import re
 import os
+import requests
 from datetime import datetime
 
-entrada = "samsung.m3u"
-saida = "samsung_final.m3u"
+# 🔥 CONFIG
+url_playlist = "http://127.0.0.1:8182/playlist.m3u8"
+arquivo_bruto = "samsung.m3u"
+arquivo_final = "samsung_final.m3u"
+
+print("🌐 Baixando playlist do servidor...")
+
+try:
+    r = requests.get(url_playlist, timeout=10)
+    conteudo = r.text
+
+    if "#EXTINF" not in conteudo:
+        print("❌ Playlist veio vazia ou inválida!")
+        exit()
+
+    with open(arquivo_bruto, "w", encoding="utf-8") as f:
+        f.write(conteudo)
+
+    print("✅ Playlist bruta salva!")
+
+except Exception as e:
+    print("❌ Erro ao baixar playlist:", e)
+    exit()
+
+# 🔥 ORGANIZAÇÃO
 
 mapa_grupos = {
     "MOVIES": "FILMES",
@@ -42,20 +66,11 @@ ordem_grupos = [
     "VARIEDADES"
 ]
 
-if not os.path.exists(entrada):
-    print("❌ samsung.m3u NÃO encontrado!")
-    exit()
-
-print("📥 Lendo playlist...")
-
-with open(entrada, "r", encoding="utf-8", errors="ignore") as f:
+with open(arquivo_bruto, "r", encoding="utf-8", errors="ignore") as f:
     linhas = f.readlines()
 
 grupos = {g: [] for g in ordem_grupos}
-nomes_vistos = set()
-
-total = 0
-adicionados = 0
+urls_vistas = set()
 
 i = 0
 while i < len(linhas):
@@ -64,42 +79,15 @@ while i < len(linhas):
 
     if linha.startswith("#EXTINF"):
 
-        total += 1
-
-        try:
-            nome = linha.split(",")[-1].strip().upper()
-        except:
-            i += 1
-            continue
+        nome = linha.split(",")[-1].strip().upper()
 
         grupo = "VARIEDADES"
 
         if 'group-title="' in linha:
-            try:
-                grupo_original = linha.split('group-title="')[1].split('"')[0].upper()
-                grupo = mapa_grupos.get(grupo_original, grupo_original)
-            except:
-                pass
+            grupo_original = linha.split('group-title="')[1].split('"')[0].upper()
+            grupo = mapa_grupos.get(grupo_original, grupo_original)
 
         nome = re.sub(r'[^\w\s\-\&\|]', '', nome)
-
-        # normaliza nome (menos agressivo)
-        nome_base = re.sub(r'\bHD\b|\bFHD\b|\bSD\b|\b4K\b', '', nome)
-        nome_base = re.sub(r'\s+', ' ', nome_base).strip()
-
-        url = linhas[i+1].strip() if i+1 < len(linhas) else ""
-
-        # 🔥 ACEITA QUALQUER PROTOCOLO DE STREAM
-        if not url or len(url) < 10:
-            i += 2
-            continue
-
-        # 🔥 DUPLICADO (APENAS POR NOME)
-        if nome_base in nomes_vistos:
-            i += 2
-            continue
-
-        nomes_vistos.add(nome_base)
 
         linha = re.sub(r'group-title="[^"]*"', '', linha)
 
@@ -108,22 +96,31 @@ while i < len(linhas):
 
         nova_extinf = f'{metadados} group-title="{grupo}",{nome}\n'
 
+        url = linhas[i+1].strip()
+
+        # remove duplicado
+        if url in urls_vistas:
+            i += 2
+            continue
+
+        urls_vistas.add(url)
+
+        if not url.startswith("http"):
+            i += 2
+            continue
+
         grupos.setdefault(grupo, [])
         grupos[grupo].append(nova_extinf)
         grupos[grupo].append(url + "\n")
-
-        adicionados += 1
 
         i += 2
         continue
 
     i += 1
 
-print(f"📊 Total lidos: {total}")
-print(f"✅ Adicionados: {adicionados}")
+print("⚙️ Gerando playlist final...")
 
-# 🔥 GERA PLAYLIST
-with open(saida, "w", encoding="utf-8") as f:
+with open(arquivo_final, "w", encoding="utf-8") as f:
 
     f.write(f'#EXTM3U updated="{datetime.now()}"\n')
 
@@ -131,7 +128,7 @@ with open(saida, "w", encoding="utf-8") as f:
         for linha in grupos.get(grupo, []):
             f.write(linha)
 
-print("🔥 Playlist final gerada!")
+print("✅ Playlist final pronta!")
 
 # 🔥 GIT
 print("📤 Enviando para GitHub...")
