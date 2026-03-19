@@ -1,5 +1,6 @@
 import re
 import os
+from datetime import datetime
 
 entrada = "samsung.m3u"
 saida = "samsung_final.m3u"
@@ -41,19 +42,20 @@ ordem_grupos = [
     "VARIEDADES"
 ]
 
-# 🔥 VERIFICA SE ARQUIVO EXISTE
 if not os.path.exists(entrada):
-    print("❌ Arquivo samsung.m3u NÃO encontrado!")
+    print("❌ samsung.m3u NÃO encontrado!")
     exit()
 
-print("📥 Lendo playlist original...")
+print("📥 Lendo playlist...")
 
 with open(entrada, "r", encoding="utf-8", errors="ignore") as f:
     linhas = f.readlines()
 
 grupos = {g: [] for g in ordem_grupos}
 nomes_vistos = set()
-urls_vistas = set()
+
+total = 0
+adicionados = 0
 
 i = 0
 while i < len(linhas):
@@ -61,6 +63,8 @@ while i < len(linhas):
     linha = linhas[i]
 
     if linha.startswith("#EXTINF"):
+
+        total += 1
 
         try:
             nome = linha.split(",")[-1].strip().upper()
@@ -77,30 +81,26 @@ while i < len(linhas):
             except:
                 pass
 
-        # 🔥 LIMPA CARACTERES ESTRANHOS
         nome = re.sub(r'[^\w\s\-\&\|]', '', nome)
 
-        # 🔥 NORMALIZA NOME (ANTI-DUPLICADO)
-        nome_base = nome
-        nome_base = re.sub(r'\bHD\b|\bFHD\b|\bSD\b|\b4K\b', '', nome_base)
+        # normaliza nome (menos agressivo)
+        nome_base = re.sub(r'\bHD\b|\bFHD\b|\bSD\b|\b4K\b', '', nome)
         nome_base = re.sub(r'\s+', ' ', nome_base).strip()
 
         url = linhas[i+1].strip() if i+1 < len(linhas) else ""
 
-        # 🔥 IGNORA LINHAS INVÁLIDAS
-        if not url.startswith("http"):
+        # 🔥 ACEITA QUALQUER PROTOCOLO DE STREAM
+        if not url or len(url) < 10:
             i += 2
             continue
 
-        # 🔥 REMOVE DUPLICADOS (NOME + URL)
-        if nome_base in nomes_vistos or url in urls_vistas:
+        # 🔥 DUPLICADO (APENAS POR NOME)
+        if nome_base in nomes_vistos:
             i += 2
             continue
 
         nomes_vistos.add(nome_base)
-        urls_vistas.add(url)
 
-        # 🔥 REMOVE group antigo
         linha = re.sub(r'group-title="[^"]*"', '', linha)
 
         metadados = linha.split(",")[0]
@@ -112,31 +112,31 @@ while i < len(linhas):
         grupos[grupo].append(nova_extinf)
         grupos[grupo].append(url + "\n")
 
+        adicionados += 1
+
         i += 2
         continue
 
     i += 1
 
-# 🔥 GERA ARQUIVO FINAL
-print("⚙️ Gerando playlist final...")
+print(f"📊 Total lidos: {total}")
+print(f"✅ Adicionados: {adicionados}")
 
+# 🔥 GERA PLAYLIST
 with open(saida, "w", encoding="utf-8") as f:
 
-    f.write("#EXTM3U\n")
+    f.write(f'#EXTM3U updated="{datetime.now()}"\n')
 
     for grupo in ordem_grupos:
         for linha in grupos.get(grupo, []):
             f.write(linha)
 
-print("🔥 Samsung organizada com sucesso!")
+print("🔥 Playlist final gerada!")
 
-# 🔥 GIT (ROBUSTO)
+# 🔥 GIT
 print("📤 Enviando para GitHub...")
 
-# adiciona tudo (resolve seu problema)
 os.system("git add .")
-
-# commit só se houver mudança
 commit_status = os.system('git diff --cached --quiet')
 
 if commit_status != 0:
@@ -144,4 +144,4 @@ if commit_status != 0:
     os.system("git push")
     print("✅ Upload concluído!")
 else:
-    print("ℹ️ Nenhuma alteração para enviar.")
+    print("ℹ️ Nada para enviar.")
