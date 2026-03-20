@@ -50,20 +50,22 @@ def traduzir_grupo(grupo_original):
         "쇼핑": "SHOPPING"
     }
 
+    # 🔥 TRADUÇÃO COREANA + AGRUPAMENTO
     if grupo_original in mapa_coreano:
-        return mapa_coreano[grupo_original]
+        traduzido = mapa_coreano[grupo_original]
+
+        if traduzido in ["AO VIVO", "SHOPPING"]:
+            return "VARIEDADES"
+
+        return traduzido
 
     g = normalizar(grupo_original)
 
-    # 🔥 AGRUPAMENTO FORÇADO
-    if g in ["AO VIVO", "SHOPPING"]:
-        return "VARIEDADES"
-
-    # 🔥 CORREÇÕES FINAIS (casos que escapavam)
-    # 🔥 CORREÇÃO DEFINITIVA FUTEBOL
+    # 🔥 FUTEBOL (qualquer variação)
     if "BALL" in g:
         return "ESPORTES"
 
+    # 🔥 NIÑOS
     if "NINOS" in g or "NIÑOS" in grupo_original.upper():
         return "INFANTIL"
 
