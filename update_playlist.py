@@ -55,11 +55,18 @@ def traduzir_grupo(grupo_original):
 
     g = normalizar(grupo_original)
 
+    # 🔥 CORREÇÕES FINAIS (casos que escapavam)
+    if "FUSSBALL" in g or "FUBBALL" in g:
+        return "ESPORTES"
+
+    if "NINOS" in g or "NIÑOS" in grupo_original.upper():
+        return "INFANTIL"
+
     # 🔥 ANIME
     if "ANIME" in g:
         return "ANIME & TOKUSATSU"
 
-    # 🔥 NOTÍCIAS (corrigido completo)
+    # 🔥 NOTÍCIAS
     if any(x in g for x in [
         "NEWS", "NOTIC", "ACTUAL",
         "OPINION", "REGIONAL", "ENGLISH", "HINDI"
@@ -69,7 +76,7 @@ def traduzir_grupo(grupo_original):
     # 🔥 ESPORTES
     if any(x in g for x in [
         "SPORT", "DEPORTE", "CALCIO",
-        "FUSSBALL", "FUTB", "MOTOR"
+        "FUTB", "MOTOR"
     ]):
         return "ESPORTES"
 
@@ -124,7 +131,7 @@ def traduzir_grupo(grupo_original):
     ]):
         return "VARIEDADES"
 
-    return grupo_original  # mantém original se não reconhecer
+    return grupo_original
 
 print("⚙️ Processando...")
 
