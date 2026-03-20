@@ -56,7 +56,8 @@ def traduzir_grupo(grupo_original):
     g = normalizar(grupo_original)
 
     # 🔥 CORREÇÕES FINAIS (casos que escapavam)
-    if "FUSSBALL" in g or "FUBBALL" in g:
+    # 🔥 CORREÇÃO DEFINITIVA FUTEBOL
+    if "BALL" in g:
         return "ESPORTES"
 
     if "NINOS" in g or "NIÑOS" in grupo_original.upper():

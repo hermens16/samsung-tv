@@ -1,4 +1,4 @@
-#EXTM3U updated="2026-03-20 17:54:34.520008"
+#EXTM3U updated="2026-03-20 18:00:50.470239"
 #EXTM3U
 #EXTINF:-1 channel-id="samsung-KRBD2400001XD" tvg-id="KRBD2400001XD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBD2400001XD_20251210T003611SQUARE.png"  tvg-chno="501" group-title="NOTÍCIAS",YTN
 https://jmp2.uk/stvp-KRBD2400001XD
@@ -2008,7 +2008,7 @@ https://jmp2.uk/stvp-FR2600004SS
 https://jmp2.uk/stvp-GB2600019ON
 #EXTINF:-1 channel-id="samsung-IT2600009QD" tvg-id="IT2600009QD" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600009QD_20250415T022338SQUARE.png"  tvg-chno="4004" group-title="NOTÍCIAS",EURONEWS IN DIRETTA
 https://jmp2.uk/stvp-IT2600009QD
-#EXTINF:-1 channel-id="samsung-ATBD26000124P" tvg-id="ATBD26000124P" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD26000124P_20260310T031304SQUARE.png"  tvg-chno="4005" group-title="Fußball",SCOOORE
+#EXTINF:-1 channel-id="samsung-ATBD26000124P" tvg-id="ATBD26000124P" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD26000124P_20260310T031304SQUARE.png"  tvg-chno="4005" group-title="ESPORTES",SCOOORE
 https://jmp2.uk/stvp-ATBD26000124P
 #EXTINF:-1 channel-id="samsung-CH2600007IJ" tvg-id="CH2600007IJ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH2600007IJ_20250415T021609SQUARE.png"  tvg-chno="4005" group-title="SÉRIES",CRIME SERIEN - RAKUTEN TV
 https://jmp2.uk/stvp-CH2600007IJ
@@ -3614,7 +3614,7 @@ https://jmp2.uk/stvp-IT600001L6
 https://jmp2.uk/stvp-GB2700013Y7
 #EXTINF:-1 channel-id="samsung-IT4200001D8" tvg-id="IT4200001D8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT4200001D8_20250513T010712SQUARE.png"  tvg-chno="4625" group-title="ESPORTES",GOLF TELEVISION
 https://jmp2.uk/stvp-IT4200001D8
-#EXTINF:-1 channel-id="samsung-CHBA3300010UC" tvg-id="CHBA3300010UC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBA3300010UC_20250909T014556SQUARE.png"  tvg-chno="4631" group-title="Fußball",FIFA+
+#EXTINF:-1 channel-id="samsung-CHBA3300010UC" tvg-id="CHBA3300010UC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBA3300010UC_20250909T014556SQUARE.png"  tvg-chno="4631" group-title="ESPORTES",FIFA+
 https://jmp2.uk/stvp-CHBA3300010UC
 #EXTINF:-1 channel-id="samsung-ESBC410000577" tvg-id="ESBC410000577" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC410000577_20260224T030743SQUARE.png"  tvg-chno="4631" group-title="ESPORTES",TELEDEPORTE
 https://jmp2.uk/stvp-ESBC410000577
@@ -3632,11 +3632,11 @@ https://jmp2.uk/stvp-FRBA3300037Y7
 https://jmp2.uk/stvp-GB26000118T
 #EXTINF:-1 channel-id="samsung-ITBC4700002CO" tvg-id="ITBC4700002CO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC4700002CO_20241022T043828SQUARE.png"  tvg-chno="4633" group-title="ESPORTES",SOLOCALCIO
 https://jmp2.uk/stvp-ITBC4700002CO
-#EXTINF:-1 channel-id="samsung-AT1100003X6" tvg-id="AT1100003X6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT1100003X6_20260224T030306SQUARE.png"  tvg-chno="4635" group-title="Fußball",TOP BARÇA
+#EXTINF:-1 channel-id="samsung-AT1100003X6" tvg-id="AT1100003X6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT1100003X6_20260224T030306SQUARE.png"  tvg-chno="4635" group-title="ESPORTES",TOP BARÇA
 https://jmp2.uk/stvp-AT1100003X6
-#EXTINF:-1 channel-id="samsung-CH1100002FH" tvg-id="CH1100002FH" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH1100002FH_20260224T030345SQUARE.png"  tvg-chno="4635" group-title="Fußball",TOP BARÇA
+#EXTINF:-1 channel-id="samsung-CH1100002FH" tvg-id="CH1100002FH" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH1100002FH_20260224T030345SQUARE.png"  tvg-chno="4635" group-title="ESPORTES",TOP BARÇA
 https://jmp2.uk/stvp-CH1100002FH
-#EXTINF:-1 channel-id="samsung-DE1100003YR" tvg-id="DE1100003YR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1100003YR_20260224T030543SQUARE.png"  tvg-chno="4635" group-title="Fußball",TOP BARÇA
+#EXTINF:-1 channel-id="samsung-DE1100003YR" tvg-id="DE1100003YR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1100003YR_20260224T030543SQUARE.png"  tvg-chno="4635" group-title="ESPORTES",TOP BARÇA
 https://jmp2.uk/stvp-DE1100003YR
 #EXTINF:-1 channel-id="samsung-ES3200003OC" tvg-id="ES3200003OC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3200003OC_20251230T030907SQUARE.png"  tvg-chno="4635" group-title="ESPORTES",DFB PLAY TV
 https://jmp2.uk/stvp-ES3200003OC
@@ -3648,9 +3648,9 @@ https://jmp2.uk/stvp-ITBA2200010O1
 https://jmp2.uk/stvp-GB2200002CC
 #EXTINF:-1 channel-id="samsung-ITBD2300001MT" tvg-id="ITBD2300001MT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD2300001MT_20241022T043806SQUARE.png"  tvg-chno="4637" group-title="ESPORTES",RBN
 https://jmp2.uk/stvp-ITBD2300001MT
-#EXTINF:-1 channel-id="samsung-ATBA3300007PT" tvg-id="ATBA3300007PT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBA3300007PT_20250513T005116SQUARE.png"  tvg-chno="4639" group-title="Fußball",FIFA+
+#EXTINF:-1 channel-id="samsung-ATBA3300007PT" tvg-id="ATBA3300007PT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBA3300007PT_20250513T005116SQUARE.png"  tvg-chno="4639" group-title="ESPORTES",FIFA+
 https://jmp2.uk/stvp-ATBA3300007PT
-#EXTINF:-1 channel-id="samsung-DEBA3300019EB" tvg-id="DEBA3300019EB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBA3300019EB_20251125T102307SQUARE.png"  tvg-chno="4639" group-title="Fußball",FIFA+
+#EXTINF:-1 channel-id="samsung-DEBA3300019EB" tvg-id="DEBA3300019EB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBA3300019EB_20251125T102307SQUARE.png"  tvg-chno="4639" group-title="ESPORTES",FIFA+
 https://jmp2.uk/stvp-DEBA3300019EB
 #EXTINF:-1 channel-id="samsung-ES1100001MT" tvg-id="ES1100001MT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1100001MT_20260224T030836SQUARE.png"  tvg-chno="4639" group-title="ESPORTES",TOP BARÇA
 https://jmp2.uk/stvp-ES1100001MT
@@ -3660,9 +3660,9 @@ https://jmp2.uk/stvp-FR110000354
 https://jmp2.uk/stvp-GB1100002OE
 #EXTINF:-1 channel-id="samsung-IT1100001PZ" tvg-id="IT1100001PZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT1100001PZ_20260224T031417SQUARE.png"  tvg-chno="4639" group-title="ESPORTES",TOP BARÇA
 https://jmp2.uk/stvp-IT1100001PZ
-#EXTINF:-1 channel-id="samsung-CHBD2600014C0" tvg-id="CHBD2600014C0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD2600014C0_20250107T031529SQUARE.png"  tvg-chno="4641" group-title="Fußball",SCOOORE
+#EXTINF:-1 channel-id="samsung-CHBD2600014C0" tvg-id="CHBD2600014C0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD2600014C0_20250107T031529SQUARE.png"  tvg-chno="4641" group-title="ESPORTES",SCOOORE
 https://jmp2.uk/stvp-CHBD2600014C0
-#EXTINF:-1 channel-id="samsung-DEBD260000692" tvg-id="DEBD260000692" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD260000692_20250107T024407SQUARE.png"  tvg-chno="4641" group-title="Fußball",SCOOORE
+#EXTINF:-1 channel-id="samsung-DEBD260000692" tvg-id="DEBD260000692" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD260000692_20250107T024407SQUARE.png"  tvg-chno="4641" group-title="ESPORTES",SCOOORE
 https://jmp2.uk/stvp-DEBD260000692
 #EXTINF:-1 channel-id="samsung-ESBC2700009B4" tvg-id="ESBC2700009B4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700009B4_20251028T011349SQUARE.png"  tvg-chno="4641" group-title="ESPORTES",FIFA+
 https://jmp2.uk/stvp-ESBC2700009B4
