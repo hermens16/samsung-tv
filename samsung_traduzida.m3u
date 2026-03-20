@@ -1,4 +1,4 @@
-#EXTM3U updated="2026-03-20 17:00:05.451817"
+#EXTM3U updated="2026-03-20 17:46:29.204186"
 #EXTM3U
 #EXTINF:-1 channel-id="samsung-KRBD2400001XD" tvg-id="KRBD2400001XD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBD2400001XD_20251210T003611SQUARE.png"  tvg-chno="501" group-title="NOTÍCIAS",YTN
 https://jmp2.uk/stvp-KRBD2400001XD
@@ -356,13 +356,13 @@ https://jmp2.uk/stvp-KR44000010Y
 https://jmp2.uk/stvp-KR400005KB
 #EXTINF:-1 channel-id="samsung-CA2000004MI" tvg-id="CA2000004MI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2000004MI_20260317T034409SQUARE.png"  tvg-chno="1000" group-title="DOCUMENTÁRIOS",MARK ROBER TV
 https://jmp2.uk/stvp-CA2000004MI
-#EXTINF:-1 channel-id="samsung-IN3800001ZH" tvg-id="IN3800001ZH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800001ZH_20260318T004134SQUARE.png"  tvg-chno="1000" group-title="Hindi News",AAJ TAK HD
+#EXTINF:-1 channel-id="samsung-IN3800001ZH" tvg-id="IN3800001ZH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800001ZH_20260318T004134SQUARE.png"  tvg-chno="1000" group-title="NOTÍCIAS",AAJ TAK HD
 https://jmp2.uk/stvp-IN3800001ZH
 #EXTINF:-1 channel-id="samsung-USBC21000142T" tvg-id="USBC21000142T" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC21000142T_20260317T034531SQUARE.png"  tvg-chno="1000" group-title="VARIEDADES",HOME REFRESH
 https://jmp2.uk/stvp-USBC21000142T
 #EXTINF:-1 channel-id="samsung-CABD1200043OK" tvg-id="CABD1200043OK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200043OK_20260317T034355SQUARE.png"  tvg-chno="1001" group-title="VARIEDADES",CBC COMEDY
 https://jmp2.uk/stvp-CABD1200043OK
-#EXTINF:-1 channel-id="samsung-IN400059ZR" tvg-id="IN400059ZR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400059ZR_20260318T004142SQUARE.png"  tvg-chno="1001" group-title="Hindi News",TIMES NOW NAVBHARAT
+#EXTINF:-1 channel-id="samsung-IN400059ZR" tvg-id="IN400059ZR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400059ZR_20260318T004142SQUARE.png"  tvg-chno="1001" group-title="NOTÍCIAS",TIMES NOW NAVBHARAT
 https://jmp2.uk/stvp-IN400059ZR
 #EXTINF:-1 channel-id="samsung-US2100006EH" tvg-id="US2100006EH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2100006EH_20260317T034523SQUARE.png"  tvg-chno="1001" group-title="SÉRIES",CHALLENGE ACCEPTED
 https://jmp2.uk/stvp-US2100006EH
@@ -384,211 +384,211 @@ https://jmp2.uk/stvp-CABD1200002T9
 https://jmp2.uk/stvp-IN3800008CX
 #EXTINF:-1 channel-id="samsung-US2500008CV" tvg-id="US2500008CV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2500008CV_20260317T034520SQUARE.png"  tvg-chno="1004" group-title="SÉRIES",BET X TYLER PERRY DRAMA
 https://jmp2.uk/stvp-US2500008CV
-#EXTINF:-1 channel-id="samsung-IN46000210J" tvg-id="IN46000210J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN46000210J_20260311T004451SQUARE.png"  tvg-chno="1005" group-title="Hindi News",NEWS NATION
+#EXTINF:-1 channel-id="samsung-IN46000210J" tvg-id="IN46000210J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN46000210J_20260311T004451SQUARE.png"  tvg-chno="1005" group-title="NOTÍCIAS",NEWS NATION
 https://jmp2.uk/stvp-IN46000210J
 #EXTINF:-1 channel-id="samsung-IN400057EZ" tvg-id="IN400057EZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400057EZ_20260318T004137SQUARE.png"  tvg-chno="1006" group-title="ESPORTES",GOLF NETWORK
 https://jmp2.uk/stvp-IN400057EZ
 #EXTINF:-1 channel-id="samsung-IN4000555E" tvg-id="IN4000555E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000555E_20260311T004426SQUARE.png"  tvg-chno="1007" group-title="VARIEDADES",BOLLYWOOD MASALA
 https://jmp2.uk/stvp-IN4000555E
-#EXTINF:-1 channel-id="samsung-INBC2800002WJ" tvg-id="INBC2800002WJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800002WJ_20240131T032338SQUARE.png_20240131032339.png"  tvg-chno="1015" group-title="Hindi News",NDTV INDIA
+#EXTINF:-1 channel-id="samsung-INBC2800002WJ" tvg-id="INBC2800002WJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800002WJ_20240131T032338SQUARE.png_20240131032339.png"  tvg-chno="1015" group-title="NOTÍCIAS",NDTV INDIA
 https://jmp2.uk/stvp-INBC2800002WJ
-#EXTINF:-1 channel-id="samsung-INBA490002119" tvg-id="INBA490002119" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA490002119_20240925T102255SQUARE.png"  tvg-chno="1017" group-title="Hindi News",REPUBLIC BHARAT
+#EXTINF:-1 channel-id="samsung-INBA490002119" tvg-id="INBA490002119" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA490002119_20240925T102255SQUARE.png"  tvg-chno="1017" group-title="NOTÍCIAS",REPUBLIC BHARAT
 https://jmp2.uk/stvp-INBA490002119
-#EXTINF:-1 channel-id="samsung-IN4600012BD" tvg-id="IN4600012BD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600012BD_20251126T004241SQUARE.png"  tvg-chno="1021" group-title="Hindi News",ABP NEWS
+#EXTINF:-1 channel-id="samsung-IN4600012BD" tvg-id="IN4600012BD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600012BD_20251126T004241SQUARE.png"  tvg-chno="1021" group-title="NOTÍCIAS",ABP NEWS
 https://jmp2.uk/stvp-IN4600012BD
-#EXTINF:-1 channel-id="samsung-INBD1300010WP" tvg-id="INBD1300010WP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300010WP_20240904T091839SQUARE.png"  tvg-chno="1024" group-title="Hindi News",NEWS18 INDIA
+#EXTINF:-1 channel-id="samsung-INBD1300010WP" tvg-id="INBD1300010WP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300010WP_20240904T091839SQUARE.png"  tvg-chno="1024" group-title="NOTÍCIAS",NEWS18 INDIA
 https://jmp2.uk/stvp-INBD1300010WP
-#EXTINF:-1 channel-id="samsung-IN3800003SV" tvg-id="IN3800003SV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800003SV_20260318T004126SQUARE.png"  tvg-chno="1027" group-title="Hindi News",TV9 BHARATVARSH
+#EXTINF:-1 channel-id="samsung-IN3800003SV" tvg-id="IN3800003SV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800003SV_20260318T004126SQUARE.png"  tvg-chno="1027" group-title="NOTÍCIAS",TV9 BHARATVARSH
 https://jmp2.uk/stvp-IN3800003SV
-#EXTINF:-1 channel-id="samsung-IN4000001LP" tvg-id="IN4000001LP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000001LP_20260121T010820SQUARE.png"  tvg-chno="1028" group-title="Hindi News",INDIA TV NEWS
+#EXTINF:-1 channel-id="samsung-IN4000001LP" tvg-id="IN4000001LP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000001LP_20260121T010820SQUARE.png"  tvg-chno="1028" group-title="NOTÍCIAS",INDIA TV NEWS
 https://jmp2.uk/stvp-IN4000001LP
-#EXTINF:-1 channel-id="samsung-IN17000129W" tvg-id="IN17000129W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN17000129W_20241016T011359SQUARE.png"  tvg-chno="1029" group-title="Hindi News",GOOD NEWS TODAY
+#EXTINF:-1 channel-id="samsung-IN17000129W" tvg-id="IN17000129W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN17000129W_20241016T011359SQUARE.png"  tvg-chno="1029" group-title="NOTÍCIAS",GOOD NEWS TODAY
 https://jmp2.uk/stvp-IN17000129W
-#EXTINF:-1 channel-id="samsung-IN4000002JA" tvg-id="IN4000002JA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000002JA_20251106T195124SQUARE.png"  tvg-chno="1030" group-title="Hindi News",INDIA TV SPEED NEWS
+#EXTINF:-1 channel-id="samsung-IN4000002JA" tvg-id="IN4000002JA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000002JA_20251106T195124SQUARE.png"  tvg-chno="1030" group-title="NOTÍCIAS",INDIA TV SPEED NEWS
 https://jmp2.uk/stvp-IN4000002JA
-#EXTINF:-1 channel-id="samsung-IN3800004BF" tvg-id="IN3800004BF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800004BF_20251126T004244SQUARE.png"  tvg-chno="1031" group-title="Hindi News",AAJTAK
+#EXTINF:-1 channel-id="samsung-IN3800004BF" tvg-id="IN3800004BF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800004BF_20251126T004244SQUARE.png"  tvg-chno="1031" group-title="NOTÍCIAS",AAJTAK
 https://jmp2.uk/stvp-IN3800004BF
-#EXTINF:-1 channel-id="samsung-INBD1300007ST" tvg-id="INBD1300007ST" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300007ST_20250604T011414SQUARE.png"  tvg-chno="1032" group-title="Hindi News",CNBC AWAAZ
+#EXTINF:-1 channel-id="samsung-INBD1300007ST" tvg-id="INBD1300007ST" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300007ST_20250604T011414SQUARE.png"  tvg-chno="1032" group-title="NOTÍCIAS",CNBC AWAAZ
 https://jmp2.uk/stvp-INBD1300007ST
-#EXTINF:-1 channel-id="samsung-INBD400004NS" tvg-id="INBD400004NS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400004NS_20250612T083831SQUARE.png"  tvg-chno="1037" group-title="Hindi News",ZEE BUSINESS
+#EXTINF:-1 channel-id="samsung-INBD400004NS" tvg-id="INBD400004NS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400004NS_20250612T083831SQUARE.png"  tvg-chno="1037" group-title="NOTÍCIAS",ZEE BUSINESS
 https://jmp2.uk/stvp-INBD400004NS
-#EXTINF:-1 channel-id="samsung-IN4000007M9" tvg-id="IN4000007M9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000007M9_20251217T003125SQUARE.png"  tvg-chno="1038" group-title="Hindi News",INDIA DAILY 24X7
+#EXTINF:-1 channel-id="samsung-IN4000007M9" tvg-id="IN4000007M9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000007M9_20251217T003125SQUARE.png"  tvg-chno="1038" group-title="NOTÍCIAS",INDIA DAILY 24X7
 https://jmp2.uk/stvp-IN4000007M9
-#EXTINF:-1 channel-id="samsung-INBC4300010Z6" tvg-id="INBC4300010Z6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC4300010Z6_20250612T083833SQUARE.png"  tvg-chno="1039" group-title="Hindi News",ZEE NEWS
+#EXTINF:-1 channel-id="samsung-INBC4300010Z6" tvg-id="INBC4300010Z6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC4300010Z6_20250612T083833SQUARE.png"  tvg-chno="1039" group-title="NOTÍCIAS",ZEE NEWS
 https://jmp2.uk/stvp-INBC4300010Z6
-#EXTINF:-1 channel-id="samsung-INBC2800005X4" tvg-id="INBC2800005X4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800005X4_20240131T032450SQUARE.png_20240131032451.png"  tvg-chno="1041" group-title="English News",INDIA TODAY
+#EXTINF:-1 channel-id="samsung-INBC2800005X4" tvg-id="INBC2800005X4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800005X4_20240131T032450SQUARE.png_20240131032451.png"  tvg-chno="1041" group-title="NOTÍCIAS",INDIA TODAY
 https://jmp2.uk/stvp-INBC2800005X4
-#EXTINF:-1 channel-id="samsung-INBA4900020A5" tvg-id="INBA4900020A5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900020A5_20240131T032253SQUARE.png_20240131032254.png"  tvg-chno="1045" group-title="English News",REPUBLIC TV
+#EXTINF:-1 channel-id="samsung-INBA4900020A5" tvg-id="INBA4900020A5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900020A5_20240131T032253SQUARE.png_20240131032254.png"  tvg-chno="1045" group-title="NOTÍCIAS",REPUBLIC TV
 https://jmp2.uk/stvp-INBA4900020A5
-#EXTINF:-1 channel-id="samsung-INBC2800001D8" tvg-id="INBC2800001D8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800001D8_20240131T032458SQUARE.png_20240131032459.png"  tvg-chno="1047" group-title="English News",NDTV 24X7
+#EXTINF:-1 channel-id="samsung-INBC2800001D8" tvg-id="INBC2800001D8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800001D8_20240131T032458SQUARE.png_20240131032459.png"  tvg-chno="1047" group-title="NOTÍCIAS",NDTV 24X7
 https://jmp2.uk/stvp-INBC2800001D8
-#EXTINF:-1 channel-id="samsung-INBD1300009QZ" tvg-id="INBD1300009QZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300009QZ_20240131T032448SQUARE.png_20240131032449.png"  tvg-chno="1049" group-title="English News",CNN NEWS18
+#EXTINF:-1 channel-id="samsung-INBD1300009QZ" tvg-id="INBD1300009QZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300009QZ_20240131T032448SQUARE.png_20240131032449.png"  tvg-chno="1049" group-title="NOTÍCIAS",CNN NEWS18
 https://jmp2.uk/stvp-INBD1300009QZ
-#EXTINF:-1 channel-id="samsung-INBD25000021N" tvg-id="INBD25000021N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000021N_20241023T011722SQUARE.png"  tvg-chno="1050" group-title="English News",NEWS9 LIVE
+#EXTINF:-1 channel-id="samsung-INBD25000021N" tvg-id="INBD25000021N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000021N_20241023T011722SQUARE.png"  tvg-chno="1050" group-title="NOTÍCIAS",NEWS9 LIVE
 https://jmp2.uk/stvp-INBD25000021N
-#EXTINF:-1 channel-id="samsung-INBC2800006GF" tvg-id="INBC2800006GF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800006GF_20240912T093654SQUARE.png"  tvg-chno="1051" group-title="English News",NDTV PROFIT
+#EXTINF:-1 channel-id="samsung-INBC2800006GF" tvg-id="INBC2800006GF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800006GF_20240912T093654SQUARE.png"  tvg-chno="1051" group-title="NOTÍCIAS",NDTV PROFIT
 https://jmp2.uk/stvp-INBC2800006GF
-#EXTINF:-1 channel-id="samsung-INBD1300008ZY" tvg-id="INBD1300008ZY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300008ZY_20250604T011416SQUARE.png"  tvg-chno="1052" group-title="English News",CNBC TV18
+#EXTINF:-1 channel-id="samsung-INBD1300008ZY" tvg-id="INBD1300008ZY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300008ZY_20250604T011416SQUARE.png"  tvg-chno="1052" group-title="NOTÍCIAS",CNBC TV18
 https://jmp2.uk/stvp-INBD1300008ZY
-#EXTINF:-1 channel-id="samsung-INBA5100021WP" tvg-id="INBA5100021WP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA5100021WP_20240131T032221SQUARE.png_20240131032222.png"  tvg-chno="1053" group-title="English News",BLOOMBERG TV
+#EXTINF:-1 channel-id="samsung-INBA5100021WP" tvg-id="INBA5100021WP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA5100021WP_20240131T032221SQUARE.png_20240131032222.png"  tvg-chno="1053" group-title="NOTÍCIAS",BLOOMBERG TV
 https://jmp2.uk/stvp-INBA5100021WP
-#EXTINF:-1 channel-id="samsung-CA1400004AE" tvg-id="CA1400004AE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20250729T185109SQUARE.png"  tvg-chno="1055" group-title="News & Opinion",CTV NEWS
+#EXTINF:-1 channel-id="samsung-CA1400004AE" tvg-id="CA1400004AE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20250729T185109SQUARE.png"  tvg-chno="1055" group-title="NOTÍCIAS",CTV NEWS
 https://jmp2.uk/stvp-CA1400004AE
-#EXTINF:-1 channel-id="samsung-INBA5100022O4" tvg-id="INBA5100022O4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA5100022O4_20240131T032219SQUARE.png_20240131032219.png"  tvg-chno="1055" group-title="English News",BLOOMBERG ORIGINALS
+#EXTINF:-1 channel-id="samsung-INBA5100022O4" tvg-id="INBA5100022O4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA5100022O4_20240131T032219SQUARE.png_20240131032219.png"  tvg-chno="1055" group-title="NOTÍCIAS",BLOOMBERG ORIGINALS
 https://jmp2.uk/stvp-INBA5100022O4
-#EXTINF:-1 channel-id="samsung-INBD4000058T" tvg-id="INBD4000058T" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4000058T_20241113T015628SQUARE.png"  tvg-chno="1058" group-title="English News",WION
+#EXTINF:-1 channel-id="samsung-INBD4000058T" tvg-id="INBD4000058T" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4000058T_20241113T015628SQUARE.png"  tvg-chno="1058" group-title="NOTÍCIAS",WION
 https://jmp2.uk/stvp-INBD4000058T
-#EXTINF:-1 channel-id="samsung-IN4000003V7" tvg-id="IN4000003V7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000003V7_20260318T004129SQUARE.png"  tvg-chno="1059" group-title="Regional News",TV9 MARATHI
+#EXTINF:-1 channel-id="samsung-IN4000003V7" tvg-id="IN4000003V7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000003V7_20260318T004129SQUARE.png"  tvg-chno="1059" group-title="NOTÍCIAS",TV9 MARATHI
 https://jmp2.uk/stvp-IN4000003V7
-#EXTINF:-1 channel-id="samsung-CABC2300009KD" tvg-id="CABC2300009KD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300009KD_20251125T031029SQUARE.png"  tvg-chno="1060" group-title="News & Opinion",CBC NEWS
+#EXTINF:-1 channel-id="samsung-CABC2300009KD" tvg-id="CABC2300009KD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300009KD_20251125T031029SQUARE.png"  tvg-chno="1060" group-title="NOTÍCIAS",CBC NEWS
 https://jmp2.uk/stvp-CABC2300009KD
-#EXTINF:-1 channel-id="samsung-IN4000005BW" tvg-id="IN4000005BW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000005BW_20260121T010750SQUARE.png"  tvg-chno="1060" group-title="Regional News",ABP MAJHA
+#EXTINF:-1 channel-id="samsung-IN4000005BW" tvg-id="IN4000005BW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000005BW_20260121T010750SQUARE.png"  tvg-chno="1060" group-title="NOTÍCIAS",ABP MAJHA
 https://jmp2.uk/stvp-IN4000005BW
-#EXTINF:-1 channel-id="samsung-INBD400001CP" tvg-id="INBD400001CP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400001CP_20250612T083837SQUARE.png"  tvg-chno="1061" group-title="Regional News",ZEE 24 TAAS
+#EXTINF:-1 channel-id="samsung-INBD400001CP" tvg-id="INBD400001CP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400001CP_20250612T083837SQUARE.png"  tvg-chno="1061" group-title="NOTÍCIAS",ZEE 24 TAAS
 https://jmp2.uk/stvp-INBD400001CP
-#EXTINF:-1 channel-id="samsung-IN800013RB" tvg-id="IN800013RB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN800013RB_20260121T010830SQUARE.png"  tvg-chno="1063" group-title="Regional News",NDTV MARATHI
+#EXTINF:-1 channel-id="samsung-IN800013RB" tvg-id="IN800013RB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN800013RB_20260121T010830SQUARE.png"  tvg-chno="1063" group-title="NOTÍCIAS",NDTV MARATHI
 https://jmp2.uk/stvp-IN800013RB
-#EXTINF:-1 channel-id="samsung-CABC2300010E4" tvg-id="CABC2300010E4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300010E4_20250729T185317SQUARE.png"  tvg-chno="1065" group-title="News & Opinion",RADIO-CANADA INFO
+#EXTINF:-1 channel-id="samsung-CABC2300010E4" tvg-id="CABC2300010E4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300010E4_20250729T185317SQUARE.png"  tvg-chno="1065" group-title="NOTÍCIAS",RADIO-CANADA INFO
 https://jmp2.uk/stvp-CABC2300010E4
-#EXTINF:-1 channel-id="samsung-INBD2500017JZ" tvg-id="INBD2500017JZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500017JZ_20240508T020847SQUARE.png"  tvg-chno="1066" group-title="Regional News",NEWS18 PUNJAB HARYANA
+#EXTINF:-1 channel-id="samsung-INBD2500017JZ" tvg-id="INBD2500017JZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500017JZ_20240508T020847SQUARE.png"  tvg-chno="1066" group-title="NOTÍCIAS",NEWS18 PUNJAB HARYANA
 https://jmp2.uk/stvp-INBD2500017JZ
-#EXTINF:-1 channel-id="samsung-INBD2500009DK" tvg-id="INBD2500009DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500009DK_20240131T032506SQUARE.png_20240131032507.png"  tvg-chno="1067" group-title="Regional News",NEWS18 GUJARATI
+#EXTINF:-1 channel-id="samsung-INBD2500009DK" tvg-id="INBD2500009DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500009DK_20240131T032506SQUARE.png_20240131032507.png"  tvg-chno="1067" group-title="NOTÍCIAS",NEWS18 GUJARATI
 https://jmp2.uk/stvp-INBD2500009DK
-#EXTINF:-1 channel-id="samsung-INBD400010BD" tvg-id="INBD400010BD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400010BD_20240131T032435SQUARE.png_20240131032436.png"  tvg-chno="1069" group-title="Regional News",ABP ASMITA
+#EXTINF:-1 channel-id="samsung-INBD400010BD" tvg-id="INBD400010BD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400010BD_20240131T032435SQUARE.png_20240131032436.png"  tvg-chno="1069" group-title="NOTÍCIAS",ABP ASMITA
 https://jmp2.uk/stvp-INBD400010BD
-#EXTINF:-1 channel-id="samsung-INBD1300012GJ" tvg-id="INBD1300012GJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300012GJ_20241023T011733SQUARE.png"  tvg-chno="1071" group-title="Regional News",TV9 GUJARATI
+#EXTINF:-1 channel-id="samsung-INBD1300012GJ" tvg-id="INBD1300012GJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300012GJ_20241023T011733SQUARE.png"  tvg-chno="1071" group-title="NOTÍCIAS",TV9 GUJARATI
 https://jmp2.uk/stvp-INBD1300012GJ
-#EXTINF:-1 channel-id="samsung-INBD2500015H5" tvg-id="INBD2500015H5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500015H5_20250604T011419SQUARE.png"  tvg-chno="1074" group-title="Regional News",CNBC BAJAR
+#EXTINF:-1 channel-id="samsung-INBD2500015H5" tvg-id="INBD2500015H5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500015H5_20250604T011419SQUARE.png"  tvg-chno="1074" group-title="NOTÍCIAS",CNBC BAJAR
 https://jmp2.uk/stvp-INBD2500015H5
-#EXTINF:-1 channel-id="samsung-INBD2500007PD" tvg-id="INBD2500007PD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500007PD_20241023T011730SQUARE.png"  tvg-chno="1075" group-title="Regional News",TV9 BANGLA
+#EXTINF:-1 channel-id="samsung-INBD2500007PD" tvg-id="INBD2500007PD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500007PD_20241023T011730SQUARE.png"  tvg-chno="1075" group-title="NOTÍCIAS",TV9 BANGLA
 https://jmp2.uk/stvp-INBD2500007PD
-#EXTINF:-1 channel-id="samsung-IN4000006CF" tvg-id="IN4000006CF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000006CF_20251203T010201SQUARE.png"  tvg-chno="1076" group-title="Regional News",ABP ANANDA
+#EXTINF:-1 channel-id="samsung-IN4000006CF" tvg-id="IN4000006CF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000006CF_20251203T010201SQUARE.png"  tvg-chno="1076" group-title="NOTÍCIAS",ABP ANANDA
 https://jmp2.uk/stvp-IN4000006CF
-#EXTINF:-1 channel-id="samsung-INBD400003GE" tvg-id="INBD400003GE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400003GE_20250612T083828SQUARE.png"  tvg-chno="1077" group-title="Regional News",ZEE 24 GHANTA
+#EXTINF:-1 channel-id="samsung-INBD400003GE" tvg-id="INBD400003GE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400003GE_20250612T083828SQUARE.png"  tvg-chno="1077" group-title="NOTÍCIAS",ZEE 24 GHANTA
 https://jmp2.uk/stvp-INBD400003GE
-#EXTINF:-1 channel-id="samsung-INBD25000081V" tvg-id="INBD25000081V" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000081V_20240131T032503SQUARE.png_20240131032505.png"  tvg-chno="1079" group-title="Regional News",NEWS18 BANGLA
+#EXTINF:-1 channel-id="samsung-INBD25000081V" tvg-id="INBD25000081V" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000081V_20240131T032503SQUARE.png_20240131032505.png"  tvg-chno="1079" group-title="NOTÍCIAS",NEWS18 BANGLA
 https://jmp2.uk/stvp-INBD25000081V
-#EXTINF:-1 channel-id="samsung-INBD2500016OR" tvg-id="INBD2500016OR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500016OR_20240131T032519SQUARE.png_20240131032520.png"  tvg-chno="1081" group-title="Regional News",R BANGLA
+#EXTINF:-1 channel-id="samsung-INBD2500016OR" tvg-id="INBD2500016OR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500016OR_20240131T032519SQUARE.png_20240131032520.png"  tvg-chno="1081" group-title="NOTÍCIAS",R BANGLA
 https://jmp2.uk/stvp-INBD2500016OR
-#EXTINF:-1 channel-id="samsung-INBD4000027E" tvg-id="INBD4000027E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4000027E_20250612T083835SQUARE.png"  tvg-chno="1083" group-title="Regional News",ZEE 24 KALAK
+#EXTINF:-1 channel-id="samsung-INBD4000027E" tvg-id="INBD4000027E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4000027E_20250612T083835SQUARE.png"  tvg-chno="1083" group-title="NOTÍCIAS",ZEE 24 KALAK
 https://jmp2.uk/stvp-INBD4000027E
-#EXTINF:-1 channel-id="samsung-INBD2500013ID" tvg-id="INBD2500013ID" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500013ID_20240131T032511SQUARE.png_20240131032512.png"  tvg-chno="1084" group-title="Regional News",NEWS18 ODIA
+#EXTINF:-1 channel-id="samsung-INBD2500013ID" tvg-id="INBD2500013ID" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500013ID_20240131T032511SQUARE.png_20240131032512.png"  tvg-chno="1084" group-title="NOTÍCIAS",NEWS18 ODIA
 https://jmp2.uk/stvp-INBD2500013ID
-#EXTINF:-1 channel-id="samsung-INBD25000148M" tvg-id="INBD25000148M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000148M_20240417T022500SQUARE.png"  tvg-chno="1086" group-title="Regional News",NEWS18 TAMIL NADU
+#EXTINF:-1 channel-id="samsung-INBD25000148M" tvg-id="INBD25000148M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000148M_20240417T022500SQUARE.png"  tvg-chno="1086" group-title="NOTÍCIAS",NEWS18 TAMIL NADU
 https://jmp2.uk/stvp-INBD25000148M
-#EXTINF:-1 channel-id="samsung-IN3900003LA" tvg-id="IN3900003LA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900003LA_20251210T003947SQUARE.png"  tvg-chno="1087" group-title="Regional News",MALAI MURASU SEITHIKAL
+#EXTINF:-1 channel-id="samsung-IN3900003LA" tvg-id="IN3900003LA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900003LA_20251210T003947SQUARE.png"  tvg-chno="1087" group-title="NOTÍCIAS",MALAI MURASU SEITHIKAL
 https://jmp2.uk/stvp-IN3900003LA
-#EXTINF:-1 channel-id="samsung-IN40000048N" tvg-id="IN40000048N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN40000048N_20260318T004131SQUARE.png"  tvg-chno="1093" group-title="Regional News",TV9 TELUGU
+#EXTINF:-1 channel-id="samsung-IN40000048N" tvg-id="IN40000048N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN40000048N_20260318T004131SQUARE.png"  tvg-chno="1093" group-title="NOTÍCIAS",TV9 TELUGU
 https://jmp2.uk/stvp-IN40000048N
-#EXTINF:-1 channel-id="samsung-IN4900001AQ" tvg-id="IN4900001AQ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4900001AQ_20250811T033458SQUARE.png"  tvg-chno="1095" group-title="Regional News",ETV NEWS
+#EXTINF:-1 channel-id="samsung-IN4900001AQ" tvg-id="IN4900001AQ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4900001AQ_20250811T033458SQUARE.png"  tvg-chno="1095" group-title="NOTÍCIAS",ETV NEWS
 https://jmp2.uk/stvp-IN4900001AQ
-#EXTINF:-1 channel-id="samsung-INBD2500003XT" tvg-id="INBD2500003XT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500003XT_20241023T011724SQUARE.png"  tvg-chno="1101" group-title="Regional News",TV9 KANNADA
+#EXTINF:-1 channel-id="samsung-INBD2500003XT" tvg-id="INBD2500003XT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500003XT_20241023T011724SQUARE.png"  tvg-chno="1101" group-title="NOTÍCIAS",TV9 KANNADA
 https://jmp2.uk/stvp-INBD2500003XT
-#EXTINF:-1 channel-id="samsung-INBD2500012V1" tvg-id="INBD2500012V1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500012V1_20240131T032509SQUARE.png_20240131032510.png"  tvg-chno="1103" group-title="Regional News",NEWS18 KANNADA
+#EXTINF:-1 channel-id="samsung-INBD2500012V1" tvg-id="INBD2500012V1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500012V1_20240131T032509SQUARE.png_20240131032510.png"  tvg-chno="1103" group-title="NOTÍCIAS",NEWS18 KANNADA
 https://jmp2.uk/stvp-INBD2500012V1
-#EXTINF:-1 channel-id="samsung-IN8000106W" tvg-id="IN8000106W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN8000106W_20250507T003808SQUARE.png"  tvg-chno="1104" group-title="Regional News",ASIANET SUVARNA NEWS
+#EXTINF:-1 channel-id="samsung-IN8000106W" tvg-id="IN8000106W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN8000106W_20250507T003808SQUARE.png"  tvg-chno="1104" group-title="NOTÍCIAS",ASIANET SUVARNA NEWS
 https://jmp2.uk/stvp-IN8000106W
-#EXTINF:-1 channel-id="samsung-IN1600006GA" tvg-id="IN1600006GA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1600006GA_20240612T015020SQUARE.png"  tvg-chno="1105" group-title="Regional News",REPUBLIC KANNADA
+#EXTINF:-1 channel-id="samsung-IN1600006GA" tvg-id="IN1600006GA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1600006GA_20240612T015020SQUARE.png"  tvg-chno="1105" group-title="NOTÍCIAS",REPUBLIC KANNADA
 https://jmp2.uk/stvp-IN1600006GA
-#EXTINF:-1 channel-id="samsung-INBD25000225G" tvg-id="INBD25000225G" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000225G_20240508T020844SQUARE.png"  tvg-chno="1107" group-title="Regional News",NEWS18 KERALAM
+#EXTINF:-1 channel-id="samsung-INBD25000225G" tvg-id="INBD25000225G" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000225G_20240508T020844SQUARE.png"  tvg-chno="1107" group-title="NOTÍCIAS",NEWS18 KERALAM
 https://jmp2.uk/stvp-INBD25000225G
-#EXTINF:-1 channel-id="samsung-IN800012RO" tvg-id="IN800012RO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN800012RO_20250507T003805SQUARE.png"  tvg-chno="1109" group-title="Regional News",ASIANET NEWS
+#EXTINF:-1 channel-id="samsung-IN800012RO" tvg-id="IN800012RO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN800012RO_20250507T003805SQUARE.png"  tvg-chno="1109" group-title="NOTÍCIAS",ASIANET NEWS
 https://jmp2.uk/stvp-IN800012RO
-#EXTINF:-1 channel-id="samsung-USBA370000104" tvg-id="USBA370000104" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20251118T230104SQUARE.png"  tvg-chno="1110" group-title="News & Opinion",CBS NEWS 24/7
+#EXTINF:-1 channel-id="samsung-USBA370000104" tvg-id="USBA370000104" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20251118T230104SQUARE.png"  tvg-chno="1110" group-title="NOTÍCIAS",CBS NEWS 24/7
 https://jmp2.uk/stvp-USBA370000104
-#EXTINF:-1 channel-id="samsung-IN1600007AU" tvg-id="IN1600007AU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1600007AU_20240612T015012SQUARE.png"  tvg-chno="1111" group-title="Regional News",NEWS18 JAMMU KASHMIR
+#EXTINF:-1 channel-id="samsung-IN1600007AU" tvg-id="IN1600007AU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1600007AU_20240612T015012SQUARE.png"  tvg-chno="1111" group-title="NOTÍCIAS",NEWS18 JAMMU KASHMIR
 https://jmp2.uk/stvp-IN1600007AU
 #EXTINF:-1 channel-id="samsung-IN3600006RT" tvg-id="IN3600006RT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3600006RT_20260311T004428SQUARE.png"  tvg-chno="1112" group-title="VARIEDADES",COMEDY KING
 https://jmp2.uk/stvp-IN3600006RT
-#EXTINF:-1 channel-id="samsung-USBC39000171G" tvg-id="USBC39000171G" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000171G_20241105T024229SQUARE.png"  tvg-chno="1112" group-title="News & Opinion",ABC NEWS LIVE
+#EXTINF:-1 channel-id="samsung-USBC39000171G" tvg-id="USBC39000171G" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000171G_20241105T024229SQUARE.png"  tvg-chno="1112" group-title="NOTÍCIAS",ABC NEWS LIVE
 https://jmp2.uk/stvp-USBC39000171G
-#EXTINF:-1 channel-id="samsung-CAAJ2700011IF" tvg-id="CAAJ2700011IF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700011IF_20250729T185243SQUARE.png"  tvg-chno="1114" group-title="News & Opinion",NBC NEWS NOW
+#EXTINF:-1 channel-id="samsung-CAAJ2700011IF" tvg-id="CAAJ2700011IF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700011IF_20250729T185243SQUARE.png"  tvg-chno="1114" group-title="NOTÍCIAS",NBC NEWS NOW
 https://jmp2.uk/stvp-CAAJ2700011IF
 #EXTINF:-1 channel-id="samsung-IN3600005NF" tvg-id="IN3600005NF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3600005NF_20260318T004139SQUARE.png"  tvg-chno="1114" group-title="VARIEDADES",KOREAN TV
 https://jmp2.uk/stvp-IN3600005NF
-#EXTINF:-1 channel-id="samsung-USBB2200014DK" tvg-id="USBB2200014DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2200014DK_20241031T150132SQUARE.png"  tvg-chno="1114" group-title="News & Opinion",NBC NEWS NOW
+#EXTINF:-1 channel-id="samsung-USBB2200014DK" tvg-id="USBB2200014DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2200014DK_20241031T150132SQUARE.png"  tvg-chno="1114" group-title="NOTÍCIAS",NBC NEWS NOW
 https://jmp2.uk/stvp-USBB2200014DK
 #EXTINF:-1 channel-id="samsung-IN1700011V7" tvg-id="IN1700011V7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1700011V7_20260211T003305SQUARE.png"  tvg-chno="1115" group-title="VARIEDADES",NAZARA
 https://jmp2.uk/stvp-IN1700011V7
 #EXTINF:-1 channel-id="samsung-IN2600015OO" tvg-id="IN2600015OO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2600015OO_20240912T093637SQUARE.png"  tvg-chno="1116" group-title="VARIEDADES",CRIME TAK
 https://jmp2.uk/stvp-IN2600015OO
-#EXTINF:-1 channel-id="samsung-USBA300024TN" tvg-id="USBA300024TN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300024TN_20241031T150121SQUARE.png"  tvg-chno="1116" group-title="News & Opinion",LIVENOW FROM FOX
+#EXTINF:-1 channel-id="samsung-USBA300024TN" tvg-id="USBA300024TN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300024TN_20241031T150121SQUARE.png"  tvg-chno="1116" group-title="NOTÍCIAS",LIVENOW FROM FOX
 https://jmp2.uk/stvp-USBA300024TN
 #EXTINF:-1 channel-id="samsung-IN4600004HW" tvg-id="IN4600004HW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600004HW_20250416T005413SQUARE.png"  tvg-chno="1117" group-title="VARIEDADES",HOUSE OF CRIME
 https://jmp2.uk/stvp-IN4600004HW
 #EXTINF:-1 channel-id="samsung-IN3800002VK" tvg-id="IN3800002VK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800002VK_20251015T010515SQUARE.png"  tvg-chno="1118" group-title="VARIEDADES",THE LALLANTOP
 https://jmp2.uk/stvp-IN3800002VK
-#EXTINF:-1 channel-id="samsung-USBD3000073N" tvg-id="USBD3000073N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000073N_20240520T223411SQUARE.png"  tvg-chno="1119" group-title="News & Opinion",SCRIPPS NEWS
+#EXTINF:-1 channel-id="samsung-USBD3000073N" tvg-id="USBD3000073N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000073N_20240520T223411SQUARE.png"  tvg-chno="1119" group-title="NOTÍCIAS",SCRIPPS NEWS
 https://jmp2.uk/stvp-USBD3000073N
 #EXTINF:-1 channel-id="samsung-IN2600020H9" tvg-id="IN2600020H9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2600020H9_20240911T003806SQUARE.png"  tvg-chno="1120" group-title="VARIEDADES",INDIA TV AAP KI ADALAT
 https://jmp2.uk/stvp-IN2600020H9
 #EXTINF:-1 channel-id="samsung-IN400000830" tvg-id="IN400000830" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400000830_20251126T004252SQUARE.png"  tvg-chno="1121" group-title="VARIEDADES",ENT LIVE
 https://jmp2.uk/stvp-IN400000830
-#EXTINF:-1 channel-id="samsung-CA15000018F" tvg-id="CA15000018F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA15000018F_20250401T004701SQUARE.png"  tvg-chno="1122" group-title="News & Opinion",CBC NEWS BC
+#EXTINF:-1 channel-id="samsung-CA15000018F" tvg-id="CA15000018F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA15000018F_20250401T004701SQUARE.png"  tvg-chno="1122" group-title="NOTÍCIAS",CBC NEWS BC
 https://jmp2.uk/stvp-CA15000018F
 #EXTINF:-1 channel-id="samsung-IN3900002KB" tvg-id="IN3900002KB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900002KB_20250811T033446SQUARE.png"  tvg-chno="1122" group-title="VARIEDADES",E24
 https://jmp2.uk/stvp-IN3900002KB
-#EXTINF:-1 channel-id="samsung-CA4600010PN" tvg-id="CA4600010PN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600010PN_20250401T004709SQUARE.png"  tvg-chno="1123" group-title="News & Opinion",CBC NEWS CALGARY
+#EXTINF:-1 channel-id="samsung-CA4600010PN" tvg-id="CA4600010PN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600010PN_20250401T004709SQUARE.png"  tvg-chno="1123" group-title="NOTÍCIAS",CBC NEWS CALGARY
 https://jmp2.uk/stvp-CA4600010PN
 #EXTINF:-1 channel-id="samsung-IN3600007DC" tvg-id="IN3600007DC" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3600007DC_20251203T010208SQUARE.png"  tvg-chno="1123" group-title="VARIEDADES",AUTO LIVE
 https://jmp2.uk/stvp-IN3600007DC
-#EXTINF:-1 channel-id="samsung-CA4600008AI" tvg-id="CA4600008AI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600008AI_20250401T004712SQUARE.png"  tvg-chno="1124" group-title="News & Opinion",CBC NEWS EDMONTON
+#EXTINF:-1 channel-id="samsung-CA4600008AI" tvg-id="CA4600008AI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600008AI_20250401T004712SQUARE.png"  tvg-chno="1124" group-title="NOTÍCIAS",CBC NEWS EDMONTON
 https://jmp2.uk/stvp-CA4600008AI
 #EXTINF:-1 channel-id="samsung-IN24000052F" tvg-id="IN24000052F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN24000052F_20250811T033512SQUARE.png"  tvg-chno="1124" group-title="VARIEDADES",STAR CENTRAL
 https://jmp2.uk/stvp-IN24000052F
-#EXTINF:-1 channel-id="samsung-CA4600012O1" tvg-id="CA4600012O1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600012O1_20250401T004715SQUARE.png"  tvg-chno="1125" group-title="News & Opinion",CBC NEWS MANITOBA
+#EXTINF:-1 channel-id="samsung-CA4600012O1" tvg-id="CA4600012O1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600012O1_20250401T004715SQUARE.png"  tvg-chno="1125" group-title="NOTÍCIAS",CBC NEWS MANITOBA
 https://jmp2.uk/stvp-CA4600012O1
 #EXTINF:-1 channel-id="samsung-IN1600001OG" tvg-id="IN1600001OG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1600001OG_20240612T015018SQUARE.png"  tvg-chno="1125" group-title="VARIEDADES",PITAARA COMEDY
 https://jmp2.uk/stvp-IN1600001OG
-#EXTINF:-1 channel-id="samsung-CA4600006DO" tvg-id="CA4600006DO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600006DO_20250401T004718SQUARE.png"  tvg-chno="1126" group-title="News & Opinion",CBC NEWS NEW BRUNSWICK
+#EXTINF:-1 channel-id="samsung-CA4600006DO" tvg-id="CA4600006DO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600006DO_20250401T004718SQUARE.png"  tvg-chno="1126" group-title="NOTÍCIAS",CBC NEWS NEW BRUNSWICK
 https://jmp2.uk/stvp-CA4600006DO
 #EXTINF:-1 channel-id="samsung-IN400058AF" tvg-id="IN400058AF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400058AF_20260311T004509SQUARE.png"  tvg-chno="1126" group-title="VARIEDADES",TELUGUONE TV
 https://jmp2.uk/stvp-IN400058AF
-#EXTINF:-1 channel-id="samsung-CA4600003GV" tvg-id="CA4600003GV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600003GV_20250401T004721SQUARE.png"  tvg-chno="1127" group-title="News & Opinion",CBC NEWS NEWFOUNDLAND & LABRADOR
+#EXTINF:-1 channel-id="samsung-CA4600003GV" tvg-id="CA4600003GV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600003GV_20250401T004721SQUARE.png"  tvg-chno="1127" group-title="NOTÍCIAS",CBC NEWS NEWFOUNDLAND & LABRADOR
 https://jmp2.uk/stvp-CA4600003GV
 #EXTINF:-1 channel-id="samsung-IN4900003U3" tvg-id="IN4900003U3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4900003U3_20251106T195117SQUARE.png"  tvg-chno="1127" group-title="VARIEDADES",ETV COMEDY
 https://jmp2.uk/stvp-IN4900003U3
-#EXTINF:-1 channel-id="samsung-CA46000135R" tvg-id="CA46000135R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA46000135R_20250401T004724SQUARE.png"  tvg-chno="1128" group-title="News & Opinion",CBC NEWS NORTH
+#EXTINF:-1 channel-id="samsung-CA46000135R" tvg-id="CA46000135R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA46000135R_20250401T004724SQUARE.png"  tvg-chno="1128" group-title="NOTÍCIAS",CBC NEWS NORTH
 https://jmp2.uk/stvp-CA46000135R
 #EXTINF:-1 channel-id="samsung-IN4900004LP" tvg-id="IN4900004LP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4900004LP_20250811T033452SQUARE.png"  tvg-chno="1128" group-title="VARIEDADES",ETV JOSH
 https://jmp2.uk/stvp-IN4900004LP
-#EXTINF:-1 channel-id="samsung-CA4600007UE" tvg-id="CA4600007UE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600007UE_20250401T004727SQUARE.png"  tvg-chno="1129" group-title="News & Opinion",CBC NEWS NOVA SCOTIA
+#EXTINF:-1 channel-id="samsung-CA4600007UE" tvg-id="CA4600007UE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600007UE_20250401T004727SQUARE.png"  tvg-chno="1129" group-title="NOTÍCIAS",CBC NEWS NOVA SCOTIA
 https://jmp2.uk/stvp-CA4600007UE
 #EXTINF:-1 channel-id="samsung-INBA5100030AO" tvg-id="INBA5100030AO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA5100030AO_20220427T054551SQUARE.png_20220427054552.png"  tvg-chno="1129" group-title="VARIEDADES",FAILARMY
 https://jmp2.uk/stvp-INBA5100030AO
-#EXTINF:-1 channel-id="samsung-CA46000149D" tvg-id="CA46000149D" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA46000149D_20250915T233811SQUARE.png"  tvg-chno="1130" group-title="News & Opinion",CBC NEWS OTTAWA
+#EXTINF:-1 channel-id="samsung-CA46000149D" tvg-id="CA46000149D" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA46000149D_20250915T233811SQUARE.png"  tvg-chno="1130" group-title="NOTÍCIAS",CBC NEWS OTTAWA
 https://jmp2.uk/stvp-CA46000149D
 #EXTINF:-1 channel-id="samsung-IN24000030L" tvg-id="IN24000030L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN24000030L_20250811T033443SQUARE.png"  tvg-chno="1130" group-title="VARIEDADES",CRIME SCENE TV
 https://jmp2.uk/stvp-IN24000030L
-#EXTINF:-1 channel-id="samsung-USBD700003L7" tvg-id="USBD700003L7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700003L7_20250909T213109SQUARE.png"  tvg-chno="1130" group-title="News & Opinion",FOX WEATHER
+#EXTINF:-1 channel-id="samsung-USBD700003L7" tvg-id="USBD700003L7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700003L7_20250909T213109SQUARE.png"  tvg-chno="1130" group-title="NOTÍCIAS",FOX WEATHER
 https://jmp2.uk/stvp-USBD700003L7
-#EXTINF:-1 channel-id="samsung-CA4600002Z5" tvg-id="CA4600002Z5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600002Z5_20250401T004732SQUARE.png"  tvg-chno="1131" group-title="News & Opinion",CBC NEWS PEI
+#EXTINF:-1 channel-id="samsung-CA4600002Z5" tvg-id="CA4600002Z5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600002Z5_20250401T004732SQUARE.png"  tvg-chno="1131" group-title="NOTÍCIAS",CBC NEWS PEI
 https://jmp2.uk/stvp-CA4600002Z5
 #EXTINF:-1 channel-id="samsung-INBA5100029JI" tvg-id="INBA5100029JI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA5100029JI_20220427T054705SQUARE.png_20220427054706.png"  tvg-chno="1131" group-title="VARIEDADES",THE PET COLLECTIVE
 https://jmp2.uk/stvp-INBA5100029JI
-#EXTINF:-1 channel-id="samsung-CA4600005WZ" tvg-id="CA4600005WZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600005WZ_20250401T004735SQUARE.png"  tvg-chno="1132" group-title="News & Opinion",CBC NEWS QUEBEC
+#EXTINF:-1 channel-id="samsung-CA4600005WZ" tvg-id="CA4600005WZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600005WZ_20250401T004735SQUARE.png"  tvg-chno="1132" group-title="NOTÍCIAS",CBC NEWS QUEBEC
 https://jmp2.uk/stvp-CA4600005WZ
-#EXTINF:-1 channel-id="samsung-CA46000116C" tvg-id="CA46000116C" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA46000116C_20260310T031450SQUARE.png"  tvg-chno="1133" group-title="News & Opinion",CBC NEWS SASKATCHEWAN
+#EXTINF:-1 channel-id="samsung-CA46000116C" tvg-id="CA46000116C" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA46000116C_20260310T031450SQUARE.png"  tvg-chno="1133" group-title="NOTÍCIAS",CBC NEWS SASKATCHEWAN
 https://jmp2.uk/stvp-CA46000116C
 #EXTINF:-1 channel-id="samsung-IN2700003S1" tvg-id="IN2700003S1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2700003S1_20241016T011405SQUARE.png"  tvg-chno="1133" group-title="VARIEDADES",NOSEY
 https://jmp2.uk/stvp-IN2700003S1
-#EXTINF:-1 channel-id="samsung-US50000551O" tvg-id="US50000551O" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US50000551O_20260224T212706SQUARE.png"  tvg-chno="1133" group-title="News & Opinion",ACCUWEATHER NOW
+#EXTINF:-1 channel-id="samsung-US50000551O" tvg-id="US50000551O" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US50000551O_20260224T212706SQUARE.png"  tvg-chno="1133" group-title="NOTÍCIAS",ACCUWEATHER NOW
 https://jmp2.uk/stvp-US50000551O
-#EXTINF:-1 channel-id="samsung-CA1500002Q4" tvg-id="CA1500002Q4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500002Q4_20260117T020504SQUARE.png"  tvg-chno="1134" group-title="News & Opinion",CBC NEWS TORONTO
+#EXTINF:-1 channel-id="samsung-CA1500002Q4" tvg-id="CA1500002Q4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500002Q4_20260117T020504SQUARE.png"  tvg-chno="1134" group-title="NOTÍCIAS",CBC NEWS TORONTO
 https://jmp2.uk/stvp-CA1500002Q4
 #EXTINF:-1 channel-id="samsung-IN49000103E" tvg-id="IN49000103E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN49000103E_20260225T010351SQUARE.png"  tvg-chno="1134" group-title="VARIEDADES",K-CONTENT BY CJ ENM
 https://jmp2.uk/stvp-IN49000103E
-#EXTINF:-1 channel-id="samsung-CA4600015MG" tvg-id="CA4600015MG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600015MG_20250401T004741SQUARE.png"  tvg-chno="1135" group-title="News & Opinion",CBC NEWS WINDSOR
+#EXTINF:-1 channel-id="samsung-CA4600015MG" tvg-id="CA4600015MG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600015MG_20250401T004741SQUARE.png"  tvg-chno="1135" group-title="NOTÍCIAS",CBC NEWS WINDSOR
 https://jmp2.uk/stvp-CA4600015MG
 #EXTINF:-1 channel-id="samsung-IN3900022KR" tvg-id="IN3900022KR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900022KR_20260225T010326SQUARE.png"  tvg-chno="1135" group-title="VARIEDADES",MARK ROBER TV
 https://jmp2.uk/stvp-IN3900022KR
-#EXTINF:-1 channel-id="samsung-USBC1500009LD" tvg-id="USBC1500009LD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1500009LD_20241112T000830SQUARE.png"  tvg-chno="1135" group-title="News & Opinion",WEATHERNATION
+#EXTINF:-1 channel-id="samsung-USBC1500009LD" tvg-id="USBC1500009LD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1500009LD_20241112T000830SQUARE.png"  tvg-chno="1135" group-title="NOTÍCIAS",WEATHERNATION
 https://jmp2.uk/stvp-USBC1500009LD
 #EXTINF:-1 channel-id="samsung-IN3600009O8" tvg-id="IN3600009O8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3600009O8_20260225T010318SQUARE.png"  tvg-chno="1136" group-title="VARIEDADES",CHALLENGE ACCEPTED
 https://jmp2.uk/stvp-IN3600009O8
 #EXTINF:-1 channel-id="samsung-IN390002534" tvg-id="IN390002534" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN390002534_20260225T010328SQUARE.png"  tvg-chno="1137" group-title="VARIEDADES",THE TRY GUYS
 https://jmp2.uk/stvp-IN390002534
-#EXTINF:-1 channel-id="samsung-CABC23000223U" tvg-id="CABC23000223U" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000223U_20250729T185435SQUARE.png"  tvg-chno="1138" group-title="News & Opinion",THE WEATHER NETWORK
+#EXTINF:-1 channel-id="samsung-CABC23000223U" tvg-id="CABC23000223U" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000223U_20250729T185435SQUARE.png"  tvg-chno="1138" group-title="NOTÍCIAS",THE WEATHER NETWORK
 https://jmp2.uk/stvp-CABC23000223U
 #EXTINF:-1 channel-id="samsung-IN3000010V5" tvg-id="IN3000010V5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3000010V5_20260121T010827SQUARE.png"  tvg-chno="1138" group-title="VARIEDADES",MR. BEAN ANIMATED
 https://jmp2.uk/stvp-IN3000010V5
@@ -596,15 +596,15 @@ https://jmp2.uk/stvp-IN3000010V5
 https://jmp2.uk/stvp-IN2100007QM
 #EXTINF:-1 channel-id="samsung-IN4600019L1" tvg-id="IN4600019L1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600019L1_20260225T010345SQUARE.png"  tvg-chno="1140" group-title="VARIEDADES",SERIES K BY MBC
 https://jmp2.uk/stvp-IN4600019L1
-#EXTINF:-1 channel-id="samsung-US4000033L" tvg-id="US4000033L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4000033L_20250325T015110SQUARE.png"  tvg-chno="1140" group-title="News & Opinion",BBC NEWS
+#EXTINF:-1 channel-id="samsung-US4000033L" tvg-id="US4000033L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4000033L_20250325T015110SQUARE.png"  tvg-chno="1140" group-title="NOTÍCIAS",BBC NEWS
 https://jmp2.uk/stvp-US4000033L
-#EXTINF:-1 channel-id="samsung-USBB52000022Q" tvg-id="USBB52000022Q" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB52000022Q_20241015T223528SQUARE.png"  tvg-chno="1145" group-title="News & Opinion",SKY NEWS
+#EXTINF:-1 channel-id="samsung-USBB52000022Q" tvg-id="USBB52000022Q" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB52000022Q_20241015T223528SQUARE.png"  tvg-chno="1145" group-title="NOTÍCIAS",SKY NEWS
 https://jmp2.uk/stvp-USBB52000022Q
-#EXTINF:-1 channel-id="samsung-USBC4400003OU" tvg-id="USBC4400003OU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC4400003OU_20251125T030832SQUARE.png"  tvg-chno="1150" group-title="News & Opinion",CBC NEWS
+#EXTINF:-1 channel-id="samsung-USBC4400003OU" tvg-id="USBC4400003OU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC4400003OU_20251125T030832SQUARE.png"  tvg-chno="1150" group-title="NOTÍCIAS",CBC NEWS
 https://jmp2.uk/stvp-USBC4400003OU
-#EXTINF:-1 channel-id="samsung-USAJ3400011A8" tvg-id="USAJ3400011A8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3400011A8_20241203T231504SQUARE.png"  tvg-chno="1155" group-title="News & Opinion",BLOOMBERG TV+
+#EXTINF:-1 channel-id="samsung-USAJ3400011A8" tvg-id="USAJ3400011A8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3400011A8_20241203T231504SQUARE.png"  tvg-chno="1155" group-title="NOTÍCIAS",BLOOMBERG TV+
 https://jmp2.uk/stvp-USAJ3400011A8
-#EXTINF:-1 channel-id="samsung-USAJ30000041W" tvg-id="USAJ30000041W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ30000041W_20240924T225008SQUARE.png"  tvg-chno="1160" group-title="News & Opinion",BLOOMBERG ORIGINALS
+#EXTINF:-1 channel-id="samsung-USAJ30000041W" tvg-id="USAJ30000041W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ30000041W_20240924T225008SQUARE.png"  tvg-chno="1160" group-title="NOTÍCIAS",BLOOMBERG ORIGINALS
 https://jmp2.uk/stvp-USAJ30000041W
 #EXTINF:-1 channel-id="samsung-IN1600009NL" tvg-id="IN1600009NL" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1600009NL_20240912T093622SQUARE.png"  tvg-chno="1163" group-title="DOCUMENTÁRIOS",HISTORY TV18 - HINDI
 https://jmp2.uk/stvp-IN1600009NL
@@ -612,25 +612,25 @@ https://jmp2.uk/stvp-IN1600009NL
 https://jmp2.uk/stvp-IN1600008DN
 #EXTINF:-1 channel-id="samsung-IN17000109O" tvg-id="IN17000109O" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN17000109O_20241024T054038SQUARE.png"  tvg-chno="1165" group-title="DOCUMENTÁRIOS",EPIC
 https://jmp2.uk/stvp-IN17000109O
-#EXTINF:-1 channel-id="samsung-USAJ4300005PJ" tvg-id="USAJ4300005PJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300005PJ_20260120T230333SQUARE.png"  tvg-chno="1165" group-title="News & Opinion",YAHOO FINANCE
+#EXTINF:-1 channel-id="samsung-USAJ4300005PJ" tvg-id="USAJ4300005PJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300005PJ_20260120T230333SQUARE.png"  tvg-chno="1165" group-title="NOTÍCIAS",YAHOO FINANCE
 https://jmp2.uk/stvp-USAJ4300005PJ
 #EXTINF:-1 channel-id="samsung-IN460000585" tvg-id="IN460000585" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN460000585_20250416T020413SQUARE.png"  tvg-chno="1166" group-title="DOCUMENTÁRIOS",WILD FLIX
 https://jmp2.uk/stvp-IN460000585
-#EXTINF:-1 channel-id="samsung-USBA300028QU" tvg-id="USBA300028QU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300028QU_20251209T230208SQUARE.png"  tvg-chno="1170" group-title="News & Opinion",NEWSMAX2
+#EXTINF:-1 channel-id="samsung-USBA300028QU" tvg-id="USBA300028QU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300028QU_20251209T230208SQUARE.png"  tvg-chno="1170" group-title="NOTÍCIAS",NEWSMAX2
 https://jmp2.uk/stvp-USBA300028QU
 #EXTINF:-1 channel-id="samsung-INBA4900023QJ" tvg-id="INBA4900023QJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900023QJ_20220427T054726SQUARE.png_20220427054727.png"  tvg-chno="1173" group-title="DOCUMENTÁRIOS",XPLORE
 https://jmp2.uk/stvp-INBA4900023QJ
-#EXTINF:-1 channel-id="samsung-USBB1900002KF" tvg-id="USBB1900002KF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1900002KF_20240520T222747SQUARE.png"  tvg-chno="1175" group-title="News & Opinion",REAL AMERICA'S VOICE
+#EXTINF:-1 channel-id="samsung-USBB1900002KF" tvg-id="USBB1900002KF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1900002KF_20240520T222747SQUARE.png"  tvg-chno="1175" group-title="NOTÍCIAS",REAL AMERICA'S VOICE
 https://jmp2.uk/stvp-USBB1900002KF
 #EXTINF:-1 channel-id="samsung-INBA4900024R1" tvg-id="INBA4900024R1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900024R1_20220427T054620SQUARE.png_20220427054621.png"  tvg-chno="1177" group-title="DOCUMENTÁRIOS",JACK HANNA
 https://jmp2.uk/stvp-INBA4900024R1
-#EXTINF:-1 channel-id="samsung-US3700004Y0" tvg-id="US3700004Y0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3700004Y0_20251230T035618SQUARE.png"  tvg-chno="1177" group-title="News & Opinion",SALEM NEWS CHANNEL
+#EXTINF:-1 channel-id="samsung-US3700004Y0" tvg-id="US3700004Y0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3700004Y0_20251230T035618SQUARE.png"  tvg-chno="1177" group-title="NOTÍCIAS",SALEM NEWS CHANNEL
 https://jmp2.uk/stvp-US3700004Y0
 #EXTINF:-1 channel-id="samsung-IN46000011Q" tvg-id="IN46000011Q" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN46000011Q_20250205T004626SQUARE.png"  tvg-chno="1179" group-title="DOCUMENTÁRIOS",XXTREME JOBS
 https://jmp2.uk/stvp-IN46000011Q
 #EXTINF:-1 channel-id="samsung-IN2400002A3" tvg-id="IN2400002A3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2400002A3_20250811T033501SQUARE.png"  tvg-chno="1180" group-title="DOCUMENTÁRIOS",GO WILD
 https://jmp2.uk/stvp-IN2400002A3
-#EXTINF:-1 channel-id="samsung-US1000016Q" tvg-id="US1000016Q" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1000016Q_20240520T223423SQUARE.png"  tvg-chno="1180" group-title="News & Opinion",THE FIRST
+#EXTINF:-1 channel-id="samsung-US1000016Q" tvg-id="US1000016Q" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1000016Q_20240520T223423SQUARE.png"  tvg-chno="1180" group-title="NOTÍCIAS",THE FIRST
 https://jmp2.uk/stvp-US1000016Q
 #EXTINF:-1 channel-id="samsung-INBA5100028R4" tvg-id="INBA5100028R4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA5100028R4_20220427T054720SQUARE.png_20220427054721.png"  tvg-chno="1181" group-title="DOCUMENTÁRIOS",WEATHERSPY
 https://jmp2.uk/stvp-INBA5100028R4
@@ -638,7 +638,7 @@ https://jmp2.uk/stvp-INBA5100028R4
 https://jmp2.uk/stvp-INBA4900005PV
 #EXTINF:-1 channel-id="samsung-INBA4900007JX" tvg-id="INBA4900007JX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900007JX_20230308T013510SQUARE.png_20230308013511.png"  tvg-chno="1185" group-title="DOCUMENTÁRIOS",INWILD
 https://jmp2.uk/stvp-INBA4900007JX
-#EXTINF:-1 channel-id="samsung-USBA30002142" tvg-id="USBA30002142" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA30002142_20250325T020252SQUARE.png"  tvg-chno="1185" group-title="News & Opinion",TYT NETWORK
+#EXTINF:-1 channel-id="samsung-USBA30002142" tvg-id="USBA30002142" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA30002142_20250325T020252SQUARE.png"  tvg-chno="1185" group-title="NOTÍCIAS",TYT NETWORK
 https://jmp2.uk/stvp-USBA30002142
 #EXTINF:-1 channel-id="samsung-IN460000250" tvg-id="IN460000250" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN460000250_20250416T020410SQUARE.png"  tvg-chno="1187" group-title="DOCUMENTÁRIOS",WHEEL WORLD
 https://jmp2.uk/stvp-IN460000250
@@ -646,7 +646,7 @@ https://jmp2.uk/stvp-IN460000250
 https://jmp2.uk/stvp-IN800006BS
 #EXTINF:-1 channel-id="samsung-IN3600008TY" tvg-id="IN3600008TY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3600008TY_20260225T010316SQUARE.png"  tvg-chno="1190" group-title="DOCUMENTÁRIOS",BRAVE WILDERNESS
 https://jmp2.uk/stvp-IN3600008TY
-#EXTINF:-1 channel-id="samsung-US3300008FX" tvg-id="US3300008FX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300008FX_20241022T004442SQUARE.png"  tvg-chno="1190" group-title="News & Opinion",THE HILL
+#EXTINF:-1 channel-id="samsung-US3300008FX" tvg-id="US3300008FX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300008FX_20241022T004442SQUARE.png"  tvg-chno="1190" group-title="NOTÍCIAS",THE HILL
 https://jmp2.uk/stvp-US3300008FX
 #EXTINF:-1 channel-id="samsung-CAAJ40000077N" tvg-id="CAAJ40000077N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ40000077N_20251125T191329SQUARE.png"  tvg-chno="1210" group-title="FILMES",FILMRISE FREE MOVIES
 https://jmp2.uk/stvp-CAAJ40000077N
@@ -766,21 +766,21 @@ https://jmp2.uk/stvp-IN39000216A
 https://jmp2.uk/stvp-IN39000260R
 #EXTINF:-1 channel-id="samsung-INBA5100025YE" tvg-id="INBA5100025YE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA5100025YE_20220427T054559SQUARE.png_20220427054600.png"  tvg-chno="1389" group-title="VARIEDADES",GOUSA TV
 https://jmp2.uk/stvp-INBA5100025YE
-#EXTINF:-1 channel-id="samsung-USBA300005MK" tvg-id="USBA300005MK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300005MK_20241112T000726SQUARE.png"  tvg-chno="1406" group-title="Western & Classic TV",PLUTO TV WESTERNS
+#EXTINF:-1 channel-id="samsung-USBA300005MK" tvg-id="USBA300005MK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300005MK_20241112T000726SQUARE.png"  tvg-chno="1406" group-title="SÉRIES",PLUTO TV WESTERNS
 https://jmp2.uk/stvp-USBA300005MK
 #EXTINF:-1 channel-id="samsung-CA44000025P" tvg-id="CA44000025P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA44000025P_20250819T224258SQUARE.png"  tvg-chno="1407" group-title="FILMES",GRJNGO
 https://jmp2.uk/stvp-CA44000025P
-#EXTINF:-1 channel-id="samsung-US44000027B" tvg-id="US44000027B" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US44000027B_20250204T014310SQUARE.png"  tvg-chno="1407" group-title="Western & Classic TV",GRJNGO
+#EXTINF:-1 channel-id="samsung-US44000027B" tvg-id="US44000027B" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US44000027B_20250204T014310SQUARE.png"  tvg-chno="1407" group-title="SÉRIES",GRJNGO
 https://jmp2.uk/stvp-US44000027B
 #EXTINF:-1 channel-id="samsung-CAAJ27000159K" tvg-id="CAAJ27000159K" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ27000159K_20251125T191326SQUARE.png"  tvg-chno="1408" group-title="FILMES",FILMRISE WESTERN
 https://jmp2.uk/stvp-CAAJ27000159K
-#EXTINF:-1 channel-id="samsung-USBB32000196O" tvg-id="USBB32000196O" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000196O_20251125T191307SQUARE.png"  tvg-chno="1408" group-title="Western & Classic TV",FILMRISE WESTERNS
+#EXTINF:-1 channel-id="samsung-USBB32000196O" tvg-id="USBB32000196O" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000196O_20251125T191307SQUARE.png"  tvg-chno="1408" group-title="SÉRIES",FILMRISE WESTERNS
 https://jmp2.uk/stvp-USBB32000196O
 #EXTINF:-1 channel-id="samsung-CABC23000056U" tvg-id="CABC23000056U" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000056U_20250729T185233SQUARE.png"  tvg-chno="1409" group-title="VARIEDADES",MIDSOMER MURDERS
 https://jmp2.uk/stvp-CABC23000056U
 #EXTINF:-1 channel-id="samsung-CA4600001IG" tvg-id="CA4600001IG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600001IG_20250819T224303SQUARE.png"  tvg-chno="1410" group-title="VARIEDADES",MURDOCH MYSTERIES
 https://jmp2.uk/stvp-CA4600001IG
-#EXTINF:-1 channel-id="samsung-USBC24000213P" tvg-id="USBC24000213P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000213P_20250616T221715SQUARE.png"  tvg-chno="1410" group-title="Western & Classic TV",GRIT XTRA
+#EXTINF:-1 channel-id="samsung-USBC24000213P" tvg-id="USBC24000213P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000213P_20250616T221715SQUARE.png"  tvg-chno="1410" group-title="SÉRIES",GRIT XTRA
 https://jmp2.uk/stvp-USBC24000213P
 #EXTINF:-1 channel-id="samsung-INBD13000053R" tvg-id="INBD13000053R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD13000053R_20241024T054024SQUARE.png"  tvg-chno="1411" group-title="RELIGIOSO",DIVYA
 https://jmp2.uk/stvp-INBD13000053R
@@ -788,19 +788,19 @@ https://jmp2.uk/stvp-INBD13000053R
 https://jmp2.uk/stvp-CA2900008Y0
 #EXTINF:-1 channel-id="samsung-IN1600002IQ" tvg-id="IN1600002IQ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1600002IQ_20240612T015010SQUARE.png"  tvg-chno="1413" group-title="RELIGIOSO",DIVYA BHAJAN
 https://jmp2.uk/stvp-IN1600002IQ
-#EXTINF:-1 channel-id="samsung-US2900007HA" tvg-id="US2900007HA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2900007HA_20241210T013851SQUARE.png"  tvg-chno="1413" group-title="Western & Classic TV",DEATH VALLEY DAYS
+#EXTINF:-1 channel-id="samsung-US2900007HA" tvg-id="US2900007HA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2900007HA_20241210T013851SQUARE.png"  tvg-chno="1413" group-title="SÉRIES",DEATH VALLEY DAYS
 https://jmp2.uk/stvp-US2900007HA
 #EXTINF:-1 channel-id="samsung-IN4600011RZ" tvg-id="IN4600011RZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600011RZ_20260211T003254SQUARE.png"  tvg-chno="1415" group-title="RELIGIOSO",BHAKTI PLAY
 https://jmp2.uk/stvp-IN4600011RZ
-#EXTINF:-1 channel-id="samsung-US4500003B0" tvg-id="US4500003B0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4500003B0_20251125T030814SQUARE.png"  tvg-chno="1415" group-title="Western & Classic TV",WILD WEST TV
+#EXTINF:-1 channel-id="samsung-US4500003B0" tvg-id="US4500003B0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4500003B0_20251125T030814SQUARE.png"  tvg-chno="1415" group-title="SÉRIES",WILD WEST TV
 https://jmp2.uk/stvp-US4500003B0
 #EXTINF:-1 channel-id="samsung-CABC2300007YT" tvg-id="CABC2300007YT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300007YT_20250623T224837SQUARE.png"  tvg-chno="1420" group-title="VARIEDADES",WESTERN BOUND
 https://jmp2.uk/stvp-CABC2300007YT
-#EXTINF:-1 channel-id="samsung-USBC3200020QF" tvg-id="USBC3200020QF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3200020QF_20250623T224734SQUARE.png"  tvg-chno="1420" group-title="Western & Classic TV",WESTERN BOUND
+#EXTINF:-1 channel-id="samsung-USBC3200020QF" tvg-id="USBC3200020QF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3200020QF_20250623T224734SQUARE.png"  tvg-chno="1420" group-title="SÉRIES",WESTERN BOUND
 https://jmp2.uk/stvp-USBC3200020QF
 #EXTINF:-1 channel-id="samsung-CABB19000010Y" tvg-id="CABB19000010Y" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB19000010Y_20250523T231345SQUARE.png"  tvg-chno="1425" group-title="VARIEDADES",CIRCLE COUNTRY
 https://jmp2.uk/stvp-CABB19000010Y
-#EXTINF:-1 channel-id="samsung-USBA300035FV" tvg-id="USBA300035FV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300035FV_20240528T020917SQUARE.png"  tvg-chno="1425" group-title="Western & Classic TV",CIRCLE
+#EXTINF:-1 channel-id="samsung-USBA300035FV" tvg-id="USBA300035FV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300035FV_20240528T020917SQUARE.png"  tvg-chno="1425" group-title="SÉRIES",CIRCLE
 https://jmp2.uk/stvp-USBA300035FV
 #EXTINF:-1 channel-id="samsung-IN3900017KM" tvg-id="IN3900017KM" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900017KM_20250811T033432SQUARE.png"  tvg-chno="1434" group-title="MÚSICA",B4U MUSIC
 https://jmp2.uk/stvp-IN3900017KM
@@ -832,7 +832,7 @@ https://jmp2.uk/stvp-IN800001OD
 https://jmp2.uk/stvp-IN8000027E
 #EXTINF:-1 channel-id="samsung-IN800003JE" tvg-id="IN800003JE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN800003JE_20260318T003943SQUARE.png"  tvg-chno="1459" group-title="MÚSICA",THAT'S ROCK
 https://jmp2.uk/stvp-IN800003JE
-#EXTINF:-1 channel-id="samsung-USBD1200021JM" tvg-id="USBD1200021JM" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200021JM_20250401T004834SQUARE.png"  tvg-chno="1460" group-title="Western & Classic TV",SHOUT! TV
+#EXTINF:-1 channel-id="samsung-USBD1200021JM" tvg-id="USBD1200021JM" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200021JM_20250401T004834SQUARE.png"  tvg-chno="1460" group-title="SÉRIES",SHOUT! TV
 https://jmp2.uk/stvp-USBD1200021JM
 #EXTINF:-1 channel-id="samsung-IN3800006RD" tvg-id="IN3800006RD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800006RD_20251203T010147SQUARE.png"  tvg-chno="1461" group-title="MÚSICA",K-POP BY CJ ENM
 https://jmp2.uk/stvp-IN3800006RD
@@ -846,17 +846,17 @@ https://jmp2.uk/stvp-IN800004YV
 https://jmp2.uk/stvp-INBA4900001DL
 #EXTINF:-1 channel-id="samsung-IN4900011OU" tvg-id="IN4900011OU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4900011OU_20260225T010232SQUARE.png"  tvg-chno="1466" group-title="MÚSICA",@K-MUSIC
 https://jmp2.uk/stvp-IN4900011OU
-#EXTINF:-1 channel-id="samsung-IN300083R1" tvg-id="IN300083R1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN300083R1_20260311T004500SQUARE.png"  tvg-chno="1467" group-title="Regional News",NEWS STATE PUN HAR HIM
+#EXTINF:-1 channel-id="samsung-IN300083R1" tvg-id="IN300083R1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN300083R1_20260311T004500SQUARE.png"  tvg-chno="1467" group-title="NOTÍCIAS",NEWS STATE PUN HAR HIM
 https://jmp2.uk/stvp-IN300083R1
-#EXTINF:-1 channel-id="samsung-IN300085JT" tvg-id="IN300085JT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN300085JT_20260311T004454SQUARE.png"  tvg-chno="1468" group-title="Regional News",NEWS STATE BR JH
+#EXTINF:-1 channel-id="samsung-IN300085JT" tvg-id="IN300085JT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN300085JT_20260311T004454SQUARE.png"  tvg-chno="1468" group-title="NOTÍCIAS",NEWS STATE BR JH
 https://jmp2.uk/stvp-IN300085JT
-#EXTINF:-1 channel-id="samsung-IN3000846P" tvg-id="IN3000846P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3000846P_20260311T004503SQUARE.png"  tvg-chno="1469" group-title="Regional News",NEWS STATE UP UK
+#EXTINF:-1 channel-id="samsung-IN3000846P" tvg-id="IN3000846P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3000846P_20260311T004503SQUARE.png"  tvg-chno="1469" group-title="NOTÍCIAS",NEWS STATE UP UK
 https://jmp2.uk/stvp-IN3000846P
-#EXTINF:-1 channel-id="samsung-IN3900001YE" tvg-id="IN3900001YE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900001YE_20250430T011913SQUARE.png"  tvg-chno="1470" group-title="Hindi News",NEWS24
+#EXTINF:-1 channel-id="samsung-IN3900001YE" tvg-id="IN3900001YE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900001YE_20250430T011913SQUARE.png"  tvg-chno="1470" group-title="NOTÍCIAS",NEWS24
 https://jmp2.uk/stvp-IN3900001YE
-#EXTINF:-1 channel-id="samsung-IN2100008VF" tvg-id="IN2100008VF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100008VF_20251015T010545SQUARE.png"  tvg-chno="1471" group-title="Regional News",NEWS24 MP CG
+#EXTINF:-1 channel-id="samsung-IN2100008VF" tvg-id="IN2100008VF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100008VF_20251015T010545SQUARE.png"  tvg-chno="1471" group-title="NOTÍCIAS",NEWS24 MP CG
 https://jmp2.uk/stvp-IN2100008VF
-#EXTINF:-1 channel-id="samsung-IN4000012ML" tvg-id="IN4000012ML" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000012ML_20260311T004457SQUARE.png"  tvg-chno="1472" group-title="Regional News",NEWS STATE MP CG
+#EXTINF:-1 channel-id="samsung-IN4000012ML" tvg-id="IN4000012ML" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000012ML_20260311T004457SQUARE.png"  tvg-chno="1472" group-title="NOTÍCIAS",NEWS STATE MP CG
 https://jmp2.uk/stvp-IN4000012ML
 #EXTINF:-1 channel-id="samsung-CA34000033Z" tvg-id="CA34000033Z" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA34000033Z_20260217T231420SQUARE.png"  tvg-chno="1480" group-title="VARIEDADES",HEARTIES
 https://jmp2.uk/stvp-CA34000033Z
@@ -1964,13 +1964,13 @@ https://jmp2.uk/stvp-USBA3800001E0
 https://jmp2.uk/stvp-US1700019P7
 #EXTINF:-1 channel-id="samsung-USAJ1700009QJ" tvg-id="USAJ1700009QJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ1700009QJ_20260303T093903SQUARE.png"  tvg-chno="3993" group-title="VARIEDADES",FREETV ESTELAR
 https://jmp2.uk/stvp-USAJ1700009QJ
-#EXTINF:-1 channel-id="samsung-ES300034BT" tvg-id="ES300034BT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300034BT_20260310T031621SQUARE.png"  tvg-chno="4001" group-title="Noticias",ACTUALIDAD 360
+#EXTINF:-1 channel-id="samsung-ES300034BT" tvg-id="ES300034BT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300034BT_20260310T031621SQUARE.png"  tvg-chno="4001" group-title="NOTÍCIAS",ACTUALIDAD 360
 https://jmp2.uk/stvp-ES300034BT
 #EXTINF:-1 channel-id="samsung-FR42000023H" tvg-id="FR42000023H" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR42000023H_20260310T031744SQUARE.png"  tvg-chno="4001" group-title="FILMES",MOVIESPHERE
 https://jmp2.uk/stvp-FR42000023H
 #EXTINF:-1 channel-id="samsung-GB500006EX" tvg-id="GB500006EX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB500006EX_20260310T031829SQUARE.png"  tvg-chno="4001" group-title="SÉRIES",ESCAPE TO THE COUNTRY
 https://jmp2.uk/stvp-GB500006EX
-#EXTINF:-1 channel-id="samsung-IT3200004WU" tvg-id="IT3200004WU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200004WU_20260310T031946SQUARE.png"  tvg-chno="4001" group-title="News",RAI NEWS 24
+#EXTINF:-1 channel-id="samsung-IT3200004WU" tvg-id="IT3200004WU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200004WU_20260310T031946SQUARE.png"  tvg-chno="4001" group-title="NOTÍCIAS",RAI NEWS 24
 https://jmp2.uk/stvp-IT3200004WU
 #EXTINF:-1 channel-id="samsung-ATBA3300031VR" tvg-id="ATBA3300031VR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBA3300031VR_20260310T031236SQUARE.png"  tvg-chno="4002" group-title="DOCUMENTÁRIOS",WILDER PLANET
 https://jmp2.uk/stvp-ATBA3300031VR
@@ -1978,7 +1978,7 @@ https://jmp2.uk/stvp-ATBA3300031VR
 https://jmp2.uk/stvp-CHBA3300028G3
 #EXTINF:-1 channel-id="samsung-ES33000079W" tvg-id="ES33000079W" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES33000079W_20260310T031631SQUARE.png"  tvg-chno="4002" group-title="VARIEDADES",RTVE COCINA
 https://jmp2.uk/stvp-ES33000079W
-#EXTINF:-1 channel-id="samsung-FRBD410000783" tvg-id="FRBD410000783" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD410000783_20251209T004432SQUARE.png"  tvg-chno="4002" group-title="Actualités",BFM TV
+#EXTINF:-1 channel-id="samsung-FRBD410000783" tvg-id="FRBD410000783" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD410000783_20251209T004432SQUARE.png"  tvg-chno="4002" group-title="NOTÍCIAS",BFM TV
 https://jmp2.uk/stvp-FRBD410000783
 #EXTINF:-1 channel-id="samsung-GB3600002EB" tvg-id="GB3600002EB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3600002EB_20260310T031846SQUARE.png"  tvg-chno="4002" group-title="SÉRIES",THE OSBOURNES
 https://jmp2.uk/stvp-GB3600002EB
@@ -1996,17 +1996,17 @@ https://jmp2.uk/stvp-FR3700001AG
 https://jmp2.uk/stvp-IT3200002L5
 #EXTINF:-1 channel-id="samsung-AT32000109U" tvg-id="AT32000109U" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT32000109U_20260310T031257SQUARE.png"  tvg-chno="4004" group-title="VARIEDADES",LADYKRACHER
 https://jmp2.uk/stvp-AT32000109U
-#EXTINF:-1 channel-id="samsung-CH26000037F" tvg-id="CH26000037F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH26000037F_20250415T021612SQUARE.png"  tvg-chno="4004" group-title="News",EURONEWS LIVE
+#EXTINF:-1 channel-id="samsung-CH26000037F" tvg-id="CH26000037F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH26000037F_20250415T021612SQUARE.png"  tvg-chno="4004" group-title="NOTÍCIAS",EURONEWS LIVE
 https://jmp2.uk/stvp-CH26000037F
-#EXTINF:-1 channel-id="samsung-DE2600003TR" tvg-id="DE2600003TR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE2600003TR_20250415T021654SQUARE.png"  tvg-chno="4004" group-title="News",EURONEWS LIVE
+#EXTINF:-1 channel-id="samsung-DE2600003TR" tvg-id="DE2600003TR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE2600003TR_20250415T021654SQUARE.png"  tvg-chno="4004" group-title="NOTÍCIAS",EURONEWS LIVE
 https://jmp2.uk/stvp-DE2600003TR
 #EXTINF:-1 channel-id="samsung-ES26000068D" tvg-id="ES26000068D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES26000068D_20241126T043113SQUARE.png"  tvg-chno="4004" group-title="VARIEDADES",ESTILO Y VIDA – RAKUTEN TV
 https://jmp2.uk/stvp-ES26000068D
-#EXTINF:-1 channel-id="samsung-FR2600004SS" tvg-id="FR2600004SS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR2600004SS_20250415T020856SQUARE.png"  tvg-chno="4004" group-title="Actualités",EURONEWS EN DIRECT
+#EXTINF:-1 channel-id="samsung-FR2600004SS" tvg-id="FR2600004SS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR2600004SS_20250415T020856SQUARE.png"  tvg-chno="4004" group-title="NOTÍCIAS",EURONEWS EN DIRECT
 https://jmp2.uk/stvp-FR2600004SS
-#EXTINF:-1 channel-id="samsung-GB2600019ON" tvg-id="GB2600019ON" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2600019ON_20250415T020939SQUARE.png"  tvg-chno="4004" group-title="News",EURONEWS LIVE
+#EXTINF:-1 channel-id="samsung-GB2600019ON" tvg-id="GB2600019ON" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2600019ON_20250415T020939SQUARE.png"  tvg-chno="4004" group-title="NOTÍCIAS",EURONEWS LIVE
 https://jmp2.uk/stvp-GB2600019ON
-#EXTINF:-1 channel-id="samsung-IT2600009QD" tvg-id="IT2600009QD" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600009QD_20250415T022338SQUARE.png"  tvg-chno="4004" group-title="News",EURONEWS IN DIRETTA
+#EXTINF:-1 channel-id="samsung-IT2600009QD" tvg-id="IT2600009QD" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600009QD_20250415T022338SQUARE.png"  tvg-chno="4004" group-title="NOTÍCIAS",EURONEWS IN DIRETTA
 https://jmp2.uk/stvp-IT2600009QD
 #EXTINF:-1 channel-id="samsung-ATBD26000124P" tvg-id="ATBD26000124P" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD26000124P_20260310T031304SQUARE.png"  tvg-chno="4005" group-title="Fußball",SCOOORE
 https://jmp2.uk/stvp-ATBD26000124P
@@ -2014,7 +2014,7 @@ https://jmp2.uk/stvp-ATBD26000124P
 https://jmp2.uk/stvp-CH2600007IJ
 #EXTINF:-1 channel-id="samsung-DE2600004U3" tvg-id="DE2600004U3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE2600004U3_20250415T021646SQUARE.png"  tvg-chno="4005" group-title="SÉRIES",CRIME SERIEN - RAKUTEN TV
 https://jmp2.uk/stvp-DE2600004U3
-#EXTINF:-1 channel-id="samsung-ES260000968" tvg-id="ES260000968" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES260000968_20250415T021754SQUARE.png"  tvg-chno="4005" group-title="Noticias",EURONEWS EN DIRECTO
+#EXTINF:-1 channel-id="samsung-ES260000968" tvg-id="ES260000968" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES260000968_20250415T021754SQUARE.png"  tvg-chno="4005" group-title="NOTÍCIAS",EURONEWS EN DIRECTO
 https://jmp2.uk/stvp-ES260000968
 #EXTINF:-1 channel-id="samsung-FR2600007CB" tvg-id="FR2600007CB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR2600007CB_20250415T020909SQUARE.png"  tvg-chno="4005" group-title="FILMES",TOP FILMS - RAKUTEN TV
 https://jmp2.uk/stvp-FR2600007CB
@@ -2022,17 +2022,17 @@ https://jmp2.uk/stvp-FR2600007CB
 https://jmp2.uk/stvp-GB2600020OP
 #EXTINF:-1 channel-id="samsung-IT2600002F6" tvg-id="IT2600002F6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600002F6_20250415T022347SQUARE.png"  tvg-chno="4005" group-title="FILMES",FILM TOP - RAKUTEN TV
 https://jmp2.uk/stvp-IT2600002F6
-#EXTINF:-1 channel-id="samsung-ATBD800001VA" tvg-id="ATBD800001VA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD800001VA_20251125T100530SQUARE.png"  tvg-chno="4006" group-title="News",CNN
+#EXTINF:-1 channel-id="samsung-ATBD800001VA" tvg-id="ATBD800001VA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD800001VA_20251125T100530SQUARE.png"  tvg-chno="4006" group-title="NOTÍCIAS",CNN
 https://jmp2.uk/stvp-ATBD800001VA
-#EXTINF:-1 channel-id="samsung-CHBD800001D0" tvg-id="CHBD800001D0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD800001D0_20251125T102223SQUARE.png"  tvg-chno="4006" group-title="News",CNN
+#EXTINF:-1 channel-id="samsung-CHBD800001D0" tvg-id="CHBD800001D0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD800001D0_20251125T102223SQUARE.png"  tvg-chno="4006" group-title="NOTÍCIAS",CNN
 https://jmp2.uk/stvp-CHBD800001D0
-#EXTINF:-1 channel-id="samsung-DEBD800001S4" tvg-id="DEBD800001S4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD800001S4_20251125T102302SQUARE.png"  tvg-chno="4006" group-title="News",CNN
+#EXTINF:-1 channel-id="samsung-DEBD800001S4" tvg-id="DEBD800001S4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD800001S4_20251125T102302SQUARE.png"  tvg-chno="4006" group-title="NOTÍCIAS",CNN
 https://jmp2.uk/stvp-DEBD800001S4
 #EXTINF:-1 channel-id="samsung-ES400002P5" tvg-id="ES400002P5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES400002P5_20260310T031624SQUARE.png"  tvg-chno="4006" group-title="SÉRIES",CUÉNTAME CÓMO PASÓ
 https://jmp2.uk/stvp-ES400002P5
 #EXTINF:-1 channel-id="samsung-FRBB49000033R" tvg-id="FRBB49000033R" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBB49000033R_20260310T031729SQUARE.png"  tvg-chno="4006" group-title="SÉRIES",HOMICIDE
 https://jmp2.uk/stvp-FRBB49000033R
-#EXTINF:-1 channel-id="samsung-GBBD8000016N" tvg-id="GBBD8000016N" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD8000016N_20251125T100002SQUARE.png"  tvg-chno="4006" group-title="News",CNN
+#EXTINF:-1 channel-id="samsung-GBBD8000016N" tvg-id="GBBD8000016N" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD8000016N_20251125T100002SQUARE.png"  tvg-chno="4006" group-title="NOTÍCIAS",CNN
 https://jmp2.uk/stvp-GBBD8000016N
 #EXTINF:-1 channel-id="samsung-ESBC4100001NZ" tvg-id="ESBC4100001NZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100001NZ_20260224T030732SQUARE.png"  tvg-chno="4007" group-title="VARIEDADES",LA 1
 https://jmp2.uk/stvp-ESBC4100001NZ
@@ -3372,155 +3372,155 @@ https://jmp2.uk/stvp-ITBA3300022EA
 https://jmp2.uk/stvp-CA14000121V
 #EXTINF:-1 channel-id="samsung-US1400010S0" tvg-id="US1400010S0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400010S0_20251202T005901SQUARE.png"  tvg-chno="4550" group-title="VARIEDADES",WINTER VIBES
 https://jmp2.uk/stvp-US1400010S0
-#EXTINF:-1 channel-id="samsung-ESBC4100004J1" tvg-id="ESBC4100004J1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100004J1_20260224T030740SQUARE.png"  tvg-chno="4551" group-title="Noticias",24H
+#EXTINF:-1 channel-id="samsung-ESBC4100004J1" tvg-id="ESBC4100004J1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100004J1_20260224T030740SQUARE.png"  tvg-chno="4551" group-title="NOTÍCIAS",24H
 https://jmp2.uk/stvp-ESBC4100004J1
-#EXTINF:-1 channel-id="samsung-GB3300002NF" tvg-id="GB3300002NF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3300002NF_20260317T034224SQUARE.png"  tvg-chno="4551" group-title="News",SKY NEWS
+#EXTINF:-1 channel-id="samsung-GB3300002NF" tvg-id="GB3300002NF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3300002NF_20260317T034224SQUARE.png"  tvg-chno="4551" group-title="NOTÍCIAS",SKY NEWS
 https://jmp2.uk/stvp-GB3300002NF
-#EXTINF:-1 channel-id="samsung-ITBD1500002NL" tvg-id="ITBD1500002NL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1500002NL_20241022T051646SQUARE.png"  tvg-chno="4551" group-title="News",LA 7
+#EXTINF:-1 channel-id="samsung-ITBD1500002NL" tvg-id="ITBD1500002NL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1500002NL_20241022T051646SQUARE.png"  tvg-chno="4551" group-title="NOTÍCIAS",LA 7
 https://jmp2.uk/stvp-ITBD1500002NL
-#EXTINF:-1 channel-id="samsung-DE4300003MR" tvg-id="DE4300003MR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE4300003MR_20251209T125847SQUARE.png"  tvg-chno="4552" group-title="News",NACHRICHTEN 360
+#EXTINF:-1 channel-id="samsung-DE4300003MR" tvg-id="DE4300003MR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE4300003MR_20251209T125847SQUARE.png"  tvg-chno="4552" group-title="NOTÍCIAS",NACHRICHTEN 360
 https://jmp2.uk/stvp-DE4300003MR
-#EXTINF:-1 channel-id="samsung-ESBD3400001AA" tvg-id="ESBD3400001AA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3400001AA_20251013T053501SQUARE.png"  tvg-chno="4553" group-title="Noticias",NEGOCIOS TV
+#EXTINF:-1 channel-id="samsung-ESBD3400001AA" tvg-id="ESBD3400001AA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3400001AA_20251013T053501SQUARE.png"  tvg-chno="4553" group-title="NOTÍCIAS",NEGOCIOS TV
 https://jmp2.uk/stvp-ESBD3400001AA
-#EXTINF:-1 channel-id="samsung-GBBB1600008R3" tvg-id="GBBB1600008R3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1600008R3_20250107T022831SQUARE.png"  tvg-chno="4553" group-title="News",GB NEWS
+#EXTINF:-1 channel-id="samsung-GBBB1600008R3" tvg-id="GBBB1600008R3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1600008R3_20250107T022831SQUARE.png"  tvg-chno="4553" group-title="NOTÍCIAS",GB NEWS
 https://jmp2.uk/stvp-GBBB1600008R3
-#EXTINF:-1 channel-id="samsung-IT3300001G3" tvg-id="IT3300001G3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3300001G3_20251125T102453SQUARE.png"  tvg-chno="4554" group-title="News",IL SOLE 24 ORE TV
+#EXTINF:-1 channel-id="samsung-IT3300001G3" tvg-id="IT3300001G3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3300001G3_20251125T102453SQUARE.png"  tvg-chno="4554" group-title="NOTÍCIAS",IL SOLE 24 ORE TV
 https://jmp2.uk/stvp-IT3300001G3
-#EXTINF:-1 channel-id="samsung-ESBC39000033J" tvg-id="ESBC39000033J" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC39000033J_20241106T142306SQUARE.png"  tvg-chno="4555" group-title="Noticias",EL PAÍS
+#EXTINF:-1 channel-id="samsung-ESBC39000033J" tvg-id="ESBC39000033J" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC39000033J_20241106T142306SQUARE.png"  tvg-chno="4555" group-title="NOTÍCIAS",EL PAÍS
 https://jmp2.uk/stvp-ESBC39000033J
-#EXTINF:-1 channel-id="samsung-FR1400003Y0" tvg-id="FR1400003Y0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1400003Y0_20241015T040216SQUARE.png"  tvg-chno="4555" group-title="Actualités",BFM 2
+#EXTINF:-1 channel-id="samsung-FR1400003Y0" tvg-id="FR1400003Y0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1400003Y0_20241015T040216SQUARE.png"  tvg-chno="4555" group-title="NOTÍCIAS",BFM 2
 https://jmp2.uk/stvp-FR1400003Y0
-#EXTINF:-1 channel-id="samsung-GBBD1900008O3" tvg-id="GBBD1900008O3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1900008O3_20251209T004548SQUARE.png"  tvg-chno="4555" group-title="News",CNN HEADLINES
+#EXTINF:-1 channel-id="samsung-GBBD1900008O3" tvg-id="GBBD1900008O3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1900008O3_20251209T004548SQUARE.png"  tvg-chno="4555" group-title="NOTÍCIAS",CNN HEADLINES
 https://jmp2.uk/stvp-GBBD1900008O3
-#EXTINF:-1 channel-id="samsung-ITBB5000002N0" tvg-id="ITBB5000002N0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBB5000002N0_20250107T022423SQUARE.png"  tvg-chno="4555" group-title="News",GIORNALE RADIO TV
+#EXTINF:-1 channel-id="samsung-ITBB5000002N0" tvg-id="ITBB5000002N0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBB5000002N0_20250107T022423SQUARE.png"  tvg-chno="4555" group-title="NOTÍCIAS",GIORNALE RADIO TV
 https://jmp2.uk/stvp-ITBB5000002N0
-#EXTINF:-1 channel-id="samsung-IT50001295" tvg-id="IT50001295" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT50001295_20251028T010433SQUARE.png"  tvg-chno="4556" group-title="News",URANIA NEWS
+#EXTINF:-1 channel-id="samsung-IT50001295" tvg-id="IT50001295" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT50001295_20251028T010433SQUARE.png"  tvg-chno="4556" group-title="NOTÍCIAS",URANIA NEWS
 https://jmp2.uk/stvp-IT50001295
-#EXTINF:-1 channel-id="samsung-ATBD190000101" tvg-id="ATBD190000101" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD190000101_20251209T003953SQUARE.png"  tvg-chno="4557" group-title="News",CNN HEADLINES
+#EXTINF:-1 channel-id="samsung-ATBD190000101" tvg-id="ATBD190000101" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD190000101_20251209T003953SQUARE.png"  tvg-chno="4557" group-title="NOTÍCIAS",CNN HEADLINES
 https://jmp2.uk/stvp-ATBD190000101
-#EXTINF:-1 channel-id="samsung-CHBD1900001JB" tvg-id="CHBD1900001JB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD1900001JB_20251209T125752SQUARE.png"  tvg-chno="4557" group-title="News",CNN HEADLINES
+#EXTINF:-1 channel-id="samsung-CHBD1900001JB" tvg-id="CHBD1900001JB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD1900001JB_20251209T125752SQUARE.png"  tvg-chno="4557" group-title="NOTÍCIAS",CNN HEADLINES
 https://jmp2.uk/stvp-CHBD1900001JB
-#EXTINF:-1 channel-id="samsung-DEBD19000012M" tvg-id="DEBD19000012M" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD19000012M_20251209T125835SQUARE.png"  tvg-chno="4557" group-title="News",CNN HEADLINES
+#EXTINF:-1 channel-id="samsung-DEBD19000012M" tvg-id="DEBD19000012M" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD19000012M_20251209T125835SQUARE.png"  tvg-chno="4557" group-title="NOTÍCIAS",CNN HEADLINES
 https://jmp2.uk/stvp-DEBD19000012M
-#EXTINF:-1 channel-id="samsung-ESBC1400001L8" tvg-id="ESBC1400001L8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC1400001L8_20241022T050529SQUARE.png"  tvg-chno="4557" group-title="Noticias",EL CONFIDENCIAL
+#EXTINF:-1 channel-id="samsung-ESBC1400001L8" tvg-id="ESBC1400001L8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC1400001L8_20241022T050529SQUARE.png"  tvg-chno="4557" group-title="NOTÍCIAS",EL CONFIDENCIAL
 https://jmp2.uk/stvp-ESBC1400001L8
-#EXTINF:-1 channel-id="samsung-FR300005WY" tvg-id="FR300005WY" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR300005WY_20241015T042807SQUARE.png"  tvg-chno="4557" group-title="Actualités",RMC TALK INFO
+#EXTINF:-1 channel-id="samsung-FR300005WY" tvg-id="FR300005WY" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR300005WY_20241015T042807SQUARE.png"  tvg-chno="4557" group-title="NOTÍCIAS",RMC TALK INFO
 https://jmp2.uk/stvp-FR300005WY
-#EXTINF:-1 channel-id="samsung-GB1200006IV" tvg-id="GB1200006IV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200006IV_20250506T021119SQUARE.png"  tvg-chno="4557" group-title="News",TALK
+#EXTINF:-1 channel-id="samsung-GB1200006IV" tvg-id="GB1200006IV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200006IV_20250506T021119SQUARE.png"  tvg-chno="4557" group-title="NOTÍCIAS",TALK
 https://jmp2.uk/stvp-GB1200006IV
-#EXTINF:-1 channel-id="samsung-IT2700002ZN" tvg-id="IT2700002ZN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2700002ZN_20260210T040118SQUARE.png"  tvg-chno="4557" group-title="News",CLASS CNBC
+#EXTINF:-1 channel-id="samsung-IT2700002ZN" tvg-id="IT2700002ZN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2700002ZN_20260210T040118SQUARE.png"  tvg-chno="4557" group-title="NOTÍCIAS",CLASS CNBC
 https://jmp2.uk/stvp-IT2700002ZN
-#EXTINF:-1 channel-id="samsung-IT500008CB" tvg-id="IT500008CB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT500008CB_20260113T032823SQUARE.png"  tvg-chno="4558" group-title="News",3BMETEO
+#EXTINF:-1 channel-id="samsung-IT500008CB" tvg-id="IT500008CB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT500008CB_20260113T032823SQUARE.png"  tvg-chno="4558" group-title="NOTÍCIAS",3BMETEO
 https://jmp2.uk/stvp-IT500008CB
-#EXTINF:-1 channel-id="samsung-ATBD1100002TA" tvg-id="ATBD1100002TA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD1100002TA_20250107T022112SQUARE.png"  tvg-chno="4559" group-title="News",FRANCE 24 FAST
+#EXTINF:-1 channel-id="samsung-ATBD1100002TA" tvg-id="ATBD1100002TA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD1100002TA_20250107T022112SQUARE.png"  tvg-chno="4559" group-title="NOTÍCIAS",FRANCE 24 FAST
 https://jmp2.uk/stvp-ATBD1100002TA
-#EXTINF:-1 channel-id="samsung-CHBD1100003CW" tvg-id="CHBD1100003CW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD1100003CW_20250107T025502SQUARE.png"  tvg-chno="4559" group-title="News",FRANCE 24 FAST
+#EXTINF:-1 channel-id="samsung-CHBD1100003CW" tvg-id="CHBD1100003CW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD1100003CW_20250107T025502SQUARE.png"  tvg-chno="4559" group-title="NOTÍCIAS",FRANCE 24 FAST
 https://jmp2.uk/stvp-CHBD1100003CW
-#EXTINF:-1 channel-id="samsung-DEBD1100002II" tvg-id="DEBD1100002II" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD1100002II_20250107T024319SQUARE.png"  tvg-chno="4559" group-title="News",FRANCE 24 FAST
+#EXTINF:-1 channel-id="samsung-DEBD1100002II" tvg-id="DEBD1100002II" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD1100002II_20250107T024319SQUARE.png"  tvg-chno="4559" group-title="NOTÍCIAS",FRANCE 24 FAST
 https://jmp2.uk/stvp-DEBD1100002II
-#EXTINF:-1 channel-id="samsung-FRBC1400002JN" tvg-id="FRBC1400002JN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC1400002JN_20241015T040333SQUARE.png"  tvg-chno="4559" group-title="Actualités",LE FIGARO TV
+#EXTINF:-1 channel-id="samsung-FRBC1400002JN" tvg-id="FRBC1400002JN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC1400002JN_20241015T040333SQUARE.png"  tvg-chno="4559" group-title="NOTÍCIAS",LE FIGARO TV
 https://jmp2.uk/stvp-FRBC1400002JN
-#EXTINF:-1 channel-id="samsung-IT3400003D6" tvg-id="IT3400003D6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3400003D6_20250819T032318SQUARE.png"  tvg-chno="4559" group-title="News",SKY NEWS INTERNATIONAL
+#EXTINF:-1 channel-id="samsung-IT3400003D6" tvg-id="IT3400003D6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3400003D6_20250819T032318SQUARE.png"  tvg-chno="4559" group-title="NOTÍCIAS",SKY NEWS INTERNATIONAL
 https://jmp2.uk/stvp-IT3400003D6
-#EXTINF:-1 channel-id="samsung-ESBD190000137" tvg-id="ESBD190000137" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD190000137_20251209T004301SQUARE.png"  tvg-chno="4561" group-title="Noticias",CNN HEADLINES
+#EXTINF:-1 channel-id="samsung-ESBD190000137" tvg-id="ESBD190000137" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD190000137_20251209T004301SQUARE.png"  tvg-chno="4561" group-title="NOTÍCIAS",CNN HEADLINES
 https://jmp2.uk/stvp-ESBD190000137
-#EXTINF:-1 channel-id="samsung-FR1800005X0" tvg-id="FR1800005X0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1800005X0_20251013T054015SQUARE.png"  tvg-chno="4561" group-title="Actualités",TV5 MONDE INFO
+#EXTINF:-1 channel-id="samsung-FR1800005X0" tvg-id="FR1800005X0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1800005X0_20251013T054015SQUARE.png"  tvg-chno="4561" group-title="NOTÍCIAS",TV5 MONDE INFO
 https://jmp2.uk/stvp-FR1800005X0
-#EXTINF:-1 channel-id="samsung-GBBD1100002L5" tvg-id="GBBD1100002L5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1100002L5_20250107T030646SQUARE.png"  tvg-chno="4561" group-title="News",FRANCE 24 FAST
+#EXTINF:-1 channel-id="samsung-GBBD1100002L5" tvg-id="GBBD1100002L5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1100002L5_20250107T030646SQUARE.png"  tvg-chno="4561" group-title="NOTÍCIAS",FRANCE 24 FAST
 https://jmp2.uk/stvp-GBBD1100002L5
-#EXTINF:-1 channel-id="samsung-AT2600002KW" tvg-id="AT2600002KW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT2600002KW_20260224T030246SQUARE.png"  tvg-chno="4563" group-title="News",EURONEWS LIVE
+#EXTINF:-1 channel-id="samsung-AT2600002KW" tvg-id="AT2600002KW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT2600002KW_20260224T030246SQUARE.png"  tvg-chno="4563" group-title="NOTÍCIAS",EURONEWS LIVE
 https://jmp2.uk/stvp-AT2600002KW
-#EXTINF:-1 channel-id="samsung-ESBD36000026Z" tvg-id="ESBD36000026Z" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD36000026Z_20260317T034118SQUARE.png"  tvg-chno="4563" group-title="Noticias",CNBC
+#EXTINF:-1 channel-id="samsung-ESBD36000026Z" tvg-id="ESBD36000026Z" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD36000026Z_20260317T034118SQUARE.png"  tvg-chno="4563" group-title="NOTÍCIAS",CNBC
 https://jmp2.uk/stvp-ESBD36000026Z
-#EXTINF:-1 channel-id="samsung-FRBD4100006OC" tvg-id="FRBD4100006OC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4100006OC_20241015T040218SQUARE.png"  tvg-chno="4563" group-title="Actualités",BFM BUSINESS
+#EXTINF:-1 channel-id="samsung-FRBD4100006OC" tvg-id="FRBD4100006OC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4100006OC_20241015T040218SQUARE.png"  tvg-chno="4563" group-title="NOTÍCIAS",BFM BUSINESS
 https://jmp2.uk/stvp-FRBD4100006OC
-#EXTINF:-1 channel-id="samsung-ITBD1100002WX" tvg-id="ITBD1100002WX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1100002WX_20241022T051609SQUARE.png"  tvg-chno="4563" group-title="News",FRANCE 24 FAST
+#EXTINF:-1 channel-id="samsung-ITBD1100002WX" tvg-id="ITBD1100002WX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1100002WX_20241022T051609SQUARE.png"  tvg-chno="4563" group-title="NOTÍCIAS",FRANCE 24 FAST
 https://jmp2.uk/stvp-ITBD1100002WX
-#EXTINF:-1 channel-id="samsung-ES2300004XW" tvg-id="ES2300004XW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2300004XW_20251118T015346SQUARE.png"  tvg-chno="4564" group-title="Noticias",AL JAZEERA
+#EXTINF:-1 channel-id="samsung-ES2300004XW" tvg-id="ES2300004XW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2300004XW_20251118T015346SQUARE.png"  tvg-chno="4564" group-title="NOTÍCIAS",AL JAZEERA
 https://jmp2.uk/stvp-ES2300004XW
-#EXTINF:-1 channel-id="samsung-FR23000013B" tvg-id="FR23000013B" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR23000013B_20251118T015405SQUARE.png"  tvg-chno="4564" group-title="Actualités",AL JAZEERA
+#EXTINF:-1 channel-id="samsung-FR23000013B" tvg-id="FR23000013B" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR23000013B_20251118T015405SQUARE.png"  tvg-chno="4564" group-title="NOTÍCIAS",AL JAZEERA
 https://jmp2.uk/stvp-FR23000013B
-#EXTINF:-1 channel-id="samsung-GB2300005ML" tvg-id="GB2300005ML" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2300005ML_20251118T015422SQUARE.png"  tvg-chno="4564" group-title="News",AL JAZEERA
+#EXTINF:-1 channel-id="samsung-GB2300005ML" tvg-id="GB2300005ML" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2300005ML_20251118T015422SQUARE.png"  tvg-chno="4564" group-title="NOTÍCIAS",AL JAZEERA
 https://jmp2.uk/stvp-GB2300005ML
-#EXTINF:-1 channel-id="samsung-IT23000034W" tvg-id="IT23000034W" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT23000034W_20251118T015444SQUARE.png"  tvg-chno="4564" group-title="News",AL JAZEERA
+#EXTINF:-1 channel-id="samsung-IT23000034W" tvg-id="IT23000034W" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT23000034W_20251118T015444SQUARE.png"  tvg-chno="4564" group-title="NOTÍCIAS",AL JAZEERA
 https://jmp2.uk/stvp-IT23000034W
-#EXTINF:-1 channel-id="samsung-ATAJ0500445A" tvg-id="ATAJ0500445A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATAJ0500445A_20250318T040625SQUARE.png"  tvg-chno="4565" group-title="News",SPIEGEL TV
+#EXTINF:-1 channel-id="samsung-ATAJ0500445A" tvg-id="ATAJ0500445A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATAJ0500445A_20250318T040625SQUARE.png"  tvg-chno="4565" group-title="NOTÍCIAS",SPIEGEL TV
 https://jmp2.uk/stvp-ATAJ0500445A
-#EXTINF:-1 channel-id="samsung-CHAJ0500445A" tvg-id="CHAJ0500445A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHAJ0500445A_20250318T040630SQUARE.png"  tvg-chno="4565" group-title="News",SPIEGEL TV
+#EXTINF:-1 channel-id="samsung-CHAJ0500445A" tvg-id="CHAJ0500445A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHAJ0500445A_20250318T040630SQUARE.png"  tvg-chno="4565" group-title="NOTÍCIAS",SPIEGEL TV
 https://jmp2.uk/stvp-CHAJ0500445A
-#EXTINF:-1 channel-id="samsung-DEAK0500441A" tvg-id="DEAK0500441A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEAK0500441A_20250318T040635SQUARE.png"  tvg-chno="4565" group-title="News",SPIEGEL TV
+#EXTINF:-1 channel-id="samsung-DEAK0500441A" tvg-id="DEAK0500441A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEAK0500441A_20250318T040635SQUARE.png"  tvg-chno="4565" group-title="NOTÍCIAS",SPIEGEL TV
 https://jmp2.uk/stvp-DEAK0500441A
-#EXTINF:-1 channel-id="samsung-ESBC400003YM" tvg-id="ESBC400003YM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC400003YM_20241106T142315SQUARE.png"  tvg-chno="4565" group-title="Noticias",NBC NEWS NOW
+#EXTINF:-1 channel-id="samsung-ESBC400003YM" tvg-id="ESBC400003YM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC400003YM_20241106T142315SQUARE.png"  tvg-chno="4565" group-title="NOTÍCIAS",NBC NEWS NOW
 https://jmp2.uk/stvp-ESBC400003YM
-#EXTINF:-1 channel-id="samsung-FRBD4100010ZZ" tvg-id="FRBD4100010ZZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4100010ZZ_20241015T042850SQUARE.png"  tvg-chno="4565" group-title="Actualités",TECH & CO
+#EXTINF:-1 channel-id="samsung-FRBD4100010ZZ" tvg-id="FRBD4100010ZZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4100010ZZ_20241015T042850SQUARE.png"  tvg-chno="4565" group-title="NOTÍCIAS",TECH & CO
 https://jmp2.uk/stvp-FRBD4100010ZZ
-#EXTINF:-1 channel-id="samsung-GB1300001RX" tvg-id="GB1300001RX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1300001RX_20250902T003744SQUARE.png"  tvg-chno="4565" group-title="News",DW
+#EXTINF:-1 channel-id="samsung-GB1300001RX" tvg-id="GB1300001RX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1300001RX_20250902T003744SQUARE.png"  tvg-chno="4565" group-title="NOTÍCIAS",DW
 https://jmp2.uk/stvp-GB1300001RX
-#EXTINF:-1 channel-id="samsung-IT18000033C" tvg-id="IT18000033C" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT18000033C_20251013T054515SQUARE.png"  tvg-chno="4565" group-title="News",TV5 MONDE INFO
+#EXTINF:-1 channel-id="samsung-IT18000033C" tvg-id="IT18000033C" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT18000033C_20251013T054515SQUARE.png"  tvg-chno="4565" group-title="NOTÍCIAS",TV5 MONDE INFO
 https://jmp2.uk/stvp-IT18000033C
-#EXTINF:-1 channel-id="samsung-GBBD3600001NO" tvg-id="GBBD3600001NO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3600001NO_20260317T034210SQUARE.png"  tvg-chno="4567" group-title="News",CNBC
+#EXTINF:-1 channel-id="samsung-GBBD3600001NO" tvg-id="GBBD3600001NO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3600001NO_20260317T034210SQUARE.png"  tvg-chno="4567" group-title="NOTÍCIAS",CNBC
 https://jmp2.uk/stvp-GBBD3600001NO
-#EXTINF:-1 channel-id="samsung-ITBD19000097D" tvg-id="ITBD19000097D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD19000097D_20251209T004734SQUARE.png"  tvg-chno="4567" group-title="News",CNN HEADLINES
+#EXTINF:-1 channel-id="samsung-ITBD19000097D" tvg-id="ITBD19000097D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD19000097D_20251209T004734SQUARE.png"  tvg-chno="4567" group-title="NOTÍCIAS",CNN HEADLINES
 https://jmp2.uk/stvp-ITBD19000097D
-#EXTINF:-1 channel-id="samsung-ES34000039I" tvg-id="ES34000039I" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES34000039I_20241022T050503SQUARE.png"  tvg-chno="4569" group-title="Noticias",CNN EN ESPAÑOL
+#EXTINF:-1 channel-id="samsung-ES34000039I" tvg-id="ES34000039I" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES34000039I_20241022T050503SQUARE.png"  tvg-chno="4569" group-title="NOTÍCIAS",CNN EN ESPAÑOL
 https://jmp2.uk/stvp-ES34000039I
-#EXTINF:-1 channel-id="samsung-FRBD190001055" tvg-id="FRBD190001055" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD190001055_20251209T004428SQUARE.png"  tvg-chno="4569" group-title="Actualités",CNN HEADLINES
+#EXTINF:-1 channel-id="samsung-FRBD190001055" tvg-id="FRBD190001055" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD190001055_20251209T004428SQUARE.png"  tvg-chno="4569" group-title="NOTÍCIAS",CNN HEADLINES
 https://jmp2.uk/stvp-FRBD190001055
-#EXTINF:-1 channel-id="samsung-GBBB1500004LG" tvg-id="GBBB1500004LG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1500004LG_20250107T030724SQUARE.png"  tvg-chno="4569" group-title="News",NBC NEWS NOW
+#EXTINF:-1 channel-id="samsung-GBBB1500004LG" tvg-id="GBBB1500004LG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1500004LG_20250107T030724SQUARE.png"  tvg-chno="4569" group-title="NOTÍCIAS",NBC NEWS NOW
 https://jmp2.uk/stvp-GBBB1500004LG
-#EXTINF:-1 channel-id="samsung-ITBD3600002PA" tvg-id="ITBD3600002PA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD3600002PA_20260317T034124SQUARE.png"  tvg-chno="4569" group-title="News",CNBC
+#EXTINF:-1 channel-id="samsung-ITBD3600002PA" tvg-id="ITBD3600002PA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD3600002PA_20260317T034124SQUARE.png"  tvg-chno="4569" group-title="NOTÍCIAS",CNBC
 https://jmp2.uk/stvp-ITBD3600002PA
 #EXTINF:-1 channel-id="samsung-CA4000013R" tvg-id="CA4000013R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4000013R_20251230T035725SQUARE.png"  tvg-chno="4570" group-title="VARIEDADES",STINGRAY HOLIDAYSCAPES
 https://jmp2.uk/stvp-CA4000013R
-#EXTINF:-1 channel-id="samsung-DE3400001N1" tvg-id="DE3400001N1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE3400001N1_20250624T020453SQUARE.png"  tvg-chno="4570" group-title="News",SKY NEWS INTERNATIONAL
+#EXTINF:-1 channel-id="samsung-DE3400001N1" tvg-id="DE3400001N1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE3400001N1_20250624T020453SQUARE.png"  tvg-chno="4570" group-title="NOTÍCIAS",SKY NEWS INTERNATIONAL
 https://jmp2.uk/stvp-DE3400001N1
-#EXTINF:-1 channel-id="samsung-ITBC4000028E" tvg-id="ITBC4000028E" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC4000028E_20241022T051654SQUARE.png"  tvg-chno="4570" group-title="News",NBC NEWS NOW
+#EXTINF:-1 channel-id="samsung-ITBC4000028E" tvg-id="ITBC4000028E" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC4000028E_20241022T051654SQUARE.png"  tvg-chno="4570" group-title="NOTÍCIAS",NBC NEWS NOW
 https://jmp2.uk/stvp-ITBC4000028E
 #EXTINF:-1 channel-id="samsung-USBD3500038R6" tvg-id="USBD3500038R6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500038R6_20251230T035626SQUARE.png"  tvg-chno="4570" group-title="VARIEDADES",STINGRAY HOLIDAYSCAPES
 https://jmp2.uk/stvp-USBD3500038R6
-#EXTINF:-1 channel-id="samsung-ATBA3300018K1" tvg-id="ATBA3300018K1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBA3300018K1_20250107T021547SQUARE.png"  tvg-chno="4571" group-title="News",BLOOMBERG TV+
+#EXTINF:-1 channel-id="samsung-ATBA3300018K1" tvg-id="ATBA3300018K1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBA3300018K1_20250107T021547SQUARE.png"  tvg-chno="4571" group-title="NOTÍCIAS",BLOOMBERG TV+
 https://jmp2.uk/stvp-ATBA3300018K1
-#EXTINF:-1 channel-id="samsung-CHBA3300018TD" tvg-id="CHBA3300018TD" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBA3300018TD_20250107T031332SQUARE.png"  tvg-chno="4571" group-title="News",BLOOMBERG TV+
+#EXTINF:-1 channel-id="samsung-CHBA3300018TD" tvg-id="CHBA3300018TD" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBA3300018TD_20250107T031332SQUARE.png"  tvg-chno="4571" group-title="NOTÍCIAS",BLOOMBERG TV+
 https://jmp2.uk/stvp-CHBA3300018TD
-#EXTINF:-1 channel-id="samsung-DEBA3300027ZJ" tvg-id="DEBA3300027ZJ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBA3300027ZJ_20250107T023842SQUARE.png"  tvg-chno="4571" group-title="News",BLOOMBERG TV+
+#EXTINF:-1 channel-id="samsung-DEBA3300027ZJ" tvg-id="DEBA3300027ZJ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBA3300027ZJ_20250107T023842SQUARE.png"  tvg-chno="4571" group-title="NOTÍCIAS",BLOOMBERG TV+
 https://jmp2.uk/stvp-DEBA3300027ZJ
-#EXTINF:-1 channel-id="samsung-ES3400004SS" tvg-id="ES3400004SS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3400004SS_20250624T020505SQUARE.png"  tvg-chno="4571" group-title="Noticias",SKY NEWS INTERNATIONAL
+#EXTINF:-1 channel-id="samsung-ES3400004SS" tvg-id="ES3400004SS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3400004SS_20250624T020505SQUARE.png"  tvg-chno="4571" group-title="NOTÍCIAS",SKY NEWS INTERNATIONAL
 https://jmp2.uk/stvp-ES3400004SS
-#EXTINF:-1 channel-id="samsung-FR3400002VW" tvg-id="FR3400002VW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3400002VW_20250624T020534SQUARE.png"  tvg-chno="4571" group-title="Actualités",SKY NEWS INTERNATIONAL
+#EXTINF:-1 channel-id="samsung-FR3400002VW" tvg-id="FR3400002VW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3400002VW_20250624T020534SQUARE.png"  tvg-chno="4571" group-title="NOTÍCIAS",SKY NEWS INTERNATIONAL
 https://jmp2.uk/stvp-FR3400002VW
-#EXTINF:-1 channel-id="samsung-ITBA3300025F5" tvg-id="ITBA3300025F5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA3300025F5_20241022T051249SQUARE.png"  tvg-chno="4571" group-title="News",BLOOMBERG TV+
+#EXTINF:-1 channel-id="samsung-ITBA3300025F5" tvg-id="ITBA3300025F5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA3300025F5_20241022T051249SQUARE.png"  tvg-chno="4571" group-title="NOTÍCIAS",BLOOMBERG TV+
 https://jmp2.uk/stvp-ITBA3300025F5
 #EXTINF:-1 channel-id="samsung-CAAJ3400003T7" tvg-id="CAAJ3400003T7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ3400003T7_20250630T232814SQUARE.png"  tvg-chno="4572" group-title="VARIEDADES",STINGRAY NATURESCAPE
 https://jmp2.uk/stvp-CAAJ3400003T7
-#EXTINF:-1 channel-id="samsung-GBBA3300033C2" tvg-id="GBBA3300033C2" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA3300033C2_20250107T022527SQUARE.png"  tvg-chno="4572" group-title="News",BLOOMBERG TV+
+#EXTINF:-1 channel-id="samsung-GBBA3300033C2" tvg-id="GBBA3300033C2" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA3300033C2_20250107T022527SQUARE.png"  tvg-chno="4572" group-title="NOTÍCIAS",BLOOMBERG TV+
 https://jmp2.uk/stvp-GBBA3300033C2
 #EXTINF:-1 channel-id="samsung-USAK3508705A" tvg-id="USAK3508705A" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAK3508705A_20250630T232500SQUARE.png"  tvg-chno="4572" group-title="VARIEDADES",STINGRAY NATURESCAPE
 https://jmp2.uk/stvp-USAK3508705A
-#EXTINF:-1 channel-id="samsung-AT1100004SR" tvg-id="AT1100004SR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT1100004SR_20250624T020443SQUARE.png"  tvg-chno="4573" group-title="News",SKY NEWS INTERNATIONAL
+#EXTINF:-1 channel-id="samsung-AT1100004SR" tvg-id="AT1100004SR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT1100004SR_20250624T020443SQUARE.png"  tvg-chno="4573" group-title="NOTÍCIAS",SKY NEWS INTERNATIONAL
 https://jmp2.uk/stvp-AT1100004SR
-#EXTINF:-1 channel-id="samsung-CH34000014Q" tvg-id="CH34000014Q" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH34000014Q_20250624T020450SQUARE.png"  tvg-chno="4573" group-title="News",SKY NEWS INTERNATIONAL
+#EXTINF:-1 channel-id="samsung-CH34000014Q" tvg-id="CH34000014Q" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH34000014Q_20250624T020450SQUARE.png"  tvg-chno="4573" group-title="NOTÍCIAS",SKY NEWS INTERNATIONAL
 https://jmp2.uk/stvp-CH34000014Q
-#EXTINF:-1 channel-id="samsung-ESBD1100001PQ" tvg-id="ESBD1100001PQ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1100001PQ_20241106T142311SQUARE.png"  tvg-chno="4573" group-title="Noticias",FRANCE 24 FAST
+#EXTINF:-1 channel-id="samsung-ESBD1100001PQ" tvg-id="ESBD1100001PQ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1100001PQ_20241106T142311SQUARE.png"  tvg-chno="4573" group-title="NOTÍCIAS",FRANCE 24 FAST
 https://jmp2.uk/stvp-ESBD1100001PQ
-#EXTINF:-1 channel-id="samsung-FRBD490000195" tvg-id="FRBD490000195" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD490000195_20241015T042818SQUARE.png"  tvg-chno="4573" group-title="Actualités",REUTERS
+#EXTINF:-1 channel-id="samsung-FRBD490000195" tvg-id="FRBD490000195" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD490000195_20241015T042818SQUARE.png"  tvg-chno="4573" group-title="NOTÍCIAS",REUTERS
 https://jmp2.uk/stvp-FRBD490000195
-#EXTINF:-1 channel-id="samsung-FR1400004VF" tvg-id="FR1400004VF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1400004VF_20250603T004911SQUARE.png"  tvg-chno="4574" group-title="Actualités",BLOOMBERG TV+
+#EXTINF:-1 channel-id="samsung-FR1400004VF" tvg-id="FR1400004VF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1400004VF_20250603T004911SQUARE.png"  tvg-chno="4574" group-title="NOTÍCIAS",BLOOMBERG TV+
 https://jmp2.uk/stvp-FR1400004VF
-#EXTINF:-1 channel-id="samsung-GBBD4900001RG" tvg-id="GBBD4900001RG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD4900001RG_20250107T030741SQUARE.png"  tvg-chno="4574" group-title="News",REUTERS
+#EXTINF:-1 channel-id="samsung-GBBD4900001RG" tvg-id="GBBD4900001RG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD4900001RG_20250107T030741SQUARE.png"  tvg-chno="4574" group-title="NOTÍCIAS",REUTERS
 https://jmp2.uk/stvp-GBBD4900001RG
-#EXTINF:-1 channel-id="samsung-DEBD4900001QV" tvg-id="DEBD4900001QV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD4900001QV_20250107T024918SQUARE.png"  tvg-chno="4575" group-title="News",REUTERS
+#EXTINF:-1 channel-id="samsung-DEBD4900001QV" tvg-id="DEBD4900001QV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD4900001QV_20250107T024918SQUARE.png"  tvg-chno="4575" group-title="NOTÍCIAS",REUTERS
 https://jmp2.uk/stvp-DEBD4900001QV
-#EXTINF:-1 channel-id="samsung-ES1300001QC" tvg-id="ES1300001QC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1300001QC_20250902T003627SQUARE.png"  tvg-chno="4575" group-title="Noticias",DW
+#EXTINF:-1 channel-id="samsung-ES1300001QC" tvg-id="ES1300001QC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1300001QC_20250902T003627SQUARE.png"  tvg-chno="4575" group-title="NOTÍCIAS",DW
 https://jmp2.uk/stvp-ES1300001QC
 #EXTINF:-1 channel-id="samsung-USBB1000002TK" tvg-id="USBB1000002TK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1000002TK_20241112T000653SQUARE.png"  tvg-chno="4575" group-title="VARIEDADES",LOUPE 4K
 https://jmp2.uk/stvp-USBB1000002TK
-#EXTINF:-1 channel-id="samsung-CH500001V2" tvg-id="CH500001V2" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH500001V2_20251209T125744SQUARE.png"  tvg-chno="4576" group-title="News",BFM TV
+#EXTINF:-1 channel-id="samsung-CH500001V2" tvg-id="CH500001V2" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH500001V2_20251209T125744SQUARE.png"  tvg-chno="4576" group-title="NOTÍCIAS",BFM TV
 https://jmp2.uk/stvp-CH500001V2
-#EXTINF:-1 channel-id="samsung-ESBA3300024AJ" tvg-id="ESBA3300024AJ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300024AJ_20241106T142255SQUARE.png"  tvg-chno="4577" group-title="Noticias",BLOOMBERG TV+
+#EXTINF:-1 channel-id="samsung-ESBA3300024AJ" tvg-id="ESBA3300024AJ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300024AJ_20241106T142255SQUARE.png"  tvg-chno="4577" group-title="NOTÍCIAS",BLOOMBERG TV+
 https://jmp2.uk/stvp-ESBA3300024AJ
 #EXTINF:-1 channel-id="samsung-CA600002VE" tvg-id="CA600002VE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA600002VE_20250630T233024SQUARE.png"  tvg-chno="4578" group-title="VARIEDADES",ZENLIFE BY STINGRAY
 https://jmp2.uk/stvp-CA600002VE
-#EXTINF:-1 channel-id="samsung-CHBC14000022X" tvg-id="CHBC14000022X" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBC14000022X_20250107T031511SQUARE.png"  tvg-chno="4578" group-title="News",LE FIGARO LIVE [FR]
+#EXTINF:-1 channel-id="samsung-CHBC14000022X" tvg-id="CHBC14000022X" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBC14000022X_20250107T031511SQUARE.png"  tvg-chno="4578" group-title="NOTÍCIAS",LE FIGARO LIVE [FR]
 https://jmp2.uk/stvp-CHBC14000022X
 #EXTINF:-1 channel-id="samsung-USBD3500027DS" tvg-id="USBD3500027DS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500027DS_20251125T030847SQUARE.png"  tvg-chno="4578" group-title="VARIEDADES",ZENLIFE BY STINGRAY
 https://jmp2.uk/stvp-USBD3500027DS
@@ -3576,11 +3576,11 @@ https://jmp2.uk/stvp-ES20000065W
 https://jmp2.uk/stvp-GBBA33000529G
 #EXTINF:-1 channel-id="samsung-IT20000053A" tvg-id="IT20000053A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT20000053A_20250729T045608SQUARE.png"  tvg-chno="4606" group-title="ESPORTES",TENNIS+
 https://jmp2.uk/stvp-IT20000053A
-#EXTINF:-1 channel-id="samsung-ATBD2600009FE" tvg-id="ATBD2600009FE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600009FE_20250107T022144SQUARE.png"  tvg-chno="4607" group-title="Auto & Motor",MORE THAN SPORTS TV
+#EXTINF:-1 channel-id="samsung-ATBD2600009FE" tvg-id="ATBD2600009FE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600009FE_20250107T022144SQUARE.png"  tvg-chno="4607" group-title="ESPORTES",MORE THAN SPORTS TV
 https://jmp2.uk/stvp-ATBD2600009FE
-#EXTINF:-1 channel-id="samsung-CHBD2600011YG" tvg-id="CHBD2600011YG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD2600011YG_20250107T025534SQUARE.png"  tvg-chno="4607" group-title="Auto & Motor",MORE THAN SPORTS TV
+#EXTINF:-1 channel-id="samsung-CHBD2600011YG" tvg-id="CHBD2600011YG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD2600011YG_20250107T025534SQUARE.png"  tvg-chno="4607" group-title="ESPORTES",MORE THAN SPORTS TV
 https://jmp2.uk/stvp-CHBD2600011YG
-#EXTINF:-1 channel-id="samsung-DEBD26000034M" tvg-id="DEBD26000034M" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD26000034M_20250107T024343SQUARE.png"  tvg-chno="4607" group-title="Auto & Motor",MORE THAN SPORTS TV
+#EXTINF:-1 channel-id="samsung-DEBD26000034M" tvg-id="DEBD26000034M" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD26000034M_20250107T024343SQUARE.png"  tvg-chno="4607" group-title="ESPORTES",MORE THAN SPORTS TV
 https://jmp2.uk/stvp-DEBD26000034M
 #EXTINF:-1 channel-id="samsung-GB2000010ML" tvg-id="GB2000010ML" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2000010ML_20250624T021705SQUARE.png"  tvg-chno="4607" group-title="ESPORTES",TENNIS+
 https://jmp2.uk/stvp-GB2000010ML

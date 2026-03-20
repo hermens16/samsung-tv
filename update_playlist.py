@@ -55,37 +55,68 @@ def traduzir_grupo(grupo_original):
 
     g = normalizar(grupo_original)
 
+    # 🔥 ANIME
     if "ANIME" in g:
         return "ANIME & TOKUSATSU"
 
-    if any(x in g for x in ["SPORT", "DEPORTE", "CALCIO", "FUSSBALL", "FUTB"]):
+    # 🔥 NOTÍCIAS (corrigido completo)
+    if any(x in g for x in [
+        "NEWS", "NOTIC", "ACTUAL",
+        "OPINION", "REGIONAL", "ENGLISH", "HINDI"
+    ]):
+        return "NOTÍCIAS"
+
+    # 🔥 ESPORTES
+    if any(x in g for x in [
+        "SPORT", "DEPORTE", "CALCIO",
+        "FUSSBALL", "FUTB", "MOTOR"
+    ]):
         return "ESPORTES"
 
+    # 🔥 INFANTIL
     if any(x in g for x in ["KID", "NIÑ", "JEUN", "BAMB"]):
         return "INFANTIL"
 
-    if any(x in g for x in ["SERIE", "DRAMA", "CRIME", "CRIMEN", "TELENOVELA", "REALITE", "REALITY"]):
+    # 🔥 SÉRIES
+    if any(x in g for x in [
+        "SERIE", "DRAMA", "CRIME", "CRIMEN",
+        "TELENOVELA", "REALITE", "REALITY",
+        "CLASSIC TV", "WESTERN"
+    ]):
         return "SÉRIES"
 
-    if any(x in g for x in ["MOVIE", "FILM", "CINE", "SCI-FI", "HORROR"]):
+    # 🔥 FILMES
+    if any(x in g for x in [
+        "MOVIE", "FILM", "CINE",
+        "SCI-FI", "HORROR"
+    ]):
         return "FILMES"
 
-    if any(x in g for x in ["DOCU", "HISTORY", "NATURE", "WISSEN", "INFOTAIN"]):
+    # 🔥 DOCUMENTÁRIOS
+    if any(x in g for x in [
+        "DOCU", "HISTORY", "NATURE",
+        "WISSEN", "INFOTAIN"
+    ]):
         return "DOCUMENTÁRIOS"
 
+    # 🔥 MÚSICA
     if any(x in g for x in ["MUSIC", "MUSIK", "MUSIQUE"]):
         return "MÚSICA"
 
+    # 🔥 VARIEDADES
     if any(x in g for x in [
         "ENTERTAIN", "ENTRETEN", "LATINO",
         "GAME", "COMEDY", "COMEDIA",
-        "INTRATTEN", "DIVERT", "AMBIANCE"
+        "INTRATTEN", "DIVERT", "AMBIANCE",
+        "AO VIVO"
     ]):
         return "VARIEDADES"
 
+    # 🔥 RELIGIOSO
     if "DEVOTIONAL" in g:
         return "RELIGIOSO"
 
+    # 🔥 COMIDA / VIAGEM
     if any(x in g for x in [
         "LIFESTYLE", "FOOD", "TRAVEL",
         "CUCINA", "VIAGGI", "VOYAGES",
@@ -93,7 +124,7 @@ def traduzir_grupo(grupo_original):
     ]):
         return "VARIEDADES"
 
-    return grupo_original  # 🔥 mantém original (seguro)
+    return grupo_original  # mantém original se não reconhecer
 
 print("⚙️ Processando...")
 
