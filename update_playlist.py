@@ -4,7 +4,6 @@ import requests
 import unicodedata
 from datetime import datetime
 
-# 🔥 CONFIG
 url_playlist = "http://127.0.0.1:8182/playlist.m3u8"
 arquivo_bruto = "samsung.m3u"
 arquivo_final = "samsung_traduzida.m3u"
@@ -14,12 +13,15 @@ print("🌐 Baixando playlist...")
 try:
     r = requests.get(url_playlist, timeout=15)
     conteudo = r.text
-except:
-    print("❌ Erro ao baixar playlist")
+    print("Status:", r.status_code)
+except Exception as e:
+    print("❌ Erro:", e)
+    input("Pressione ENTER...")
     exit()
 
 if "#EXTINF" not in conteudo:
     print("❌ Playlist inválida!")
+    input("Pressione ENTER...")
     exit()
 
 with open(arquivo_bruto, "w", encoding="utf-8") as f:
@@ -27,16 +29,13 @@ with open(arquivo_bruto, "w", encoding="utf-8") as f:
 
 print("✅ Playlist salva!")
 
-# 🔥 NORMALIZA TEXTO (remove acento + padroniza)
 def normalizar(txt):
     txt = unicodedata.normalize("NFKD", txt)
     txt = txt.encode("ASCII", "ignore").decode("ASCII")
     return txt.upper().strip()
 
-# 🔥 TRADUTOR DE GRUPOS
 def traduzir_grupo(grupo_original):
 
-    # 🔥 COREANO
     mapa_coreano = {
         "예능": "VARIEDADES",
         "드라마": "SÉRIES",
@@ -56,55 +55,47 @@ def traduzir_grupo(grupo_original):
 
     g = normalizar(grupo_original)
 
-    # 🔥 ESPORTES
-    if any(x in g for x in ["SPORT", "DEPORTE", "CALCIO", "FUSSBALL", "MOTOR"]):
+    if "ANIME" in g:
+        return "ANIME & TOKUSATSU"
+
+    if any(x in g for x in ["SPORT", "DEPORTE", "CALCIO", "FUSSBALL", "FUTB"]):
         return "ESPORTES"
 
-    # 🔥 NOTÍCIAS
-    if any(x in g for x in ["NEWS", "NOTIC", "ACTUAL"]):
-        return "NOTÍCIAS"
-
-    # 🔥 FILMES
-    if any(x in g for x in ["MOVIE", "FILM", "CINE"]):
-        return "FILMES"
-
-    # 🔥 SÉRIES
-    if any(x in g for x in ["SERIE", "DRAMA", "CRIMEN", "CLASSIC TV"]):
-        return "SÉRIES"
-
-    # 🔥 DOCUMENTÁRIOS
-    if any(x in g for x in ["DOCU", "HISTORY", "NATURE", "WISSEN", "INFOTAIN"]):
-        return "DOCUMENTÁRIOS"
-
-    # 🔥 INFANTIL
     if any(x in g for x in ["KID", "NIÑ", "JEUN", "BAMB"]):
         return "INFANTIL"
 
-    # 🔥 MÚSICA
+    if any(x in g for x in ["SERIE", "DRAMA", "CRIME", "CRIMEN", "TELENOVELA", "REALITE", "REALITY"]):
+        return "SÉRIES"
+
+    if any(x in g for x in ["MOVIE", "FILM", "CINE", "SCI-FI", "HORROR"]):
+        return "FILMES"
+
+    if any(x in g for x in ["DOCU", "HISTORY", "NATURE", "WISSEN", "INFOTAIN"]):
+        return "DOCUMENTÁRIOS"
+
     if any(x in g for x in ["MUSIC", "MUSIK", "MUSIQUE"]):
         return "MÚSICA"
 
-    # 🔥 RELIGIOSO
-    if "DEVOTIONAL" in g:
-        return "RELIGIOSO"
-
-    # 🔥 VARIEDADES
     if any(x in g for x in [
-        "ENTERTAIN", "REALITY", "COMEDY", "COMEDIA",
+        "ENTERTAIN", "ENTRETEN", "LATINO",
+        "GAME", "COMEDY", "COMEDIA",
         "INTRATTEN", "DIVERT", "AMBIANCE"
     ]):
         return "VARIEDADES"
 
-    # 🔥 COMIDA / VIAGEM / LIFESTYLE
+    if "DEVOTIONAL" in g:
+        return "RELIGIOSO"
+
     if any(x in g for x in [
         "LIFESTYLE", "FOOD", "TRAVEL",
-        "CUCINA", "VIAGGI", "VOYAGES", "GASTRONOMIE", "VIAJES"
+        "CUCINA", "VIAGGI", "VOYAGES",
+        "GASTRONOMIE", "VIAJES"
     ]):
         return "VARIEDADES"
 
-    return grupo_original  # fallback (não perde canal)
+    return grupo_original  # 🔥 mantém original (seguro)
 
-print("⚙️ Traduzindo grupos...")
+print("⚙️ Processando...")
 
 with open(arquivo_bruto, "r", encoding="utf-8", errors="ignore") as f:
     linhas = f.readlines()
@@ -116,16 +107,13 @@ for linha in linhas:
     if linha.startswith("#EXTINF"):
 
         nome = linha.split(",")[-1].strip().upper()
-
-        grupo = None
+        grupo = "VARIEDADES"
 
         if 'group-title="' in linha:
             grupo_original = linha.split('group-title="')[1].split('"')[0].strip()
             grupo = traduzir_grupo(grupo_original)
 
-        # remove grupo antigo
         linha = re.sub(r'group-title="[^"]*"', '', linha)
-
         metadados = linha.split(",")[0]
 
         nova = f'{metadados} group-title="{grupo}",{nome}\n'
@@ -134,19 +122,17 @@ for linha in linhas:
     else:
         saida.append(linha)
 
-# 🔥 SALVA ARQUIVO FINAL
 with open(arquivo_final, "w", encoding="utf-8") as f:
     f.write(f'#EXTM3U updated="{datetime.now()}"\n')
     for linha in saida:
         f.write(linha)
 
-print("✅ Playlist traduzida com sucesso!")
+print("✅ Traduzida gerada!")
 
-# 🔥 GIT
-print("📤 Enviando para GitHub...")
-
+print("📤 Git...")
 os.system("git add .")
-os.system('git commit -m "Tradução completa dos grupos IPTV"')
+os.system('git commit -m "Atualização automática IPTV"')
 os.system("git push")
 
-print("🚀 Concluído!")
+print("🚀 Fim!")
+input("Pressione ENTER para sair...")
