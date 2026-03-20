@@ -1,3 +1,3 @@
 Set WshShell = CreateObject("WScript.Shell")
-
-WshShell.Run "C:\Users\User\Dev\samsung-tv\run_all.bat", 0, False
+WshShell.CurrentDirectory = "C:\Users\User\Dev\samsung-tv"
+WshShell.Run "cmd /c python update_playlist.py", 0, False
