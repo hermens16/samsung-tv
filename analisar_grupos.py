@@ -1,6 +1,6 @@
 import re
 
-arquivo = "samsung.m3u"
+arquivo = "samsung_traduzida.m3u"
 
 grupos = {}
 
