@@ -55,6 +55,10 @@ def traduzir_grupo(grupo_original):
 
     g = normalizar(grupo_original)
 
+    # 🔥 AGRUPAMENTO FORÇADO
+    if g in ["AO VIVO", "SHOPPING"]:
+        return "VARIEDADES"
+
     # 🔥 CORREÇÕES FINAIS (casos que escapavam)
     # 🔥 CORREÇÃO DEFINITIVA FUTEBOL
     if "BALL" in g:
