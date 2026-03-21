@@ -1,13 +1,29 @@
 import os
+import re
+import unicodedata
 
 arquivo_entrada = "samsung_traduzida.m3u"
 arquivo_saida = "samsung_final.m3u"
 
-print("🧹 Removendo duplicados reais (1 por canal)...")
+print("🧹 Removendo duplicados inteligentes...")
 
 if not os.path.exists(arquivo_entrada):
     print("❌ Arquivo não encontrado!")
     exit()
+
+def normalizar_nome(nome):
+    # remove acentos
+    nome = unicodedata.normalize("NFKD", nome)
+    nome = nome.encode("ASCII", "ignore").decode("ASCII")
+
+    nome = nome.upper()
+
+    # remove coisas comuns que causam duplicação
+    nome = re.sub(r"\b(HD|FHD|UHD|4K|SD)\b", "", nome)
+    nome = re.sub(r"\(.*?\)", "", nome)  # remove (US), (UK), etc
+    nome = re.sub(r"[^A-Z0-9]", "", nome)  # remove símbolos
+
+    return nome.strip()
 
 with open(arquivo_entrada, "r", encoding="utf-8", errors="ignore") as f:
     linhas = f.readlines()
@@ -27,11 +43,12 @@ while i < len(linhas):
         extinf = linhas[i]
         url = linhas[i+1]
 
-        nome = extinf.split(",")[-1].strip().upper()
+        nome_original = extinf.split(",")[-1].strip()
+        nome_normalizado = normalizar_nome(nome_original)
 
-        # 🔥 REGRA PRINCIPAL
-        if nome not in nomes_vistos:
-            nomes_vistos.add(nome)
+        # 🔥 REGRA CORRETA
+        if nome_normalizado not in nomes_vistos:
+            nomes_vistos.add(nome_normalizado)
 
             saida.append(extinf)
             saida.append(url)
@@ -47,4 +64,4 @@ with open(arquivo_saida, "w", encoding="utf-8") as f:
     for linha in saida:
         f.write(linha)
 
-print("✅ Lista final sem duplicados gerada!")
+print("✅ Lista final limpa gerada!")
