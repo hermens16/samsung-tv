@@ -1,13 +1,18 @@
 import os
+import sys
 
 arquivo_entrada = "samsung_traduzida.m3u"
 arquivo_saida = "samsung_final.m3u"
 
 print("⚡ Removendo duplicados corretamente...")
 
+# 🔒 verifica se arquivo existe
 if not os.path.exists(arquivo_entrada):
     print(f"❌ Arquivo não encontrado: {arquivo_entrada}")
-    input("Pressione ENTER para sair...")
+    
+    # só pausa se for execução manual
+    if sys.stdin.isatty():
+        input("Pressione ENTER para sair...")
     exit()
 
 with open(arquivo_entrada, "r", encoding="utf-8", errors="ignore") as f:
@@ -48,11 +53,23 @@ while i < len(linhas):
 
     i += 1
 
-# salvar
+# 🔥 salvar arquivo final
 with open(arquivo_saida, "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n")
     for linha in saida:
         f.write(linha)
 
 print("✅ Lista final corrigida!")
-input("Pressione ENTER para sair...")
+
+# 🔥 PUSH AUTOMÁTICO (AGORA NO LUGAR CERTO)
+print("📤 Enviando para o Git...")
+
+os.system("git add .")
+os.system('git commit -m "Atualização automática IPTV"')
+os.system("git push")
+
+print("🚀 Finalizado!")
+
+# 🔒 só pausa se rodar manualmente
+if sys.stdin.isatty():
+    input("Pressione ENTER para sair...")
