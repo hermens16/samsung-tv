@@ -1,10 +1,11 @@
+
 import os
 from urllib.parse import urlparse
 
 arquivo_entrada = "samsung_traduzida.m3u"
 arquivo_saida = "samsung_final.m3u"
 
-print("⚡ Removendo duplicados INTELIGENTE...")
+print("⚡ Removendo duplicados (VERSÃO FINAL)...")
 
 if not os.path.exists(arquivo_entrada):
     print(f"❌ Arquivo não encontrado: {arquivo_entrada}")
@@ -28,16 +29,18 @@ while i < len(linhas):
         extinf = linhas[i]
         url = linhas[i+1].strip()
 
-        nome = extinf.split(",")[-1].strip()
+        nome = extinf.split(",")[-1].strip().upper()
 
-        # 🔥 extrai domínio da URL
         try:
-            dominio = urlparse(url).netloc
+            parsed = urlparse(url)
+            dominio = parsed.netloc
+            caminho = parsed.path  # 🔥 ignora ?parametros
         except:
             dominio = "sem_dominio"
+            caminho = url
 
-        # 🔥 chave inteligente
-        chave = f"{nome}|{dominio}"
+        # 🔥 chave FINAL
+        chave = f"{nome}|{dominio}|{caminho}"
 
         if chave not in canais_vistos:
             canais_vistos.add(chave)
@@ -55,12 +58,12 @@ with open(arquivo_saida, "w", encoding="utf-8") as f:
     for linha in saida:
         f.write(linha)
 
-print("✅ Lista final otimizada!")
+print("✅ Lista FINAL limpa!")
 
 # 🔥 GIT
 print("📤 Enviando para o Git...")
 os.system("git add .")
-os.system('git commit -m "Atualização automática IPTV"')
+os.system('git commit -m "Limpeza final IPTV (sem duplicados reais)"')
 os.system("git push")
 
-print("🚀 Finalizado!")
+print("🚀 FINALIZADO!")
