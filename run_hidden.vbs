@@ -1,11 +1,10 @@
 Set WshShell = CreateObject("WScript.Shell")
 
-caminho = """C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe"""
+python = """C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe"""
 
-WshShell.CurrentDirectory = "C:\Users\User\Dev\samsung-tv"
+script1 = """C:\Users\User\Dev\samsung-tv\update_playlist.py"""
+script2 = """C:\Users\User\Dev\samsung-tv\remover_duplicados.py"""
 
-' 🔥 Script 1
-WshShell.Run caminho & " update_playlist.py", 0, True
-
-' 🔥 Script 2
-WshShell.Run caminho & " remover_duplicados.py", 0, True
+' 🔥 EXECUÇÃO VISÍVEL PRA DEBUG (IMPORTANTE AGORA)
+WshShell.Run python & " " & script1, 1, True
+WshShell.Run python & " " & script2, 1, True
