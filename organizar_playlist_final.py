@@ -1,80 +1,58 @@
-import requests
-import time
+import os
 
 arquivo_entrada = "samsung_traduzida.m3u"
 arquivo_saida = "samsung_final.m3u"
 
-print("📡 Limpando duplicados (priorizando canais ON)...")
+print("⚡ Removendo duplicados corretamente...")
 
-def canal_online(url):
-    try:
-        r = requests.head(url, timeout=5, allow_redirects=True)
-        return r.status_code < 400
-    except:
-        return False
+if not os.path.exists(arquivo_entrada):
+    print(f"❌ Arquivo não encontrado: {arquivo_entrada}")
+    input("Pressione ENTER para sair...")
+    exit()
 
 with open(arquivo_entrada, "r", encoding="utf-8", errors="ignore") as f:
     linhas = f.readlines()
 
-canais = {}
+canais_vistos = set()
 saida = []
 
 i = 0
 
-# 🔥 AGRUPAR CANAIS PELO NOME
 while i < len(linhas):
 
     if linhas[i].startswith("#EXTINF"):
 
+        if i + 1 >= len(linhas):
+            break
+
         extinf = linhas[i]
-        url = linhas[i+1].strip()
+        url = linhas[i+1]
+
         nome = extinf.split(",")[-1].strip()
 
-        if nome not in canais:
-            canais[nome] = []
+        grupo = ""
+        if 'group-title="' in extinf:
+            grupo = extinf.split('group-title="')[1].split('"')[0]
 
-        canais[nome].append((extinf, url))
+        # 🔥 chave correta (grupo + nome)
+        chave = f"{grupo}|{nome}"
+
+        if chave not in canais_vistos:
+            canais_vistos.add(chave)
+
+            saida.append(extinf)
+            saida.append(url)
 
         i += 2
         continue
 
     i += 1
 
-# 🔥 FILTRAGEM INTELIGENTE
-for nome, lista in canais.items():
-
-    print(f"\n🔎 Canal: {nome}")
-
-    online = []
-    offline = []
-
-    for extinf, url in lista:
-
-        status = canal_online(url)
-
-        if status:
-            print("✅ ON")
-            online.append((extinf, url))
-        else:
-            print("❌ OFF")
-            offline.append((extinf, url))
-
-        time.sleep(0.2)
-
-    # 🎯 REGRA FINAL
-    if online:
-        escolhidos = online[:2]  # mantém até 2 ON
-    else:
-        escolhidos = offline[:1]  # mantém 1 OFF se não tiver ON
-
-    for extinf, url in escolhidos:
-        saida.append(extinf)
-        saida.append(url + "\n")
-
-# 🔥 SALVAR
+# salvar
 with open(arquivo_saida, "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n")
     for linha in saida:
         f.write(linha)
 
-print("\n✅ Lista final otimizada gerada!")
+print("✅ Lista final corrigida!")
+input("Pressione ENTER para sair...")
