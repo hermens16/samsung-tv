@@ -4,14 +4,13 @@ import sys
 arquivo_entrada = "samsung_traduzida.m3u"
 arquivo_saida = "samsung_final.m3u"
 
+modo_manual = "--manual" in sys.argv
+
 print("⚡ Removendo duplicados corretamente...")
 
-# 🔒 verifica se arquivo existe
 if not os.path.exists(arquivo_entrada):
     print(f"❌ Arquivo não encontrado: {arquivo_entrada}")
-    
-    # só pausa se for execução manual
-    if sys.stdin.isatty():
+    if modo_manual:
         input("Pressione ENTER para sair...")
     exit()
 
@@ -39,12 +38,10 @@ while i < len(linhas):
         if 'group-title="' in extinf:
             grupo = extinf.split('group-title="')[1].split('"')[0]
 
-        # 🔥 chave correta (grupo + nome)
         chave = f"{grupo}|{nome}"
 
         if chave not in canais_vistos:
             canais_vistos.add(chave)
-
             saida.append(extinf)
             saida.append(url)
 
@@ -53,7 +50,7 @@ while i < len(linhas):
 
     i += 1
 
-# 🔥 salvar arquivo final
+# salvar
 with open(arquivo_saida, "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n")
     for linha in saida:
@@ -61,15 +58,14 @@ with open(arquivo_saida, "w", encoding="utf-8") as f:
 
 print("✅ Lista final corrigida!")
 
-# 🔥 PUSH AUTOMÁTICO (AGORA NO LUGAR CERTO)
+# 🔥 GIT PUSH
 print("📤 Enviando para o Git...")
-
 os.system("git add .")
 os.system('git commit -m "Atualização automática IPTV"')
 os.system("git push")
 
 print("🚀 Finalizado!")
 
-# 🔒 só pausa se rodar manualmente
-if sys.stdin.isatty():
+# 🔥 pausa SOMENTE se rodar manualmente com argumento
+if modo_manual:
     input("Pressione ENTER para sair...")
