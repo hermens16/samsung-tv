@@ -1,28 +1,21 @@
 import os
-from urllib.parse import urlparse
 
 arquivo_entrada = "samsung_traduzida.m3u"
 arquivo_saida = "samsung_final.m3u"
 
-print("⚡ Removendo duplicados (ajuste fino)...")
+print("🧹 Removendo duplicados reais (1 por canal)...")
 
 if not os.path.exists(arquivo_entrada):
-    print(f"❌ Arquivo não encontrado: {arquivo_entrada}")
+    print("❌ Arquivo não encontrado!")
     exit()
 
 with open(arquivo_entrada, "r", encoding="utf-8", errors="ignore") as f:
     linhas = f.readlines()
 
-canais_vistos = set()
+nomes_vistos = set()
 saida = []
 
 i = 0
-
-def base_path(path):
-    partes = path.strip("/").split("/")
-    
-    # pega só os 2 primeiros níveis (ajuste fino)
-    return "/".join(partes[:2])
 
 while i < len(linhas):
 
@@ -32,25 +25,16 @@ while i < len(linhas):
             break
 
         extinf = linhas[i]
-        url = linhas[i+1].strip()
+        url = linhas[i+1]
 
         nome = extinf.split(",")[-1].strip().upper()
 
-        try:
-            parsed = urlparse(url)
-            dominio = parsed.netloc
-            caminho_base = base_path(parsed.path)
-        except:
-            dominio = "erro"
-            caminho_base = url
+        # 🔥 REGRA PRINCIPAL
+        if nome not in nomes_vistos:
+            nomes_vistos.add(nome)
 
-        # 🔥 chave equilibrada
-        chave = f"{nome}|{dominio}|{caminho_base}"
-
-        if chave not in canais_vistos:
-            canais_vistos.add(chave)
             saida.append(extinf)
-            saida.append(url + "\n")
+            saida.append(url)
 
         i += 2
         continue
@@ -63,12 +47,4 @@ with open(arquivo_saida, "w", encoding="utf-8") as f:
     for linha in saida:
         f.write(linha)
 
-print("✅ Lista final ajustada!")
-
-# git
-print("📤 Git...")
-os.system("git add .")
-os.system('git commit -m "Ajuste fino duplicados IPTV"')
-os.system("git push")
-
-print("🚀 Finalizado!")
+print("✅ Lista final sem duplicados gerada!")
