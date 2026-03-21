@@ -1,8 +1,17 @@
+If WScript.Arguments.Count = 0 Then
+    Set WshShell = CreateObject("WScript.Shell")
+    
+    ' 🔥 chama ele mesmo invisível
+    WshShell.Run "wscript """ & WScript.ScriptFullName & """ invisivel", 0, False
+    WScript.Quit
+End If
+
+' 🔥 AQUI roda normal (sem quebrar nada)
 Set WshShell = CreateObject("WScript.Shell")
 
-python = """C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe"""
-pasta = "C:\Users\User\Dev\samsung-tv"
+caminho = """C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe"""
 
-' roda tudo com caminho absoluto
-WshShell.Run python & " """ & pasta & "\update_playlist.py""", 0, True
-WshShell.Run python & " """ & pasta & "\remover_duplicados.py""", 0, True
+WshShell.CurrentDirectory = "C:\Users\User\Dev\samsung-tv"
+
+WshShell.Run caminho & " update_playlist.py", 1, True
+WshShell.Run caminho & " remover_duplicados.py", 1, True
