@@ -3,49 +3,57 @@ import os
 
 arquivo_entrada = "samsung_traduzida.m3u"
 arquivo_saida = "samsung_final.m3u"
+arquivo_log = "log_final.txt"
 
-print("🧹 Removendo duplicados por nome (definitivo)...")
+def log(msg):
+    with open(arquivo_log, "a", encoding="utf-8") as f:
+        f.write(msg + "\n")
 
-if not os.path.exists(arquivo_entrada):
-    print("❌ Arquivo não encontrado!")
-    exit()
+try:
+    log("🔵 Iniciando script remover duplicados...")
 
-with open(arquivo_entrada, "r", encoding="utf-8", errors="ignore") as f:
-    linhas = f.readlines()
+    if not os.path.exists(arquivo_entrada):
+        log("❌ Arquivo de entrada NÃO encontrado!")
+        exit()
 
-canais_unicos = {}
-saida = []
+    with open(arquivo_entrada, "r", encoding="utf-8", errors="ignore") as f:
+        linhas = f.readlines()
 
-i = 0
+    canais_unicos = set()
+    saida = []
 
-while i < len(linhas):
+    i = 0
 
-    if linhas[i].startswith("#EXTINF"):
+    while i < len(linhas):
 
-        if i + 1 >= len(linhas):
-            break
+        if linhas[i].startswith("#EXTINF"):
 
-        extinf = linhas[i]
-        url = linhas[i+1]
+            if i + 1 >= len(linhas):
+                break
 
-        nome = extinf.split(",")[-1].strip().upper()
+            extinf = linhas[i]
+            url = linhas[i+1]
 
-        # 🔥 GUARDA APENAS O PRIMEIRO
-        if nome not in canais_unicos:
-            canais_unicos[nome] = True
+            nome = extinf.split(",")[-1].strip().upper()
 
-            saida.append(extinf)
-            saida.append(url)
+            if nome not in canais_unicos:
+                canais_unicos.add(nome)
 
-        i += 2
-        continue
+                saida.append(extinf)
+                saida.append(url)
 
-    i += 1
+            i += 2
+            continue
 
-# salvar
-with open(arquivo_saida, "w", encoding="utf-8") as f:
-    f.write("#EXTM3U\n")
-    for linha in saida:
-        f.write(linha)
+        i += 1
 
-print(f"✅ Final gerado! Total de canais únicos: {len(canais_unicos)}")
+    # 🔥 SALVAR FINAL
+    with open(arquivo_saida, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for linha in saida:
+            f.write(linha)
+
+    log(f"✅ SUCESSO! Canais finais: {len(canais_unicos)}")
+
+except Exception as e:
+    log(f"💥 ERRO: {str(e)}")
