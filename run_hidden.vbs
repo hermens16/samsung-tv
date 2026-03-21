@@ -6,4 +6,4 @@ WshShell.CurrentDirectory = "C:\Users\User\Dev\samsung-tv"
 WshShell.Run """C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe"" update_playlist.py", 0, True
 
 ' 🔥 2 - Remove duplicados e gera lista final
-WshShell.Run """C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe"" remover_duplicados.py", 0, True
+WshShell.Run """C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe"" organizar_playlist_final.py", 0, True
