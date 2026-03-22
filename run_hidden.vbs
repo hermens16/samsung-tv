@@ -1,11 +1,11 @@
 Set WshShell = CreateObject("WScript.Shell")
 
-caminho = """C:\Users\User\AppData\Local\Programs\Python\Python313\pythonw.exe"""
+caminho = "C:\Users\User\AppData\Local\Programs\Python\Python313\pythonw.exe"
 
 WshShell.CurrentDirectory = "C:\Users\User\Dev\samsung-tv"
 
-' Script 1
-WshShell.Run caminho & " update_playlist.py", 0, True
+' Script 1 (espera terminar)
+WshShell.Run """" & caminho & """ update_playlist.py", 0, True
 
-' Script 2
-WshShell.Run caminho & " remover_duplicados.py", 0, True
+' Script 2 (espera terminar)
+WshShell.Run """" & caminho & """ remover_duplicados.py", 0, True
