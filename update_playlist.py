@@ -13,21 +13,16 @@ print("🌐 Baixando playlist...")
 try:
     r = requests.get(url_playlist, timeout=15)
     conteudo = r.text
-    print("Status:", r.status_code)
 except Exception as e:
     print("❌ Erro:", e)
-    input("Pressione ENTER...")
     exit()
 
 if "#EXTINF" not in conteudo:
     print("❌ Playlist inválida!")
-    input("Pressione ENTER...")
     exit()
 
 with open(arquivo_bruto, "w", encoding="utf-8") as f:
     f.write(conteudo)
-
-print("✅ Playlist salva!")
 
 def normalizar(txt):
     txt = unicodedata.normalize("NFKD", txt)
@@ -50,92 +45,51 @@ def traduzir_grupo(grupo_original):
         "쇼핑": "SHOPPING"
     }
 
-    # 🔥 TRADUÇÃO COREANA + AGRUPAMENTO
     if grupo_original in mapa_coreano:
         traduzido = mapa_coreano[grupo_original]
-
         if traduzido in ["AO VIVO", "SHOPPING"]:
             return "VARIEDADES"
-
         return traduzido
 
     g = normalizar(grupo_original)
 
-    # 🔥 FUTEBOL (qualquer variação)
     if "BALL" in g:
         return "ESPORTES"
 
-    # 🔥 NIÑOS
     if "NINOS" in g or "NIÑOS" in grupo_original.upper():
         return "INFANTIL"
 
-    # 🔥 ANIME
     if "ANIME" in g:
         return "ANIME & TOKUSATSU"
 
-    # 🔥 NOTÍCIAS
-    if any(x in g for x in [
-        "NEWS", "NOTIC", "ACTUAL",
-        "OPINION", "REGIONAL", "ENGLISH", "HINDI"
-    ]):
+    if any(x in g for x in ["NEWS","NOTIC","ACTUAL","OPINION","REGIONAL","ENGLISH","HINDI"]):
         return "NOTÍCIAS"
 
-    # 🔥 ESPORTES
-    if any(x in g for x in [
-        "SPORT", "DEPORTE", "CALCIO",
-        "FUTB", "MOTOR"
-    ]):
+    if any(x in g for x in ["SPORT","DEPORTE","CALCIO","FUTB","MOTOR"]):
         return "ESPORTES"
 
-    # 🔥 INFANTIL
-    if any(x in g for x in ["KID", "NIÑ", "JEUN", "BAMB"]):
+    if any(x in g for x in ["KID","NIÑ","JEUN","BAMB"]):
         return "INFANTIL"
 
-    # 🔥 SÉRIES
-    if any(x in g for x in [
-        "SERIE", "DRAMA", "CRIME", "CRIMEN",
-        "TELENOVELA", "REALITE", "REALITY",
-        "CLASSIC TV", "WESTERN"
-    ]):
+    if any(x in g for x in ["SERIE","DRAMA","CRIME","CRIMEN","TELENOVELA","REALITE","REALITY","CLASSIC TV","WESTERN"]):
         return "SÉRIES"
 
-    # 🔥 FILMES
-    if any(x in g for x in [
-        "MOVIE", "FILM", "CINE",
-        "SCI-FI", "HORROR"
-    ]):
+    if any(x in g for x in ["MOVIE","FILM","CINE","SCI-FI","HORROR"]):
         return "FILMES"
 
-    # 🔥 DOCUMENTÁRIOS
-    if any(x in g for x in [
-        "DOCU", "HISTORY", "NATURE",
-        "WISSEN", "INFOTAIN"
-    ]):
+    if any(x in g for x in ["DOCU","HISTORY","NATURE","WISSEN","INFOTAIN"]):
         return "DOCUMENTÁRIOS"
 
-    # 🔥 MÚSICA
-    if any(x in g for x in ["MUSIC", "MUSIK", "MUSIQUE"]):
+    if any(x in g for x in ["MUSIC","MUSIK","MUSIQUE"]):
         return "MÚSICA"
 
-    # 🔥 VARIEDADES
-    if any(x in g for x in [
-        "ENTERTAIN", "ENTRETEN", "LATINO",
-        "GAME", "COMEDY", "COMEDIA",
-        "INTRATTEN", "DIVERT", "AMBIANCE",
-        "AO VIVO"
-    ]):
+    if any(x in g for x in ["ENTERTAIN","ENTRETEN","LATINO","GAME","COMEDY","COMEDIA","INTRATTEN","DIVERT","AMBIANCE","AO VIVO"]):
         return "VARIEDADES"
 
-    # 🔥 RELIGIOSO
     if "DEVOTIONAL" in g:
         return "RELIGIOSO"
 
-    # 🔥 COMIDA / VIAGEM
-    if any(x in g for x in [
-        "LIFESTYLE", "FOOD", "TRAVEL",
-        "CUCINA", "VIAGGI", "VOYAGES",
-        "GASTRONOMIE", "VIAJES"
-    ]):
+    if any(x in g for x in ["LIFESTYLE","FOOD","TRAVEL","CUCINA","VIAGGI","VOYAGES","GASTRONOMIE","VIAJES"]):
         return "VARIEDADES"
 
     return grupo_original
@@ -173,11 +127,3 @@ with open(arquivo_final, "w", encoding="utf-8") as f:
         f.write(linha)
 
 print("✅ Traduzida gerada!")
-
-print("📤 Git...")
-os.system("git add .")
-os.system('git commit -m "Atualização automática IPTV"')
-os.system("git push")
-
-print("🚀 Fim!")
-input("Pressione ENTER para sair...")

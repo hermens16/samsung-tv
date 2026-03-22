@@ -1,5 +1,5 @@
-
 import os
+import subprocess
 from collections import defaultdict
 
 arquivo_entrada = "samsung_traduzida.m3u"
@@ -35,7 +35,6 @@ while i < len(linhas):
         if 'group-title="' in extinf:
             grupo = extinf.split('group-title="')[1].split('"')[0]
 
-        # 🔥 GUARDA APENAS O PRIMEIRO (MESMA LÓGICA SUA)
         if nome not in canais_unicos:
             canais_unicos[nome] = True
             grupos[grupo].append((extinf, url))
@@ -45,36 +44,33 @@ while i < len(linhas):
 
     i += 1
 
-# 🎯 SUA ORDEM PADRÃO
 ORDEM_GRUPOS = [
-    "ESPORTES",
-    "FILMES",
-    "SÉRIES",
-    "DOCUMENTÁRIOS",
-    "ANIME & TOKUSATSU",
-    "INFANTIL",
-    "MÚSICA",
-    "NOTÍCIAS",
-    "RELIGIOSO",
-    "VARIEDADES"
+    "ESPORTES","FILMES","SÉRIES","DOCUMENTÁRIOS",
+    "ANIME & TOKUSATSU","INFANTIL","MÚSICA",
+    "NOTÍCIAS","RELIGIOSO","VARIEDADES"
 ]
 
-# 🔥 SALVAR ORDENADO
 with open(arquivo_saida, "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n")
 
-    # grupos na ordem correta
     for grupo in ORDEM_GRUPOS:
         if grupo in grupos:
             for extinf, url in grupos[grupo]:
                 f.write(extinf)
                 f.write(url)
 
-    # grupos que não estavam na lista (fallback)
     for grupo in grupos:
         if grupo not in ORDEM_GRUPOS:
             for extinf, url in grupos[grupo]:
                 f.write(extinf)
                 f.write(url)
 
-print(f"✅ Final gerado! Total de canais únicos: {len(canais_unicos)}")
+print(f"✅ Final gerado! Total: {len(canais_unicos)}")
+
+print("📤 Enviando para o Git...")
+
+subprocess.run("git add .", shell=True, creationflags=subprocess.CREATE_NO_WINDOW)
+subprocess.run('git commit -m "Atualização automática IPTV"', shell=True, creationflags=subprocess.CREATE_NO_WINDOW)
+subprocess.run("git push", shell=True, creationflags=subprocess.CREATE_NO_WINDOW)
+
+print("🚀 Push concluído!")
