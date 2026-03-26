@@ -1,4 +1,4 @@
-#EXTM3U updated="2026-03-26 01:54:02.375719"
+#EXTM3U updated="2026-03-26 02:24:02.352612"
 #EXTM3U
 #EXTINF:-1 channel-id="samsung-KRBD2400001XD" tvg-id="KRBD2400001XD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBD2400001XD_20260325T012855SQUARE.png"  tvg-chno="501" group-title="NOTÍCIAS",YTN
 https://jmp2.uk/stvp-KRBD2400001XD
@@ -1396,7 +1396,7 @@ https://jmp2.uk/stvp-CABB2500034Q4
 https://jmp2.uk/stvp-USBB440002055
 #EXTINF:-1 channel-id="samsung-USBD17000025J" tvg-id="USBD17000025J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000025J_20240520T220137SQUARE.png"  tvg-chno="2489" group-title="ESPORTES",PURSUIT UP
 https://jmp2.uk/stvp-USBD17000025J
-#EXTINF:-1 channel-id="samsung-USBD1200020Y4" tvg-id="USBD1200020Y4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200020Y4_20250325T015246SQUARE.png"  tvg-chno="2491" group-title="ESPORTES",OUTDOOR AMERICA
+#EXTINF:-1 channel-id="samsung-USBD1200020Y4" tvg-id="USBD1200020Y4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200020Y4_20260325T191716SQUARE.png"  tvg-chno="2491" group-title="ESPORTES",FIELD & STREAM
 https://jmp2.uk/stvp-USBD1200020Y4
 #EXTINF:-1 channel-id="samsung-CAAJ34000089L" tvg-id="CAAJ34000089L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ34000089L_20260303T094448SQUARE.png"  tvg-chno="2495" group-title="ESPORTES",PEOPLE ARE AWESOME
 https://jmp2.uk/stvp-CAAJ34000089L
@@ -1602,8 +1602,6 @@ https://jmp2.uk/stvp-USBB32000251N
 https://jmp2.uk/stvp-USAJ3504714A
 #EXTINF:-1 channel-id="samsung-USBB1500001GD" tvg-id="USBB1500001GD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1500001GD_20250325T020255SQUARE.png"  tvg-chno="2922" group-title="VARIEDADES",USA TODAY
 https://jmp2.uk/stvp-USBB1500001GD
-#EXTINF:-1 channel-id="samsung-US70001475" tvg-id="US70001475" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US70001475_20250707T234407SQUARE.png"  tvg-chno="2926" group-title="VARIEDADES",DR PHIL'S MERITTV
-https://jmp2.uk/stvp-US70001475
 #EXTINF:-1 channel-id="samsung-CABB1900002SS" tvg-id="CABB1900002SS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB1900002SS_20251013T235903SQUARE.png"  tvg-chno="2930" group-title="VARIEDADES",NOSEY
 https://jmp2.uk/stvp-CABB1900002SS
 #EXTINF:-1 channel-id="samsung-USAJ34000022E" tvg-id="USAJ34000022E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ34000022E_20250610T231807SQUARE.png"  tvg-chno="2930" group-title="VARIEDADES",NOSEY
