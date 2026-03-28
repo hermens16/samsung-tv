@@ -4,7 +4,7 @@ import requests
 import unicodedata
 from datetime import datetime
 
-url_playlist = "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/samsungtvplus_all.m3u"
+url_playlist = "http://127.0.0.1:8182/playlist.m3u8"
 arquivo_bruto = "samsung.m3u"
 arquivo_final = "samsung_traduzida.m3u"
 
