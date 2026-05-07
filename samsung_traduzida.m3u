@@ -1,4 +1,4 @@
-#EXTM3U updated="2026-05-06 17:28:08.664657"
+#EXTM3U updated="2026-05-07 07:58:58.216758"
 #EXTM3U
 #EXTINF:-1 channel-id="samsung-KRBD2400001XD" tvg-id="KRBD2400001XD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBD2400001XD_20260422T013918SQUARE.png"  tvg-chno="501" group-title="NOTÍCIAS",YTN
 https://jmp2.uk/stvp-KRBD2400001XD
@@ -916,6 +916,8 @@ https://jmp2.uk/stvp-USBC6000225M
 https://jmp2.uk/stvp-US3700005GP
 #EXTINF:-1 channel-id="samsung-US35000201T" tvg-id="US35000201T" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US35000201T_20260421T133808SQUARE.png"  tvg-chno="1527" group-title="SÉRIES",ACORN TV MYSTERIES
 https://jmp2.uk/stvp-US35000201T
+#EXTINF:-1 channel-id="samsung-US1800019OC" tvg-id="US1800019OC" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800019OC_20260421T133910SQUARE.png"  tvg-chno="1535" group-title="SÉRIES",DESIGNATED SURVIVOR
+https://jmp2.uk/stvp-US1800019OC
 #EXTINF:-1 channel-id="samsung-USBD300008G1" tvg-id="USBD300008G1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300008G1_20260421T133727SQUARE.png"  tvg-chno="1540" group-title="SÉRIES",BOUNCE XL
 https://jmp2.uk/stvp-USBD300008G1
 #EXTINF:-1 channel-id="samsung-USBD300022FH" tvg-id="USBD300022FH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300022FH_20250304T041443SQUARE.png"  tvg-chno="1545" group-title="SÉRIES",ALLBLK GEMS
